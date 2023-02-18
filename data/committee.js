@@ -352,7 +352,7 @@ export const committeeMembers = [
         name:'publicationChair',
         data:[
             {
-                fullName:'Dr. Rajan Mishra (Chair)',
+                fullName:'Dr. Rajan Mishra',
                 organisation:' MMMUT Gorakhpur, India'
             },
         ]
@@ -441,7 +441,7 @@ export const committeeMembers = [
             },
             
             {
-                fullName:'Dr. Gaurav Upadhyay',
+                fullName:'Dr. Gaurav Upadhyay (Chair)',
                 organisation:'IT Gopeshwar, India'
             },
             {
