@@ -352,9 +352,9 @@ export const committeeMembers = [
         name:'publicationChair',
         data:[
             {
-                fullName:'Dr. Gaurav Upadhyay',
-                organisation:'IT Gopeshwar, India'
-            }
+                fullName:'Dr. Rajan Mishra (Chair)',
+                organisation:' MMMUT Gorakhpur, India'
+            },
         ]
     },
     {
@@ -439,9 +439,10 @@ export const committeeMembers = [
                 fullName:'Dr. M. Venkatesh Kumar',
                 organisation:'Amrita Vishwa Vidyapeetham,Chennai'
             },
+            
             {
-                fullName:'Dr. Rajan Mishra (Chair)',
-                organisation:' MMMUT Gorakhpur, India'
+                fullName:'Dr. Gaurav Upadhyay',
+                organisation:'IT Gopeshwar, India'
             },
             {
                 fullName:'Dr. Nand Kishore',
