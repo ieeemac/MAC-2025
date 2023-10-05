@@ -62,10 +62,11 @@ const Footer = () => {
         {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
         <nav className="list-none mb-10 mt-3">
            <li className="text-gray-600 hover:text-gray-800 cursor-pointer "><b>EMAIL:</b> mac2024@mnnit.ac.in</li>
-            <li className="text-gray-600 hover:text-gray-800 "><b>PHONE:</b> +91 7376158595, +918318179629</li>
-            <li className="text-gray-600 hover:text-gray-800">Organizing Secretary, MAC2024</li>
+            <li className="text-gray-600 hover:text-gray-800 "><b>PHONE:</b> +91 8318179629</li>
+            {/*<li className="text-gray-600 hover:text-gray-800">Organizing Secretary, MAC2024</li>
             <li className="text-gray-600 hover:text-gray-800">ECED, MNNIT Allahabad</li>
             <li className="text-gray-600 hover:text-gray-800">Prayagraj-211004, UP, India</li>
+            */}
           
         </nav>
       </div>
