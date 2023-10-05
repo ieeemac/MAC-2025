@@ -26,7 +26,7 @@ const HomeMain = () => {
         <HomeImageGallery/>
         <div className='absolute top-10 md:top-[20%] lg:top-[10%] xl:top-[20%] left-0 z-10 w-full md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
             <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
-                <span className='text-orange-400'></span> <span className='text-white'>2nd International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication</span>
+                <span className='text-orange-400'></span> <span className='text-white'>2nd International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication </span> <span className='text-white'>2024 </span>
             </div>
           <div className='w-full my-12 sm:pl-0 flex flex-col justify-center gap-4 lg:justify-start lg:gap-10 font-semibold'>
             <div className='flex w-full max-w-[600px] justify-around md:justify-between'>
@@ -38,7 +38,7 @@ const HomeMain = () => {
           <BsFillCalendarCheckFill className='w-3 h-3 md:w-5 md:h-5 text-lime-600'/>
           </span>
         </Link>
-         <span className='text-sm lg:text-lg text-white'> March 01-03 , 2024</span></p>
+         <span className='text-sm lg:text-lg text-white'> October 04-06, 2024</span></p>
          </div>
 
          <div>
@@ -48,7 +48,7 @@ const HomeMain = () => {
           <MdLocationOn className='w-5 h-5 md:w-8 md:h-8 text-blue-500'/>
           </span>
          </Link>
-         <span className='text-sm lg:text-lg text-white'> MNNIT ALLAHABAD</span></p>
+         <span className='text-sm lg:text-lg text-white'> Dehradun, Uttarakhand, India</span></p>
          </div>
 
               </div>   
@@ -69,15 +69,15 @@ const HomeMain = () => {
       <h2 className='text-lg'>
         <span>Organised By</span>
         <p><span className='text-orange-500 font-bold text-xl'>
-        MNNIT ALLAHABAD, India </span></p>
+        MNNIT ALLAHABAD and NIT Uttarakhand </span></p>
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
     The 2nd International Conference on Microwave, Antenna and Communication - MAC2024 will be
-    held in offline mode at MNNIT ALLAHABAD in Sangam City - Prayagraj, U.P, India, during 
-    March 01-03, 2024.    
+    held in hybrid mode at Dehradun, Uttarakhand, India during 
+    October 04-06, 2024.    
     The Conference aims to offer a platform for the researchers, academics , individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
-    MAC2024 will include focused track on Young Professionals , Women in Engineering and SIGHT along with technical sessions on recent developments.
+    MAC2024 will include focused track on Young Professionals, Women in Engineering and SIGHT along with technical sessions on recent developments.
     </p>
  
       
@@ -109,7 +109,7 @@ const HomeMain = () => {
       <div className="my-8 leading-relaxed">
       <p className='text-lg'>
       The technical sessions will have four tracks covering recent and emerging research topics in the field of Microwave, Antenna and Communication. Every track will have the
-        following events
+        following events:
       </p>
         <ul className='pl-6 font-semibold pt-4 text-left text-lg'>
             <li className='list-disc'>Paper Presentations and best paper awards</li>

@@ -30,19 +30,8 @@ export const honChairs =[
     }
 ]
 
+
 export const genChairs =[
-    {
-        title:'Prof.',
-        fullName:'Banmali Rawat',
-        organisation:'University of Nevada, Reno, USA',
-        profileImage:'/banmali.webp'
-    },
-    {
-        title:'Prof.',
-        fullName:'N.P. Pathak ',
-        organisation:'IIT Roorkee, India',
-        profileImage:'/npPathak.webp'
-    },
     {
         title:'Prof.',
         fullName:'Vijay Shanker Tripathi ',
@@ -51,25 +40,31 @@ export const genChairs =[
     }
 ]
 
+export const FinChairs =[
+    {
+        title:'Dr.',
+        fullName:'Anand Sharma',
+        organisation:'MNNIT Allahabad, India',
+        profileImage:'/dranand.webp'
+    }
+]
+
+export const PublicChairs =[
+    {
+        title:'Dr.',
+        fullName:'Gaurav Upadhyay',
+        organisation:'IT Gopeshwar, India',
+        profileImage:'/drgaurav.webp'
+    }
+]
+
 export const confChairs =[
    
     {
-        title:'Prof.',
-        fullName:'K.P. Ray ',
-        organisation:'DRDO, India',
-        profileImage:'/kpRay.webp'
-    },
-    {
         title:'Dr.',
-        fullName:'Somak Bhattacharyya ',
-        organisation:'IIT BHU Varanasi, India',
-        profileImage:'/somak.webp'
-    },
-    {
-        title:'Prof.',
-        fullName:'R.A. Mishra',
-        organisation:'MNNIT Allahabad, India',
-        profileImage:'raMishra.webp'
+        fullName:'Rajan Mishra ',
+        organisation:'MMMUT Gorakhpur, India',
+        profileImage:'/drrajanmishra.webp'
     }
 ]
 
@@ -137,10 +132,6 @@ export const committeeMembers = [
                 organisation:'ARI & NARI, USA'
             },
             {
-                fullName:'Dr. Naser Ojaraoudi Parchin',
-                organisation:'Edinburgh Napier University, UK'
-            },
-            {
                 fullName:'Dr. Chandrakanta Kumar',
                 organisation:'ISRO, India'
             },
@@ -152,6 +143,14 @@ export const committeeMembers = [
             {
                 fullName:'Dr. Arun Prakash',
                 organisation:'MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Dr. Tushar Goel',
+                organisation:'NIT Uttarkhand, India'
+            },
+            {
+                fullName:'Dr. Prabhakar Tiwari',
+                organisation:'MMMUT Gorakhpur, India'
             },
             {
                 fullName:'Dr. Girish Chandra Tripathi',
@@ -338,8 +337,8 @@ export const committeeMembers = [
         
     },
     {
-        title:'Finance Chair',
-        name:'financeChair',
+        title:'Publicity Chair',
+        name:'publicityChair',
         data:[
             {
                 fullName:'Dr. Vinay Kumar',
@@ -362,6 +361,10 @@ export const committeeMembers = [
         name:'technicalProgramCommittee',
         data:[
             {
+                fullName:'Dr. Prashant Ranjan (Chair)',
+                organisation:'UEM Jaipur, India'
+            },
+            {
                 fullName:'Prof. Zhi Ning Chen',
                 organisation:'ARTIC, NUS Singapore'
             },
@@ -379,12 +382,16 @@ export const committeeMembers = [
                 organisation:'University of Hail, KSA'
             },
             {
-                fullName:'Dr. Nasar Ojaroudi Parchin',
-                organisation:'Edinburgh Napier University, U.K'
-            },
-            {
                 fullName:'Dr. Gaurav Mittal',
                 organisation:'DEAL, DRDO, India'
+            },
+            {
+                fullName:'Dr. Akhilesh Tiwari',
+                organisation:'IIIT Allahabad, India'
+            },
+            {
+                fullName:'Dr. Rajat Kumar Singh',
+                organisation:'IIIT Allahabad, India'
             },
             {
                 fullName:'Dr. Dhananjay Singh',
@@ -432,21 +439,16 @@ export const committeeMembers = [
                 organisation:' IIT BHU Varanasi, India'
             },
             {
-                fullName:'Dr. Tushar Goel',
-                organisation:'NIT Uttarakhand, India'
-            },
-            {
                 fullName:'Dr. M. Venkatesh Kumar',
                 organisation:'Amrita Vishwa Vidyapeetham,Chennai'
-            },
-            
-            {
-                fullName:'Dr. Gaurav Upadhyay (Chair)',
-                organisation:'IT Gopeshwar, India'
             },
             {
                 fullName:'Dr. Nand Kishore',
                 organisation:'HBTU Kanpur, India'
+            },
+            {
+                fullName:'Dr. Vivek Rajpoot',
+                organisation:'VIT Vellore, India'
             }
         ]
     },
@@ -641,10 +643,6 @@ export const committeeMembers = [
                 organisation:'NIT Surat, India'
             },
             {
-                fullName:'Dr. Vivek Rajpoot',
-                organisation:'AEC, Andhra Pradesh, India'
-            },
-            {
                 fullName:'Dr. Anurag Upadhyay',
                 organisation:'REC Ajamgarh'
             },
@@ -659,7 +657,11 @@ export const committeeMembers = [
             },
             
             {
-                fullName:'Mr. Indra Kumar Singh',
+                fullName:'Mr. ravindra Kumar,',
+                organisation:'MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Ms. Meenakshi Tripathi',
                 organisation:'MNNIT Allahabad, India'
             },
             {
@@ -667,25 +669,14 @@ export const committeeMembers = [
                 organisation:'MNNIT Allahabad, India'
             },
             {
-                fullName:'Mr. Vishnu Kumar Mishra',
-                organisation:'MNNIT Allahabad, India'
-            },
-            {
                 fullName:'Ms. Pooja Sharma',
                 organisation:'MNNIT ALLAHABAD, India'
             },
             {
-                fullName:'Mr. Sumeet Debnath',
+                fullName:'Mr. Piyush Patel',
                 organisation:'MNNIT Allahabad, India'
-            },
-            {
-                fullName:'Mr. Uttam Singh',
-                organisation:'MNNIT Allahabad, India'
-            },
-            {
-                fullName:'Mr. Ankit Kumar',
-                organisation:'MNNIT Allahabad, India'
-            },
+            }
+
         ]
         
     },
