@@ -6,14 +6,10 @@ import NextNProgress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }) {
   return <>
-
-
-  {/* commented navbar, NextNProgress, and footer for temporarily down page */}
-
-  {/* <Navbar/> */}
-  {/* <NextNProgress/> */}
+  <Navbar/>
+  <NextNProgress/>
     <Component {...pageProps} />
-    {/* <Footer/> */}
+    <Footer/>
   </>
   
 }

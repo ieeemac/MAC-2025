@@ -41,7 +41,7 @@ src="/mnnit.webp" className="w-full h-full brightness-75  object-cover"/>
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/sangam2.webp" className="scale w-full h-full brightness-75  object-cover"/>
+src="/dehradun.webp" className="scale w-full h-full brightness-75  object-cover"/>
 
 </div> 
        
