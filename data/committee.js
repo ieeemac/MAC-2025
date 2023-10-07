@@ -1,16 +1,11 @@
 export const patrons =[
     {
-        title:'Prof.',
-        fullName:'Sudarshan Tiwari',
-        organisation:'MNNIT Allahabad, India',
-        profileImage:'/su.webp'
+        title:'Dr.',
+        fullName:'Sharad Kumar Pradhan',
+        organisation:'THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India',
+        profileImage:'/drsharad.webp'
     },
-    {
-        title:'Prof.',
-        fullName:'Rajeev Tripathi',
-        organisation:'MNNIT Allahabad, India',
-        profileImage:'/rajeev.webp'
-    }
+    
 ]
 
 export const honChairs =[
@@ -65,6 +60,12 @@ export const confChairs =[
         fullName:'Rajan Mishra ',
         organisation:'MMMUT Gorakhpur, India',
         profileImage:'/drrajanmishra.webp'
+    },
+    {
+        title:'Dr.',
+        fullName:'Tushar Goel ',
+        organisation:'NIT Uttarakhand, India',
+        profileImage:'/drtushar.webp'
     }
 ]
 
@@ -143,10 +144,6 @@ export const committeeMembers = [
             {
                 fullName:'Dr. Arun Prakash',
                 organisation:'MNNIT Allahabad, India'
-            },
-            {
-                fullName:'Dr. Tushar Goel',
-                organisation:'NIT Uttarkhand, India'
             },
             {
                 fullName:'Dr. Prabhakar Tiwari',

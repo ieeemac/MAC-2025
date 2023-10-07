@@ -10,6 +10,11 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
   const [activeAccord, setActiveAccord] = useState(0);
   const router = useRouter();
 
+  // Function to check if a tab is active
+  const isActiveTab = (route) => {
+    return router.asPath.includes(route) ? 'active-tab' : '';
+  };
+
   return (
     <div className='md:sticky top-16  md:w-[30%] lg:w-[25%] h-full'>
       <div className='md:bg-stone-100  h-full md:pt-8'>
@@ -21,7 +26,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                 setScrollLocked((prev) => !prev);
               }
             }}
-            className=' bg-stone-100 pt-6 md:pt-0 fixed md:static z-20 text-2xl font-bold w-full  text-center pb-2 border-b-2 border-cyan-600 cursor-pointer'
+            className='bg-stone-100 pt-6 md:pt-0 fixed md:static z-20 text-2xl font-bold w-full  text-center pb-2 border-b-2 border-cyan-600 cursor-pointer'
           >
             Organising Committee
             {width < 768 &&
@@ -29,19 +34,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
           </h1>
         </div>
         {isOpen && (
-          <ul className=' fixed md:static top-16 overflow-auto h-[90vh] md:h-[85vh] md:pb-12 bg-white z-10 px-4 py-16 md:py-2 text-lg lg:text-xl flex flex-col gap-2 w-full '>
-            {/* Commented out "Chief Patron," "Patron," and "Honorary Chairs" */}
-            {/* <li
-              onClick={() => {
-                router.push('/Committee#chiefpatron');
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
-            >
-              Chief Patron
-            </li>
+          <ul className='fixed md:static top-16 overflow-auto h-[90vh] md:h-[85vh] md:pb-12 bg-white z-10 px-4 py-16 md:py-2 text-lg lg:text-xl flex flex-col gap-2 w-full '>
             <li
               onClick={() => {
                 router.push('/Committee#patron');
@@ -49,21 +42,10 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/#patron')}`}
             >
               Patron
             </li>
-            <li
-              onClick={() => {
-                router.push('/Committee#honchairs');
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
-            >
-              Honorary Chairs
-            </li> */}
             <li
               onClick={() => {
                 router.push('/Committee#genchairs');
@@ -71,7 +53,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee#genchairs')}`}
             >
               General Chair
             </li>
@@ -82,9 +64,9 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee#confchairs')}`}
             >
-              Conference Chair
+              Conference Chairs
             </li>
             <li
               onClick={() => {
@@ -93,11 +75,10 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee#finchairs')}`}
             >
               Finance Chair
             </li>
-
             <li
               onClick={() => {
                 router.push('/Committee#pubchairs');
@@ -105,7 +86,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee#pubchairs')}`}
             >
               Publication Chair
             </li>
@@ -116,7 +97,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/executiveCommittee')}`}
             >
               Executive Committee
             </li>
@@ -127,7 +108,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/advisoryCommittee')}`}
             >
               Advisory Committee
             </li>
@@ -138,22 +119,10 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/publicityChair')}`}
             >
               Publicity Chair
             </li>
-            {/*<li
-              onClick={() => {
-                router.push('/Committee/publicationChair');
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
-            >
-              Publication Chair
-            </li>
-            */}
             <li
               onClick={() => {
                 router.push('/Committee/technicalProgramCommittee');
@@ -161,11 +130,10 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/technicalProgramCommittee')}`}
             >
               Technical Program Committee
             </li>
-
             <li
               onClick={() => {
                 router.push('/Committee/youngProfessionals');
@@ -173,7 +141,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/youngProfessionals')}`}
             >
               Young Professionals
             </li>
@@ -184,7 +152,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/womenInEngineering')}`}
             >
               Women In Engineering
             </li>
@@ -195,36 +163,10 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/SpecialInterestGroupOnHumanitarianTechnology')}`}
             >
               Special Interest Group On Humanitarian Technology
             </li>
-            {/*
-            <li
-              onClick={() => {
-                router.push('/Committee/localOrganisingCommittee');
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
-            >
-              Local Organising Committee
-            </li>
-            */}
-            {/*
-            <li
-              onClick={() => {
-                router.push('/Committee/organisingSecretary');
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
-            >
-              Organising Secretary
-            </li>
-            */}
             <li
               onClick={() => {
                 router.push('/Committee/studentActivity');
@@ -232,7 +174,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/studentActivity')}`}
             >
               Student Activity
             </li>
@@ -243,7 +185,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                   setIsOpen(false);
                 }
               }}
-              className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee/studentCoodinator')}`}
             >
               Student Co-ordinator
             </li>
