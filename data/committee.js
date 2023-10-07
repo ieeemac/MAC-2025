@@ -644,17 +644,7 @@ export const committeeMembers = [
                 organisation:'REC Ajamgarh'
             },
             {
-                fullName:'Mr. Saurabh Raj',
-                organisation:'MNNIT Allahabad, India'
-            },
-          
-            {
-                fullName:'Mr. Pawan Kumar Shukla,',
-                organisation:'MNNIT Allahabad, India'
-            },
-            
-            {
-                fullName:'Mr. ravindra Kumar,',
+                fullName:'Mr. Ravindra Kumar,',
                 organisation:'MNNIT Allahabad, India'
             },
             {
@@ -664,10 +654,6 @@ export const committeeMembers = [
             {
                 fullName:'Mr. Yajush Rai',
                 organisation:'MNNIT Allahabad, India'
-            },
-            {
-                fullName:'Ms. Pooja Sharma',
-                organisation:'MNNIT ALLAHABAD, India'
             },
             {
                 fullName:'Mr. Piyush Patel',
@@ -693,6 +679,14 @@ export const committeeMembers = [
                 fullName:'Mr. Aditya Pal',
                 organisation:'MNNIT Allahabad, India'
             },
+            {
+                fullName:'Mr. Pawan Kumar Shukla,',
+                organisation:'MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Ms. Pooja Sharma',
+                organisation:'MNNIT ALLAHABAD, India'
+            }
         ]
     }
 ]
