@@ -57,16 +57,17 @@ export const confChairs =[
    
     {
         title:'Dr.',
-        fullName:'Rajan Mishra ',
-        organisation:'MMMUT Gorakhpur, India',
-        profileImage:'/drrajanmishra.webp'
-    },
-    {
-        title:'Dr.',
         fullName:'Tushar Goel ',
         organisation:'NIT Uttarakhand, India',
         profileImage:'/drtushar.webp'
+    },
+    {
+        title:'Dr.',
+        fullName:'Rajan Mishra ',
+        organisation:'MMMUT Gorakhpur, India',
+        profileImage:'/drrajanmishra.webp'
     }
+    
 ]
 
 export const committeeMembers = [
