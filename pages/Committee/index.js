@@ -39,9 +39,9 @@ const Committee = () => {
               </div> */}
 
               {/* Commented out "Patrons" */}
-              {/* <div>
+               <div>
                 <div id='patron' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'>Patrons</h1>
+                <h1 className='mb-6 text-xl md:text-3xl font-bold'>Patron</h1>
                 <div className='flex gap-8 flex-wrap'>
                   {patrons.map((patron) => (
                     <ProfileCard
@@ -54,7 +54,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> 
 
               {/* Commented out "Honorary Chairs" */}
               {/* <div>
@@ -93,7 +93,7 @@ const Committee = () => {
 
               <div>
                 <div id='confchairs' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'>Conference Chair</h1>
+                <h1 className='mb-6 text-xl md:text-3xl font-bold text-center'>Conference Chairs</h1>
                 <div className='flex gap-8 flex-wrap'>
                   {confChairs.map((chair) => (
                     <ProfileCard
