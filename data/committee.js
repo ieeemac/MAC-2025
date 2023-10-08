@@ -106,10 +106,6 @@ export const committeeMembers = [
                 organisation:'University of Johannesburg, South Africa'
             },
             {
-                fullName:'Prof. J.A. Ansari',
-                organisation:'University of Allahabad, India'
-            },
-            {
                 fullName:'Prof. Shiban K. Koul',
                 organisation:'IIT Delhi, India'
             },
@@ -263,10 +259,6 @@ export const committeeMembers = [
                 organisation:'IIT BHU, India'
             },
             {
-                fullName:'Prof. N.K. Shukla',
-                organisation:'University of Allahabad, India'
-            },
-            {
                 fullName:'Dr. Maurizio Bozzi',
                 organisation:'University of Pavia, Italy'
             },
@@ -417,16 +409,8 @@ export const committeeMembers = [
                 organisation:'Defence Lab, DRDO, India'
             },
             {
-                fullName:'Dr. Bambam Kumar',
-                organisation:'NIT Patna, India'
-            },
-            {
                 fullName:'Dr. Akhilesh Mohan',
                 organisation:'IIT Roorkee, India'
-            },
-            {
-                fullName:'Dr. Amit Kumar Singh',
-                organisation:' IIT Patna, India'
             },
             {
                 fullName:'Dr. Niraj Pratap Singh',
@@ -505,10 +489,6 @@ export const committeeMembers = [
                 organisation:' NIT Rourkela,India'
             },
             {
-                fullName:'Dr. Richa Agrawal',
-                organisation:'NIT Patna, India'
-            },
-            {
                 fullName:'Ms. Shipra Bhatia',
                 organisation:'CSIR-CEERI, Pilani, India'
             },
@@ -537,11 +517,7 @@ export const committeeMembers = [
             {
                 fullName:'Mr. Kumar Mohit',
                 organisation:'MNNIT Allahabad, India'
-            },
-            {
-                fullName:'Dr. Prashant K. Shah',
-                organisation:'NIT Surat, Gujarat'
-            },
+            }
         ]
     },
     {
