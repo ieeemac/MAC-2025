@@ -13,7 +13,7 @@ export const honChairs =[
     {
         title:'Prof.',
         fullName:'Bharat Rawal',
-        organisation:'Benedict College Columbia,USA',
+        organisation:'Benedict College Columbia, USA',
         profileImage:'/bharatRawal.webp'
     },
     
@@ -421,6 +421,22 @@ export const committeeMembers = [
                 organisation:' IIT BHU Varanasi, India'
             },
             {
+                fullName:'Dr. Arvind Kumar',
+                organisation:' MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Dr. Dharmendra Dixit',
+                organisation:' MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Dr. Arun Kumar Saurabh',
+                organisation:' MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Dr. Sandeep Kumar Singh',
+                organisation:' MNNIT Allahabad, India'
+            },
+            {
                 fullName:'Dr. M. Venkatesh Kumar',
                 organisation:'Amrita Vishwa Vidyapeetham,Chennai'
             },
@@ -431,6 +447,22 @@ export const committeeMembers = [
             {
                 fullName:'Dr. Vivek Rajpoot',
                 organisation:'VIT Vellore, India'
+            },
+            {
+                fullName:'Mr. Mahesh Kumar Aghwariya',
+                organisation:'THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India'
+            },
+            {
+                fullName:'Ms. Anoopshi Johari',
+                organisation:'THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India'
+            },
+            {
+                fullName:'Mr. Vivek Kumar',
+                organisation:'THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India'
+            },
+            {
+                fullName:'Mr. Vikrant Kumar',
+                organisation:'THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India'
             }
         ]
     },

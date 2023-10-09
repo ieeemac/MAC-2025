@@ -68,8 +68,15 @@ const HomeMain = () => {
       </h1>
       <h2 className='text-lg'>
         <span>Organised By</span>
-        <p><span className='text-orange-500 font-bold text-xl'>
-        MNNIT ALLAHABAD and THDC Institute of Hydropower Engineering and Technology, Tehri </span></p>
+        <p><span className="text-orange-500 font-bold text-xl block">
+    MNNIT ALLAHABAD, India
+  </span>
+  <span className="text-black-500 font-bold text-xl block">
+    &
+  </span>
+  <span className="text-orange-500 font-bold text-xl block">
+    THDC Institute of Hydropower Engineering and Technology, Uttarakhand, India
+  </span></p>
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
