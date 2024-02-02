@@ -30,7 +30,7 @@ export default function HomeImageGallery() {
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/mnnit.webp" className="w-full h-full brightness-75  object-cover"/>
+src="/dehradun2.jpg" className="w-full h-full brightness-75  object-cover"/>
 
 </div> 
        
