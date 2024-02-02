@@ -24,7 +24,7 @@ export default function HomeImageGallery() {
         className="mySwiper bg-stone-500 text-center w-full h-[60vh] md:h-full"
       >
        
-        <SwiperSlide>
+        {/* <SwiperSlide>
         <div className="w-full h-full overflow-hidden">
 <motion.img 
 initial={{scale:1}}
@@ -34,7 +34,7 @@ src="/mnnit.webp" className="w-full h-full brightness-75  object-cover"/>
 
 </div> 
        
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
         <div className="w-full h-full overflow-hidden">
 <motion.img 
