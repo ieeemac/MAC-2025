@@ -282,10 +282,10 @@ export const committeeMembers = [
                 fullName:'Dr. Ashutosh Kedar',
                 organisation:'LRDE, DRDO, India'
             },
-            {
-                fullName:'Dr. V.S. Gangwar',
-                organisation:'LRDE, DRDO, India'
-            },
+            // {
+            //     fullName:'Dr. V.S. Gangwar',
+            //     organisation:'LRDE, DRDO, India'
+            // },
             {
                 fullName:'Dr. George Shaker',
                 organisation:' University of Waterloo, Canada'
