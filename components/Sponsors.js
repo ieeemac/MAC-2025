@@ -96,7 +96,7 @@ export default function Sponsors() {
         </SwiperSlide>
         <SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div>
-            <img src="/aps.webp" className={`${styles.responsive}`}/>
+            <img src="/apslogo1.png" className={`${styles.responsive}`}/>
           </div>
         </SwiperSlide>
         <SwiperSlide className="text-center text-xl flex justify-center items-center">
