@@ -83,7 +83,7 @@ const HomeMain = () => {
     The 2nd International Conference on Microwave, Antenna and Communication - MAC2024 will be
     held in hybrid mode at Dehradun, Uttarakhand, India during 
     October 4-6, 2024.    
-    The Conference aims to offer a platform for the researchers, academics , individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
+    The Conference aims to offer a platform for the researchers, academicians and individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
     MAC2024 will include focused track on Young Professionals, Women in Engineering and SIGHT along with technical sessions on recent developments.
     </p>
  
