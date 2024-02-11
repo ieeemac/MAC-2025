@@ -80,12 +80,16 @@ const HomeMain = () => {
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
-    The 2nd International Conference on Microwave, Antenna and Communication - MAC2024 will be
-    held in hybrid mode at Dehradun, Uttarakhand, India during 
-    October 4-6, 2024.    
-    The Conference aims to offer a platform for the researchers, academicians and individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
-    MAC2024 will include focused track on Young Professionals, Women in Engineering and SIGHT along with technical sessions on recent developments.
-    </p>
+       Welcome to the 2nd International Conference on Microwave, Antenna, and Communication (MAC-2024)!
+       Join us in the scenic city of Dehradun, Uttarakhand, India, from October 4-6, 2024, for an enriching experience of knowledge,
+       research and innovation. MAC-2024 serves as a dynamic platform, bringing together researchers, academicians, industry professionals, 
+       and startups to showcase their cutting-edge research, share innovative ideas, and explore the emerging trends of Microwave, Antenna and Communication technologies. 
+       MAC-2024 will also feature a special track on Young Professionals, Women in Engineering and SIGHT, which will provide opportunities for networking, mentoring and career development. 
+       The conference will feature keynote speeches, invited talks, panel discussions, technical sessions, poster presentations and exhibitions.  
+       Let us engage in thought-provoking technical sessions, delve into recent developments, and foster collaborative discussions. 
+       MAC-2024 is an opportunity to you for collaboration and networking with international industry/academia experts. 
+       We invite you to join us at MAC-2024 and be a part of this exciting event!
+      </p>
  
       
     </div>
