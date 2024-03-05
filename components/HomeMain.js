@@ -11,6 +11,7 @@ import TechCollabGallery from './TechCollabGallery';
 import Link from 'next/link';
 import Sponsors from "../components/Sponsors";
 import {IoMdNotifications} from "react-icons/io"
+import SponsorCarousel from './SponsorCarousel';
 
 const HomeMain = () => {
 
@@ -22,9 +23,22 @@ const HomeMain = () => {
 
   return (
  <>
-       <div className='h-[60vh] md:h-[95vh] mt-[55px] relative'>
+    {/* <div className={`container mx-auto flex flex-wrap justify-center bg-transparent ${gradients.homePage}`}>
+  <div className={`w-full flex justify-center ${gradients.homePage}`} style={{ marginTop: "85px", marginBottom: "-35px" }}>
+    <div className="flex justify-between items-center overflow-x-scroll w-full md:w-[90%] xl:w-[80%] bg-transparent ">
+      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
+      <img src="ieeeUP.jpg" alt="Logo 2" className="h-20 md:h-24 xl:h-32 mx-2" />
+      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
+      <img src="ieeeUP.jpg" alt="Logo 2" className="h-20 md:h-24 xl:h-32 mx-2" />
+      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
+    </div>
+  </div>
+</div> */}
+      <SponsorCarousel/>
+
+       <div className={`h-[60vh] md:h-[95vh] mt-[15px] relative ${gradients.homePage}`}>
         <HomeImageGallery/>
-        <div className='absolute top-10 md:top-[20%] lg:top-[10%] xl:top-[20%] left-0 z-10 w-full md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
+        <div className='absolute top-10 md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-full md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
             <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
                 <span className='text-orange-400'></span> <span className='text-white'>2nd International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication </span> <span className='text-white'>2024 </span>
             </div>
@@ -152,3 +166,4 @@ const HomeMain = () => {
 }
 
 export default HomeMain
+

@@ -84,32 +84,32 @@ export default function Sponsors() {
         modules={[Autoplay]}
         className="mySwiper w-[100%] h-[150px] lg:h-[300px] bg-white rounded-lg"
       >
-        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
           <div>
             <img src="/advancing.png" className={`${styles.responsive}`}/>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide className="text-center text-xl flex justify-center items-center">
           <div>
             <img src="/ieeeUP.jpg" className={`${styles.responsive}`}/>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div>
             <img src="/apslogo1.png" className={`${styles.responsive}`}/>
           </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        </SwiperSlide> */}
+        {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div>
             <img src="/comm.webp" className={`${styles.responsive}`}/>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div>
             <img src="/upsec.png" className={`${styles.responsive}`}/>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div>
             <img src="/young.webp" className={`${styles.responsive}`}/>
           </div>
@@ -123,7 +123,7 @@ export default function Sponsors() {
         <div>
             <img src="/sight.webp" className={`${styles.responsive}`}/>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       </div>
     </>
