@@ -29,12 +29,16 @@ const SponsorCarousel = () => {
 
       <div className="marquee-container">
         <img src="/dealogo.png" className="marquee-item" />
+        {/* <img src="/iitr.jpeg" className="marquee-item" /> */}
         <img src="/ieeeUP.jpg" className="marquee-item" />
         <img src="/dealogo.png" className="marquee-item" />
+        {/* <img src="/iitr.jpeg" className="marquee-item" /> */}
         <img src="/ieeeUP.jpg" className="marquee-item" />
         <img src="/dealogo.png" className="marquee-item" />
+        {/* <img src="/iitr.jpeg" className="marquee-item" /> */}
         <img src="/ieeeUP.jpg" className="marquee-item" />
         <img src="/dealogo.png" className="marquee-item" />
+        {/* <img src="/iitr.jpeg" className="marquee-item" /> */}
         <img src="/ieeeUP.jpg" className="marquee-item" />
       </div>
     </>

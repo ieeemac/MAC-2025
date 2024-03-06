@@ -82,14 +82,22 @@ const HomeMain = () => {
       </h1>
       <h2 className='text-lg'>
         <span>Organised By</span>
-        <p><span className="text-orange-500 font-bold text-xl block">
-    MNNIT ALLAHABAD, India
-  </span>
-  <span className="text-black-500 font-bold text-xl block">
-    &
+        
+        <p>
+        <span className="text-orange-500 font-bold text-xl block">
+    DEAL, DRDO, India
   </span>
   <span className="text-orange-500 font-bold text-xl block">
-    THDC Institute of Hydropower Engineering and Technology, Uttarakhand, India
+    IIT Roorkee, India
+  </span>
+  <span className="text-orange-500 font-bold text-xl block">
+  THDC Institute of Hydropower Engineering and Technology, Uttarakhand, India
+  </span>
+  {/* <span className="text-black-500 font-bold text-xl block">
+    &
+  </span> */}
+  <span className="text-orange-500 font-bold text-xl block">
+  MNNIT ALLAHABAD, India
   </span></p>
       </h2>
       <br/>
@@ -144,7 +152,10 @@ const HomeMain = () => {
             <li className='list-disc'>Technical/Industrial Workshop</li>
         </ul>
         </div>
-      
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 mt-8 md:mt-2 font-medium text-gray-900 block">Paper Submission Link
+                  </h1>
+                  <p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg">All papers must be submitted in PDF via Microsoft CMT:</p>
+                  <a className='text-rose-500 cursor-pointer inline-block md:text-lg' href='https://cmt3.research.microsoft.com/MAC2024/' target='_blank' rel='noreferrer'>https://cmt3.research.microsoft.com/MAC2024/</a>
     </div>
   </div>
 </section>

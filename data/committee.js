@@ -49,12 +49,12 @@ export const genChairs =[
         organisation:'MNNIT Allahabad, India',
         profileImage:'/vsTripathi.webp'
     },
-    {
-        title:'Mr.',
-        fullName:'Manoj Kumar Dhaka',
-        organisation:'Scientist H, DEAL, DRDO',
-        profileImage:'/mkdhaka.png'
-    }
+    // {
+    //     title:'Mr.',
+    //     fullName:'Manoj Kumar Dhaka',
+    //     organisation:'Scientist H, DEAL, DRDO',
+    //     profileImage:'/mkdhaka.png'
+    // }
 ]
 
 export const FinChairs =[
@@ -89,18 +89,18 @@ export const confChairs =[
         organisation:'MMMUT Gorakhpur, India',
         profileImage:'/drrajanmishra.webp'
     },
-    {
-        title:'Ms.',
-        fullName:'Sonali Agarwal ',
-        organisation:'Scientist F, DEAL, DRDO',
-        profileImage:'/sonali.png'
-    },
-    {
-        title:'Dr.',
-        fullName:'Gaurav Mittal',
-        organisation:'Scientist E, DEAL, DRDO',
-        profileImage:'/gauravmittal.png'
-    }
+    // {
+    //     title:'Ms.',
+    //     fullName:'Sonali Agarwal ',
+    //     organisation:'Scientist F, DEAL, DRDO',
+    //     profileImage:'/sonali.png'
+    // },
+    // {
+    //     title:'Dr.',
+    //     fullName:'Gaurav Mittal',
+    //     organisation:'Scientist E, DEAL, DRDO',
+    //     profileImage:'/gauravmittal.png'
+    // }
     
 ]
 
@@ -367,54 +367,54 @@ export const committeeMembers = [
                 fullName:'Dr. Chow Yen Desmond Sim',
                 organisation:'Feng Chia University, Taichung, Taiwan'
             },
-            {
-                fullName:'Mr. Pinaki Sen',
-                organisation:'Scientist H, DEAL, DRDO'
-            },
-            {
-                fullName:'Ms. Neeta Kandpal',
-                organisation:'Scientist G, DEAL, DRDO'
-            },
-            {
-                fullName:'Ms. Kiran Chauhan',
-                organisation:'Scientist G, DEAL, DRDO'
-            },
-            {
-                fullName:'Mr. Satendra Kumar Yadav',
-                organisation:'Scientist G, DEAL, DRDO'
-            },
-            {
-                fullName:'Mr. V. N. Singh',
-                organisation:'Scientist G, DEAL, DRDO'
-            },
-            {
-                fullName:'Mr. T. K. Verma',
-                organisation:'Scientist G, DEAL, DRDO'
-            },
-            {
-                fullName:'Dr. Rajendra Singh',
-                organisation:'Scientist G, DEAL, DRDO'
-            },
-            {
-                fullName:'Dr. R. K. Bharadwaj',
-                organisation:'Scientist F, DEAL, DRDO'
-            },
-            {
-                fullName:'Mr. Umesh Bahuguna',
-                organisation:'Scientist F, DEAL, DRDO'
-            },
-            {
-                fullName:'Mr. Bhanu Pratap Singh',
-                organisation:'Scientist F, DEAL, DRDO'
-            },
-            {
-                fullName:'Ms. Jaya Mishra',
-                organisation:'Scientist F, DEAL, DRDO'
-            },
-            {
-                fullName:'Ms. Gopa Bhattacharya Choudhury',
-                organisation:'Scientist F, DEAL, DRDO'
-            },
+            // {
+            //     fullName:'Mr. Pinaki Sen',
+            //     organisation:'Scientist H, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Ms. Neeta Kandpal',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Ms. Kiran Chauhan',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Satendra Kumar Yadav',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. V. N. Singh',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. T. K. Verma',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Dr. Rajendra Singh',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Dr. R. K. Bharadwaj',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Umesh Bahuguna',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Bhanu Pratap Singh',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Ms. Jaya Mishra',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Ms. Gopa Bhattacharya Choudhury',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
         ]
         
     },
@@ -552,26 +552,26 @@ export const committeeMembers = [
                 fullName:'Mr. Vikrant Kumar',
                 organisation:'THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India'
             },
-            {
-                fullName:'Mr. Arvind Kumar',
-                organisation:'Scientist G, DEAL, DRDO'
-            },
-            {
-                fullName:'Dr. Raj Kumar',
-                organisation:'Scientist G, DEAL, DRDO'
-            },
-            {
-                fullName:'Dr. Trilok Kumar Saini',
-                organisation:'Scientist F, DEAL, DRDO'
-            },
-            {
-                fullName:'Mr. Binod Pal',
-                organisation:'Scientist F, DEAL, DRDO'
-            },
-            {
-                fullName:'Mr. Atul Wadhwa',
-                organisation:'Scientist F, DEAL, DRDO'
-            },
+            // {
+            //     fullName:'Mr. Arvind Kumar',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Dr. Raj Kumar',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Dr. Trilok Kumar Saini',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Binod Pal',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Atul Wadhwa',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
         ]
     },
     {
