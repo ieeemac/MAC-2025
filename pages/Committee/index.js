@@ -74,7 +74,7 @@ const Committee = () => {
 
               <div>
                 <div id='genchairs' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'>    General Chairs</h1>
+                <h1 className='mb-6 text-xl md:text-3xl font-bold'>    General Chair</h1>
                 <div className='flex gap-8 flex-wrap'>
                   {genChairs.map((chair) => (
                     <ProfileCard

@@ -10,11 +10,12 @@ const Registration = () => {
     </span>
 </h1>
 <div className='flex justify-center'>
-<div className='md:mx-28 bg-red-100 w-[90%] md:w-[60%] lg:w-[40%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl'>
-{/* <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
+ 
+{/* <div className='md:mx-28 bg-red-100 w-[90%] md:w-[60%] lg:w-[40%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl'>
+ <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span>Paper Submission Starts</span>
     <span className='text-right'>To be announced</span>
-</div> */}
+</div> 
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span className='text-red-500 font-bold'>Paper Submission Deadline</span>
     <span className='text-red-500 font-bold right'>July 31, 2024</span>
@@ -38,8 +39,76 @@ const Registration = () => {
     <span>Start of Registration</span>
     <span className='text-right'>September 15, 2024</span>
 </div>
+</div> */}
+
+
+<div class="md:mx-28 bg-red-100 w-[90%] md:w-[60%] lg:w-[60%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
+<table className='text-[12px] md:text-lg lg:text-lg w-full'>
+      <tbody>
+        <tr>
+          <td className='w-[35%] text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400' rowSpan={3}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <span className='text-red-500 font-bold'>Paper Submission Deadline</span>
+            </div>
+          </td>
+        </tr>
+        <tr className='border-b-2 border-stone-400'>
+          <td className='text-center py-2'>Early Bird*</td>
+          <td className='text-center py-2'>April 30, 2024</td>
+        </tr>
+        <tr className='border-b-2 border-stone-400'>
+          <td className='text-center py-2'>Regular</td>
+          <td className='text-center py-2'>July 31, 2024</td>
+        </tr>
+        <tr>
+          <td rowSpan={4} className='font-semibold'>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <span className='text-red-500 font-bold'>Acceptance Notification</span>
+            </div>
+          </td>
+        </tr>
+        <tr className='border-b-2 border-stone-400'>
+          <td className='text-center py-2'>Stage 1</td>
+          <td className='text-center py-2'>May 15, 2024</td>
+        </tr>
+        <tr className='border-b-2 border-stone-400'>
+          <td className='text-center py-2'>Stage 2</td>
+          <td className='text-center py-2'>June 15, 2024</td>
+        </tr>
+        <tr className='border-b-2 border-stone-400'>
+          <td className='text-center py-2'>Stage 3</td>
+          <td className='text-center py-2'>August 15, 2024</td>
+        </tr>
+        <tr>
+          <td rowSpan={2} className='font-semibold'>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <span className='text-red-500 font-bold'>Camera Ready Paper</span>
+            </div>
+          </td>
+        </tr>
+        <tr className='border-b-2 border-stone-400'>
+          <td className='text-center py-2'>     </td>
+          <td className='text-center py-2'>September 15, 2024</td>
+        </tr>
+        <tr>
+          <td rowSpan={2} className='font-semibold'>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <span className='text-red-500 font-bold'>Registration Deadline</span>
+            </div>
+          </td>
+        </tr>
+        <tr className='border-b-2 border-stone-400'>
+          <td className='text-center py-2'>    </td>
+          <td className='text-center py-2'>September 15, 2024</td>
+        </tr>
+      </tbody>
+    </table>
+    
 </div>
 </div>
+<p className="md:mb-8 leading-relaxed font-semibold text-lg text-center">
+                *10% of Registration fee reimbursement applicable for B.Tech./M.Tech. Students.
+</p>
 <div id='registration' className='h-12 w-full'>
 </div>
 <h1 className='text-center text-lg sm:text-xl md:text-3xl font-bold mt-12' >
@@ -47,7 +116,7 @@ const Registration = () => {
     Registration Fee (including 18% GST)
     </span>
 </h1>
-<div className='flex justify-center mt-4'>
+<div className='flex justify-center mt-16'>
   <div className='p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll'>
     <table className='text-left text-[12px] md:text-lg lg:text-lg w-[39rem] md:w-[59rem] lg:w-[67rem]'>
       <tbody>
