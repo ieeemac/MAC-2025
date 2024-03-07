@@ -37,6 +37,17 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
           <ul className='fixed md:static top-16 overflow-auto h-[90vh] md:h-[85vh] md:pb-12 bg-white z-10 px-4 py-16 md:py-2 text-lg lg:text-xl flex flex-col gap-2 w-full '>
             <li
               onClick={() => {
+                router.push('/Committee#chiefpatron');
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/#chiefpatron')}`}
+            >
+              Chief Patron
+            </li>
+            <li
+              onClick={() => {
                 router.push('/Committee#patron');
                 if (width < 768) {
                   setIsOpen(false);
@@ -44,7 +55,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               }}
               className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/#patron')}`}
             >
-              Patron
+              Patrons
             </li>
             <li
               onClick={() => {
@@ -55,7 +66,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               }}
               className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee#genchairs')}`}
             >
-              General Chair
+              General Chairs
             </li>
             <li
               onClick={() => {

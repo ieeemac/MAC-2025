@@ -11,6 +11,7 @@ import TechCollabGallery from './TechCollabGallery';
 import Link from 'next/link';
 import Sponsors from "../components/Sponsors";
 import {IoMdNotifications} from "react-icons/io"
+import SponsorCarousel from './SponsorCarousel';
 
 const HomeMain = () => {
 
@@ -22,9 +23,22 @@ const HomeMain = () => {
 
   return (
  <>
-       <div className='h-[60vh] md:h-[95vh] mt-[55px] relative'>
+    {/* <div className={`container mx-auto flex flex-wrap justify-center bg-transparent ${gradients.homePage}`}>
+  <div className={`w-full flex justify-center ${gradients.homePage}`} style={{ marginTop: "85px", marginBottom: "-35px" }}>
+    <div className="flex justify-between items-center overflow-x-scroll w-full md:w-[90%] xl:w-[80%] bg-transparent ">
+      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
+      <img src="ieeeUP.jpg" alt="Logo 2" className="h-20 md:h-24 xl:h-32 mx-2" />
+      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
+      <img src="ieeeUP.jpg" alt="Logo 2" className="h-20 md:h-24 xl:h-32 mx-2" />
+      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
+    </div>
+  </div>
+</div> */}
+      <SponsorCarousel/>
+
+       <div className={`h-[60vh] md:h-[95vh] mt-[15px] relative ${gradients.homePage}`}>
         <HomeImageGallery/>
-        <div className='absolute top-10 md:top-[20%] lg:top-[10%] xl:top-[20%] left-0 z-10 w-full md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
+        <div className='absolute top-10 md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-full md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
             <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
                 <span className='text-orange-400'></span> <span className='text-white'>2nd International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication </span> <span className='text-white'>2024 </span>
             </div>
@@ -68,14 +82,22 @@ const HomeMain = () => {
       </h1>
       <h2 className='text-lg'>
         <span>Organised By</span>
-        <p><span className="text-orange-500 font-bold text-xl block">
-    MNNIT ALLAHABAD, India
-  </span>
-  <span className="text-black-500 font-bold text-xl block">
-    &
+        
+        <p>
+        <span className="text-orange-500 font-bold text-xl block">
+    DEAL, DRDO, India
   </span>
   <span className="text-orange-500 font-bold text-xl block">
-    THDC Institute of Hydropower Engineering and Technology, Uttarakhand, India
+    IIT Roorkee, India
+  </span>
+  <span className="text-orange-500 font-bold text-xl block">
+  THDC Institute of Hydropower Engineering and Technology, Uttarakhand, India
+  </span>
+  {/* <span className="text-black-500 font-bold text-xl block">
+    &
+  </span> */}
+  <span className="text-orange-500 font-bold text-xl block">
+  MNNIT ALLAHABAD, India
   </span></p>
       </h2>
       <br/>
@@ -130,7 +152,10 @@ const HomeMain = () => {
             <li className='list-disc'>Technical/Industrial Workshop</li>
         </ul>
         </div>
-      
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 mt-8 md:mt-2 font-medium text-gray-900 block">Paper Submission Link
+                  </h1>
+                  <p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg">All papers must be submitted in PDF via Microsoft CMT:</p>
+                  <a className='text-rose-500 cursor-pointer inline-block md:text-lg' href='https://cmt3.research.microsoft.com/MAC2024/' target='_blank' rel='noreferrer'>https://cmt3.research.microsoft.com/MAC2024/</a>
     </div>
   </div>
 </section>
@@ -152,3 +177,4 @@ const HomeMain = () => {
 }
 
 export default HomeMain
+

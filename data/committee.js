@@ -1,8 +1,24 @@
+export const cheifpatrons =[
+    {
+        title:'Dr.',
+        fullName:'B. K. Das',
+        organisation:'DRDO',
+        profileImage:'/bkdas.png'
+    },
+    
+]
+
 export const patrons =[
+    {
+        title:'Mr.',
+        fullName:'L. C. Mangal',
+        organisation:'Director (DEAL), DRDO',
+        profileImage:'/lcmangal.png'
+    },
     {
         title:'Dr.',
         fullName:'Sharad Kumar Pradhan',
-        organisation:'THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India',
+        organisation:'Director, THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India',
         profileImage:'/drsharad.webp'
     },
     
@@ -32,7 +48,13 @@ export const genChairs =[
         fullName:'Vijay Shanker Tripathi ',
         organisation:'MNNIT Allahabad, India',
         profileImage:'/vsTripathi.webp'
-    }
+    },
+    // {
+    //     title:'Mr.',
+    //     fullName:'Manoj Kumar Dhaka',
+    //     organisation:'Scientist H, DEAL, DRDO',
+    //     profileImage:'/mkdhaka.png'
+    // }
 ]
 
 export const FinChairs =[
@@ -66,7 +88,19 @@ export const confChairs =[
         fullName:'Rajan Mishra ',
         organisation:'MMMUT Gorakhpur, India',
         profileImage:'/drrajanmishra.webp'
-    }
+    },
+    // {
+    //     title:'Ms.',
+    //     fullName:'Sonali Agarwal ',
+    //     organisation:'Scientist F, DEAL, DRDO',
+    //     profileImage:'/sonali.png'
+    // },
+    // {
+    //     title:'Dr.',
+    //     fullName:'Gaurav Mittal',
+    //     organisation:'Scientist E, DEAL, DRDO',
+    //     profileImage:'/gauravmittal.png'
+    // }
     
 ]
 
@@ -137,7 +171,10 @@ export const committeeMembers = [
                 fullName:'Dr. Satish Kumar Singh',
                 organisation:'IIIT Allahabad, India'
             },
-            
+            {
+                fullName:'Dr. Taimoor Khan',
+                organisation:'NIT Silchar, India'
+            },
             {
                 fullName:'Dr. Arun Prakash',
                 organisation:'MNNIT Allahabad, India'
@@ -148,7 +185,7 @@ export const committeeMembers = [
             },
             {
                 fullName:'Dr. Girish Chandra Tripathi',
-                organisation:'Sterlite Technologies Limited, India'
+                organisation:'Tejas Networks Limited, India'
             },
             {
                 fullName:'Dr. Sanjeev Yadav',
@@ -214,6 +251,10 @@ export const committeeMembers = [
                 organisation:'ABV-IIITM Gwalior, India'
             },
             {
+                fullName:'Prof. Animesh Biswas',
+                organisation:'IIT Kanpur, India'
+            },
+            {
                 fullName:'Prof. Arvind Choubey',
                 organisation:'IIIT Bhagalpur, India'
             },
@@ -261,6 +302,10 @@ export const committeeMembers = [
             {
                 fullName:'Dr. Maurizio Bozzi',
                 organisation:'University of Pavia, Italy'
+            },
+            {
+                fullName:'Dr. Raghvendra Chaudhary',
+                organisation:'IIT Kanpur, India'
             },
             {
                 fullName:'Dr. Anthony Ghiotto',
@@ -322,7 +367,54 @@ export const committeeMembers = [
                 fullName:'Dr. Chow Yen Desmond Sim',
                 organisation:'Feng Chia University, Taichung, Taiwan'
             },
-            
+            // {
+            //     fullName:'Mr. Pinaki Sen',
+            //     organisation:'Scientist H, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Ms. Neeta Kandpal',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Ms. Kiran Chauhan',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Satendra Kumar Yadav',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. V. N. Singh',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. T. K. Verma',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Dr. Rajendra Singh',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Dr. R. K. Bharadwaj',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Umesh Bahuguna',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Bhanu Pratap Singh',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Ms. Jaya Mishra',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Ms. Gopa Bhattacharya Choudhury',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
         ]
         
     },
@@ -397,10 +489,6 @@ export const committeeMembers = [
                 organisation:'IIT Roorkee, India'
             },
             {
-                fullName:'Dr. R.K. Chaudhary',
-                organisation:'IIT Kanpur, India'
-            },
-            {
                 fullName:'Dr. Ravi Kumar Gangwar',
                 organisation:'IIT(ISM) Dhanbad, India'
             },
@@ -463,7 +551,27 @@ export const committeeMembers = [
             {
                 fullName:'Mr. Vikrant Kumar',
                 organisation:'THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India'
-            }
+            },
+            // {
+            //     fullName:'Mr. Arvind Kumar',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Dr. Raj Kumar',
+            //     organisation:'Scientist G, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Dr. Trilok Kumar Saini',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Binod Pal',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
+            // {
+            //     fullName:'Mr. Atul Wadhwa',
+            //     organisation:'Scientist F, DEAL, DRDO'
+            // },
         ]
     },
     {
@@ -488,7 +596,7 @@ export const committeeMembers = [
             },
             {
                 fullName:'Dr. Abhishek Sharma',
-                organisation:'City University of Hong Kong, Hong Kong'
+                organisation:'Stevens Institute of Technology, New Jersey, USA'
             },
             {
                 fullName:'Dr. Thummaluru Sreenath Reddy',
@@ -536,7 +644,7 @@ export const committeeMembers = [
             },
             {
                 fullName:'Dr. Ankit Yadav',
-                organisation:'IIT Kanpur, India'
+                organisation:'Iowa State University, USA'
             },
             {
                 fullName:'Dr. Vikrant Varshney',
@@ -545,10 +653,6 @@ export const committeeMembers = [
             {
                 fullName:'Dr. Nayneesh Kumar Mishra',
                 organisation:'IIIT Allahabad, India'
-            },
-            {
-                fullName:'Mr. Kumar Mohit',
-                organisation:'MNNIT Allahabad, India'
             }
         ]
     },

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import gradients from '../../styles/customGradient.module.css';
 import ProfileCard from '../../components/ProfileCard';
-import { patrons, honChairs, genChairs, confChairs, FinChairs, PublicChairs } from '../../data/committee';
+import { cheifpatrons, patrons, honChairs, genChairs, confChairs, FinChairs, PublicChairs } from '../../data/committee';
 import { useScrollLock, useViewportSize } from '@mantine/hooks';
 import CommitteeSidebar from '../../components/CommitteeSidebar';
 
@@ -24,24 +24,22 @@ const Committee = () => {
           <CommitteeSidebar width={width} isOpen={isOpen} setIsOpen={setIsOpen} />
           <div className='md:w-[70%] lg:w-[75%] pb-8'>
             <div className='mt-2 mx-2 p-8 rounded-box flex flex-col gap-2 items-center'>
-              {/* Commented out "Chief Patron" */}
-              {/* <div>
+              
+              <div>
                 <div id='chiefpatron' className='h-20 mb-16 md:mb-0'></div>
                 <h1 className='mb-4 text-xl md:text-3xl font-bold'>Chief Patron</h1>
 
                 <ProfileCard
-                  title='Prof.'
-                  fullName="Rama Shanker Verma"
-                  post='Director'
-                  organisation="MNNIT Allahabad, India"
-                  profileImage='/ramaBG.webp'
+                  title='Dr.'
+                  fullName="B. K. Das"
+                  post='DG (ECS),'
+                  organisation="DRDO"
+                  profileImage='/bkdas.png'
                 />
-              </div> */}
-
-              {/* Commented out "Patrons" */}
+              </div> 
                <div>
                 <div id='patron' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'>Patron</h1>
+                <h1 className='mb-6 text-xl md:text-3xl font-bold'>Patrons</h1>
                 <div className='flex gap-8 flex-wrap'>
                   {patrons.map((patron) => (
                     <ProfileCard
@@ -76,7 +74,7 @@ const Committee = () => {
 
               <div>
                 <div id='genchairs' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'>    General Chair</h1>
+                <h1 className='mb-6 text-xl md:text-3xl font-bold'>    General Chairs</h1>
                 <div className='flex gap-8 flex-wrap'>
                   {genChairs.map((chair) => (
                     <ProfileCard

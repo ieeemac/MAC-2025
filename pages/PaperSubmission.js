@@ -32,8 +32,8 @@ format information is available at IEEE Website
 similarity score of the paper should not be more than 15%.</p>
                   <h1 className="title-font sm:text-4xl text-3xl mb-4 mt-8 md:mt-2 font-medium text-gray-900 block">Paper Submission Link
                   </h1>
-                  {/*<p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg">All papers must be submitted in PDF via Microsoft CMT:</p>
-                  <a className='text-rose-500 cursor-pointer inline-block md:text-lg' href='https://cmt3.research.microsoft.com/MAC2023' target='_blank' rel='noreferrer'>https://cmt3.research.microsoft.com/MAC2023</a>*/}
+                  <p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg">All papers must be submitted in PDF via Microsoft CMT:</p>
+                  <a className='text-rose-500 cursor-pointer inline-block md:text-lg' href='https://cmt3.research.microsoft.com/MAC2024/' target='_blank' rel='noreferrer'>https://cmt3.research.microsoft.com/MAC2024/</a>
                   <img src="/soon.webp" alt="Coming Soon" width="1200" height="1600" />
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12   ">

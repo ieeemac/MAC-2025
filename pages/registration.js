@@ -11,18 +11,28 @@ const Registration = () => {
 </h1>
 <div className='flex justify-center'>
 <div className='md:mx-28 bg-red-100 w-[90%] md:w-[60%] lg:w-[40%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl'>
-<div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
+{/* <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span>Paper Submission Starts</span>
     <span className='text-right'>To be announced</span>
-</div>
+</div> */}
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span className='text-red-500 font-bold'>Paper Submission Deadline</span>
     <span className='text-red-500 font-bold right'>July 31, 2024</span>
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span>Acceptance 
-    Notification</span>
-    <span className='text-right'>August 30, 2024</span>
+    Notification (Stage 1)</span>
+    <span className='text-right'>May 15, 2024</span>
+</div>
+<div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
+    <span>Acceptance 
+    Notification (Stage 2)</span>
+    <span className='text-right'>June 15, 2024</span>
+</div>
+<div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
+    <span>Acceptance 
+    Notification (Stage 3)</span>
+    <span className='text-right'>August 15, 2024</span>
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span>Start of Registration</span>
