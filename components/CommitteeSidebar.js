@@ -66,7 +66,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               }}
               className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab('/Committee#genchairs')}`}
             >
-              General Chairs
+              General Chair
             </li>
             <li
               onClick={() => {

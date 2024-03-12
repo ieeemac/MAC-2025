@@ -70,7 +70,7 @@ export const PublicChairs =[
     {
         title:'Dr.',
         fullName:'Gaurav Upadhyay',
-        organisation:'IT Gopeshwar, India',
+        organisation: 'MANIT Bhopal, India',
         profileImage:'/drgaurav.webp'
     }
 ]
