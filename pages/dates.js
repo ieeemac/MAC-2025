@@ -1,17 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Registration = () => {
+const Dates = () => {
   return (
     <div className='mt-14 py-8 bg-slate-200 text-black'>
-{/* <h1 className='text-center text-3xl font-bold mb-6'>
+<h1 className='text-center text-3xl font-bold mb-6'>
     <span className='md:px-8 border-b-4 border-blue-500 pb-4'>
     Important Dates
     </span>
-</h1> */}
-{/* <div className='flex justify-center'>
+</h1>
+<div className='flex justify-center'>
  
-
 
 <div class="md:mx-28 bg-red-100 w-[90%] md:w-[60%] lg:w-[60%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
 <table className='text-[12px] md:text-lg lg:text-lg w-full'>
@@ -79,62 +78,8 @@ const Registration = () => {
 </div>
 <p className="md:mb-8 leading-relaxed font-semibold text-lg text-center">
                 *10% of Registration fee will be reimbursed (applicable for B.Tech./M.Tech. Students).
-</p> */}
-<div id='registration' className='h-12 w-full'>
-</div>
-<h1 className='text-center text-lg sm:text-xl md:text-3xl font-bold mt-12' >
-    <span className='border-b-4 border-blue-500 px-4 pb-4'>
-    Registration Fee (including 18% GST)
-    </span>
-</h1>
-<div className='flex justify-center mt-16'>
-  <div className='p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll'>
-    <table className='text-left text-[12px] md:text-lg lg:text-lg w-[39rem] md:w-[59rem] lg:w-[67rem]'>
-      <tbody>
-        <tr className='h-12'>
-          <th></th>
-          <th className='text-[13px] sm:text-[15px] md:text-xl p-1 pb-2'>Category</th>
-          <th className='text-[13px] sm:text-[15px] md:text-xl p-1 pb-2'>Indian Delegates</th>
-          <th className='text-[13px] sm:text-[15px] md:text-xl p-1 pb-2'>Foreign Delegates</th>
-        </tr>
-        <tr className='border-b-2 border-stone-600'>
-          <td className='w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400' rowSpan={3}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span className='text-red-500 font-bold'>Student Members</span>
-            </div>
-          </td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='py-2'>IEEE</td>
-          <td className='py-2'>INR 6,900</td>
-          <td className='py-2'>USD 190</td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='py-2'>Non-IEEE</td>
-          <td className='py-2'>INR 9,900</td>
-          <td className='py-2'>USD 250</td>
-        </tr>
-        <tr>
-          <td rowSpan={3} className='font-semibold'>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span className='text-red-500 font-bold'>Professional Members</span>
-            </div>
-          </td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='py-2'>IEEE</td>
-          <td className='py-2'>INR 12,900</td>
-          <td className='py-2'>USD 290</td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='py-2'>Non-IEEE</td>
-          <td className='py-2'>INR 14,900</td>
-          <td className='py-2'>USD 350</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+</p>
+
 
 {/*
 <div className='text-center'>
@@ -264,4 +209,4 @@ const Registration = () => {
   )
 }
 
-export default Registration
+export default Dates

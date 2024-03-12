@@ -79,7 +79,7 @@ const Sidebar = ({setIsOpenSidebar}) => {
       Paper Submission
     </li>
     <li 
-    onClick={()=>navigate('/registration')}
+    onClick={()=>navigate('/dates')}
     className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
       Important Dates
     </li>

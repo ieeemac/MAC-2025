@@ -40,8 +40,9 @@ const HomeMain = () => {
         <HomeImageGallery />
         <div className='absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10'>
           <div className='md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
-            <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
+            <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4 mb-6'>
               <span className='text-orange-400'></span> <span className='text-white'>2nd International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication </span> <span className='text-white'>2024 </span>
+              <span className='text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl'><br></br>(Industry-Academia Conclave)</span>
             </div>
             <div className='w-full my-2 sm:pl-0 flex flex-col justify-center gap-4 lg:justify-start lg:gap-10 font-semibold'>
               <div className='flex w-full max-w-[600px] justify-around md:justify-between'>
@@ -72,10 +73,13 @@ const HomeMain = () => {
               </div>
             </div>
           </div>
-          <div className='top-[20%] md:top-[20%] lg:top-[20%] xl:top-[5%] py-8 px-4 w-[90%] md:w-[30%] lg:w-[30%] flex flex-col justify-center items-center text-white rounded-2xl z-10'>
-            <button type="button" class="w-[70%] text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-6 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Call For Papers</button>
-            <button type="button" class="w-[70%] text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-6 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Submit Papers</button>
-            <button type="button" class="w-[70%] text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-6 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Registration</button>
+          <div className='top-[10%] md:top-[10%] lg:top-[20%] xl:top-[5%] py-8 px-4 w-[90%] md:w-[30%] lg:w-[30%] flex flex-col justify-center items-center text-white rounded-2xl z-10 '>
+            <a href="/MAC2024.pdf" download={true} class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Call For Papers</a>
+
+            <a href="https://cmt3.research.microsoft.com/MAC2024/" class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Submit Papers</a>
+
+            <a href="/registration" class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Registration</a>
+
           </div>
 
         </div>

@@ -52,8 +52,8 @@ const Navbar = () => {
       Paper Submission
     </li>
     </Link>
-    <Link href='/registration'>
-    <li className={`${router.pathname == "/registration" ? " hover:border-orange-400 text-orange-400" : ""} hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}>
+    <Link href='/dates'>
+    <li className={`${router.pathname == "/dates" ? " hover:border-orange-400 text-orange-400" : ""} hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}>
     Important Dates
     </li>
     </Link>
