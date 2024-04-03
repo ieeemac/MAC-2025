@@ -9,13 +9,13 @@ import CenteredBlockPage from './tuned'
 export default function Home() {
   return (
     <div id="main" className='relative '>
-      {/* <Head>
+      <Head>
         <title>MAC2024 Homepage</title>
         <meta name="description" content="MAC-2024" />
         <link rel="icon" href="/icon2.png" />
-      </Head> */}
-      <CenteredBlockPage/>
-      {/* <HomeMain/> */}
+      </Head>
+      {/* <CenteredBlockPage/> */}
+      <HomeMain/> 
       {/* <HomeAlert /> */}
     </div>
   )
