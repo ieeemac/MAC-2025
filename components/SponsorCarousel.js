@@ -39,11 +39,15 @@ const SponsorCarousel = () => {
         <img src="/DRDO-Logo-1.png" className="marquee-item" />
         <img src="/THDC_IHET_Logo.png" className="marquee-item" />
         <img src="/DRDO-Logo-1.png" className="marquee-item" />
+        <img src="/mnnit_logo.png" className="marquee-item" />
+        <img src="/DRDO-Logo-1.png" className="marquee-item" />
         <img src="/ieeeUP.jpg" className="marquee-item" />
         <img src="/DRDO-Logo-1.png" className="marquee-item" />
         <img src="/IITR-logo.png" className="marquee-item" />
         <img src="/DRDO-Logo-1.png" className="marquee-item" />
         <img src="/THDC_IHET_Logo.png" className="marquee-item" />
+        <img src="/DRDO-Logo-1.png" className="marquee-item" />
+        <img src="/mnnit_logo.png" className="marquee-item" />
       </div>
     </>
   );
