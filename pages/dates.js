@@ -1,87 +1,119 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const Dates = () => {
   return (
-    <div className='mt-14 py-8 bg-slate-200 text-black'>
-<h1 className='text-center text-3xl font-bold mb-6'>
-    <span className='md:px-8 border-b-4 border-blue-500 pb-4'>
-    Important Dates
-    </span>
-</h1>
-<div className='flex justify-center'>
- 
+    <div className="mt-14 py-8 bg-slate-200 text-black">
+      <h1 className="text-center text-3xl font-bold mb-6">
+        <span className="md:px-8 border-b-4 border-blue-500 pb-4">
+          Important Dates
+        </span>
+      </h1>
+      <div className="flex justify-center">
+        <div class="md:mx-28 bg-red-100 w-[90%] md:w-[60%] lg:w-[60%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
+          <table className="text-[12px] md:text-lg lg:text-lg w-full">
+            <tbody>
+              <tr>
+                <td
+                  className="w-[35%] text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
+                  rowSpan={3}
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <span className="text-red-500 font-bold">
+                      Paper Submission Deadline
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="text-center py-2">Early Bird*</td>
+                <td className="text-center py-2">April 30, 2024</td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="text-center py-2">Regular</td>
+                <td className="text-center py-2">July 31, 2024</td>
+              </tr>
+              <tr>
+                <td rowSpan={4} className="font-semibold">
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <span className="text-red-500 font-bold">
+                      Acceptance Notification
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="text-center py-2">Stage I</td>
+                <td className="text-center py-2">May 15, 2024</td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="text-center py-2">Stage II</td>
+                <td className="text-center py-2">June 15, 2024</td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="text-center py-2">Stage III</td>
+                <td className="text-center py-2">August 15, 2024</td>
+              </tr>
+              <tr>
+                <td rowSpan={2} className="font-semibold">
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <span className="text-red-500 font-bold">
+                      Camera Ready Paper
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="text-center py-2"> </td>
+                <td className="text-center py-2">September 15, 2024</td>
+              </tr>
+              <tr>
+                <td rowSpan={2} className="font-semibold">
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <span className="text-red-500 font-bold">
+                      Registration Deadline
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="text-center py-2"> </td>
+                <td className="text-center py-2">September 15, 2024</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p className="md:mb-8 leading-relaxed font-semibold text-lg text-center">
+        *10% of Registration fee will be reimbursed (applicable for
+        B.Tech./M.Tech. Students).
+      </p>
 
-<div class="md:mx-28 bg-red-100 w-[90%] md:w-[60%] lg:w-[60%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
-<table className='text-[12px] md:text-lg lg:text-lg w-full'>
-      <tbody>
-        <tr>
-          <td className='w-[35%] text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400' rowSpan={3}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span className='text-red-500 font-bold'>Paper Submission Deadline</span>
-            </div>
-          </td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='text-center py-2'>Early Bird*</td>
-          <td className='text-center py-2'>April 30, 2024</td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='text-center py-2'>Regular</td>
-          <td className='text-center py-2'>July 31, 2024</td>
-        </tr>
-        <tr>
-          <td rowSpan={4} className='font-semibold'>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span className='text-red-500 font-bold'>Acceptance Notification</span>
-            </div>
-          </td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='text-center py-2'>Stage 1</td>
-          <td className='text-center py-2'>May 15, 2024</td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='text-center py-2'>Stage 2</td>
-          <td className='text-center py-2'>June 15, 2024</td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='text-center py-2'>Stage 3</td>
-          <td className='text-center py-2'>August 15, 2024</td>
-        </tr>
-        <tr>
-          <td rowSpan={2} className='font-semibold'>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span className='text-red-500 font-bold'>Camera Ready Paper</span>
-            </div>
-          </td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='text-center py-2'>     </td>
-          <td className='text-center py-2'>September 15, 2024</td>
-        </tr>
-        <tr>
-          <td rowSpan={2} className='font-semibold'>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span className='text-red-500 font-bold'>Registration Deadline</span>
-            </div>
-          </td>
-        </tr>
-        <tr className='border-b-2 border-stone-400'>
-          <td className='text-center py-2'>    </td>
-          <td className='text-center py-2'>September 15, 2024</td>
-        </tr>
-      </tbody>
-    </table>
-    
-</div>
-</div>
-<p className="md:mb-8 leading-relaxed font-semibold text-lg text-center">
-                *10% of Registration fee will be reimbursed (applicable for B.Tech./M.Tech. Students).
-</p>
-
-
-{/*
+      {/*
 <div className='text-center'>
 <div className='mt-24 px-4 md:px-0'>
     <p className='text-[15px] font-semibold md:text-[22px] lg:text-xl'>For Regular Registrations <span className='text-red-500 font-bold'>( After 31 January, 2023, 11 PM-IST)</span></p>
@@ -196,7 +228,7 @@ const Dates = () => {
 </div>
 </div>
 */}
-{/*
+      {/*
 <div className='text-center mt-12 '>
     <Link href="/tuned" ><span className=' rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success'>Registration Form</span></Link>
 </div>
@@ -206,7 +238,7 @@ const Dates = () => {
 </div>
 */}
     </div>
-  )
-}
+  );
+};
 
-export default Dates
+export default Dates;

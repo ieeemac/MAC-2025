@@ -4,14 +4,20 @@ import cool from "../styles/track.module.css";
 
 const Sponsor = () => {
   return (
-    <div className={`py-20 ${gradients.homePage} text-black`}>
+    <div
+      className={`py-20 ${gradients.homePage} text-black`}
+      style={{ fontFamily: "Cambria" }}
+    >
       <div className="mt-6 p-2">
         <h2 className="text-center text-2xl md:text-3xl font-extrabold">
           <span className="border-b-4 border-orange-400 pb-2 px-2 md:px-8">
             Welcome Message
           </span>
         </h2>
-        <div className="p-2 pt-8 lg:text-lg lg:px-16">
+        <div
+          className="p-2 pt-8 lg:text-lg lg:px-16"
+          style={{ fontSize: "20px" }}
+        >
           <p className="text-justify">
             The IEEE International Conference on Microwave, Antenna, and
             Communications (MAC 2024) is a premier 3-days event bringing
@@ -58,16 +64,19 @@ const Sponsor = () => {
 
       <div className="mt-6 p-2">
         <h1 className="font-extrabold text-2xl md:text-3xl text-center">
-          <span className=" border-b-4 border-blue-800 px-0 md:px-8 pb-2">
-            Level Of <span className="text-blue-800">Sponsorships</span>
+          <span
+            className=" border-b-4  px-0 md:px-8 pb-2"
+            style={{ borderColor: "#0000FF" }}
+          >
+            Level Of <span style={{ color: "#0000FF" }}>Sponsorships</span>
           </span>
         </h1>
 
         <div className="lg:px-16 flex flex-col items-center">
           <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
             <h2 className="text-xl lg:text-2xl font-bold p-2">
-              <span className="text-blue-800">Signature</span> sponsor:{" "}
-              <span className="text-blue-800">INR 5.0 Lakh</span>
+              <span style={{ color: "#0000FF" }}>Signature</span> sponsor:{" "}
+              <span style={{ color: "#0000FF" }}>INR 5.0 Lakh</span>
             </h2>
             <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
               <li>10 Complimentary delegate passes</li>
@@ -91,8 +100,8 @@ const Sponsor = () => {
           <div className="w-full flex flex-col lg:flex-row gap-8 justify-between">
             <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
               <h2 className="text-xl lg:text-2xl font-bold p-2">
-                <span className="text-blue-800">Diamond</span> sponsor:{" "}
-                <span className="text-blue-800">INR 3.0 Lakh</span>
+                <span style={{ color: "#0000FF" }}>Diamond</span> sponsor:{" "}
+                <span style={{ color: "#0000FF" }}>INR 3.0 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>5 Complimentary delegate passes</li>
@@ -107,16 +116,18 @@ const Sponsor = () => {
               </ul>
             </div>
 
-            <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
+            <div
+              className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
+            >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
-                <span className="text-blue-800">Platinum</span> sponsor:{" "}
-                <span className="text-blue-800">INR 2 Lakh</span>
+                <span style={{ color: "#0000FF" }}>Platinum</span> sponsor:{" "}
+                <span style={{ color: "#0000FF" }}>INR 2 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>4 Complimentary delegate passes</li>
                 <li>10 minutes presentation slot</li>
                 <li>Acknowledgement during Awards and Valedictory functions</li>
-                <li>2 Complimentary exhibit booths at Prime Location</li>
+                <li>Complimentary exhibit booths at Prime Location</li>
                 <li>
                   Prominent display of logo on all printed material, backdrop
                   and website
@@ -127,12 +138,10 @@ const Sponsor = () => {
           </div>
 
           <div className="w-full flex flex-col lg:flex-row gap-8 justify-between">
-            <div
-              className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
-            >
+            <div className={`px-2 card  shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
               <h2 className="text-xl lg:text-2xl font-bold p-2">
-                <span className="text-blue-800">Gold</span> sponsor:{" "}
-                <span className="text-blue-800">INR 1.5 Lakh</span>
+                <span style={{ color: "#0000FF" }}>Gold</span> sponsor:{" "}
+                <span style={{ color: "#0000FF" }}>INR 1.5 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>3 Complimentary delegate passes</li>
@@ -151,8 +160,8 @@ const Sponsor = () => {
               className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
-                <span className="text-blue-800">Silver/Start-Ups</span> sponsor:{" "}
-                <span className="text-blue-800">INR 1.0 Lakh</span>
+                <span style={{ color: "#0000FF" }}>Silver/Start-UPs</span>{" "}
+                sponsor: <span style={{ color: "#0000FF" }}>INR 1.0 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>2 Complimentary delegate passes</li>
@@ -162,7 +171,7 @@ const Sponsor = () => {
                 <li>Display of logo on all printed material and website</li>
                 <li>Permission to keep Company brochure in registration Kit</li>
                 <li>
-                  15-minute Interaction Session slot especially for Start-Ups
+                  15-minute Interaction Session slot especially for Start-UPs
                 </li>
               </ul>
             </div>
