@@ -89,7 +89,7 @@ const HomeMain = () => {
           </div>
           <div className="top-[10%] md:top-[10%] lg:top-[20%] xl:top-[5%] py-8 px-4 w-[90%] md:w-[30%] lg:w-[30%] flex flex-col justify-center items-center text-white rounded-2xl z-10 ">
             <a
-              href="/MAC 2024 CFP.pdf"
+              href="/MAC 2024 Flyer_23 Apr.pdf"
               download={true}
               class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
             >
@@ -129,6 +129,9 @@ const HomeMain = () => {
                   </span>
                   <span className="text-orange-500 font-bold text-xl block">
                     IIT Roorkee, India
+                  </span>
+                  <span className="text-orange-500 font-bold text-xl block">
+                    NIT Uttarakhand, India
                   </span>
                   <span className="text-orange-500 font-bold text-xl block">
                     THDC Institute of Hydropower Engineering and Technology,
