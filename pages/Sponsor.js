@@ -19,7 +19,7 @@ const Sponsor = () => {
           style={{ fontSize: "20px" }}
         >
           <p className="text-justify">
-            The IEEE International Conference on Microwave, Antenna, and
+            The International Conference on Microwave, Antenna, and
             Communications (MAC 2024) is a premier 3-days event bringing
             together nearly 1,000 researchers, engineers, and industry leaders
             from around the world to exchange knowledge, share insights, and
