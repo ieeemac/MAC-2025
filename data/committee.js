@@ -184,7 +184,7 @@ export const committeeMembers = [
       },
       {
         fullName: "Dr. Sanjeev Yadav",
-        organisation: "Women Engineering College Ajmer, India",
+        organisation: "Central University of Jammu, India",
       },
       {
         fullName: "Mr. Atmakuru Nagaraju",
