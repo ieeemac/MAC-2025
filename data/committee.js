@@ -104,10 +104,10 @@ export const committeeMembers = [
     title: "Executive Committee",
     name: "executiveCommittee",
     data: [
-      {
-        fullName: "Prof. Nazanin Bassiri-Gharb",
-        organisation: "Georgia Institute of Technology, USA",
-      },
+      // {
+      //   fullName: "Prof. Nazanin Bassiri-Gharb",
+      //   organisation: "Georgia Institute of Technology, USA",
+      // },
       {
         fullName: "Dr. S.K. Varshney ",
         organisation: "Adviser/Scientist G, DST, Government of India",
@@ -117,15 +117,15 @@ export const committeeMembers = [
         fullName: "Dr. C.J. Reddy",
         organisation: "Business Development at Altair Engineering, Inc. USA",
       },
-      {
-        fullName: "Mr. Evgeny Markin",
-        organisation: "Richemar LLC, USA",
-      },
+      // {
+      //   fullName: "Mr. Evgeny Markin",
+      //   organisation: "Richemar LLC, USA",
+      // },
 
-      {
-        fullName: "Prof. Andrea Massa",
-        organisation: "University of Trento, Italy",
-      },
+      // {
+      //   fullName: "Prof. Andrea Massa",
+      //   organisation: "University of Trento, Italy",
+      // },
       {
         fullName: "Dr. Nasimuddin",
         organisation: "Institute for Infocomm Research, Singapore",
@@ -154,10 +154,10 @@ export const committeeMembers = [
         fullName: "Prof. Yogesh Singh Chauhan",
         organisation: "IIT Kanpur, India",
       },
-      {
-        fullName: "Dr. Hongwei (Howard) Liu",
-        organisation: "ARI & NARI, USA",
-      },
+      // {
+      //   fullName: "Dr. Hongwei (Howard) Liu",
+      //   organisation: "ARI & NARI, USA",
+      // },
       {
         fullName: "Dr. Chandrakanta Kumar",
         organisation: "ISRO, India",
@@ -200,10 +200,10 @@ export const committeeMembers = [
     title: "Advisory Committee",
     name: "advisoryCommittee",
     data: [
-      {
-        fullName: "Dr. Goutam Chattopadhyay",
-        organisation: "JPL , NASA, USA",
-      },
+      // {
+      //   fullName: "Dr. Goutam Chattopadhyay",
+      //   organisation: "JPL , NASA, USA",
+      // },
       {
         fullName: "Dr. Ramesh K. Gupta",
         organisation: "VP, Satellite Network Engineering and Operations, USA",
@@ -224,14 +224,14 @@ export const committeeMembers = [
         fullName: "Dr. Kumar Krishen",
         organisation: "University of Houston, USA",
       },
-      {
-        fullName: "Dr. Leon T. Geter",
-        organisation: "Benedict College, Columbia, USA",
-      },
-      {
-        fullName: "Dr. Anurag K. Srivastava",
-        organisation: "West Virginia University, Morgantown, USA",
-      },
+      // {
+      //   fullName: "Dr. Leon T. Geter",
+      //   organisation: "Benedict College, Columbia, USA",
+      // },
+      // {
+      //   fullName: "Dr. Anurag K. Srivastava",
+      //   organisation: "West Virginia University, Morgantown, USA",
+      // },
       {
         fullName: "Prof. Abhay Karandikar",
         organisation: "IIT Kanpur, India",
@@ -252,22 +252,22 @@ export const committeeMembers = [
         fullName: "Prof. Arvind Choubey",
         organisation: "IIIT Bhagalpur, India",
       },
-      {
-        fullName: "Prof. Levent Sevgi",
-        organisation: "ATLAS University, Turkey",
-      },
-      {
-        fullName: "Prof. Rocco Pierri",
-        organisation: "University of Campania Luigi Vanvitelli, Italy",
-      },
+      // {
+      //   fullName: "Prof. Levent Sevgi",
+      //   organisation: "ATLAS University, Turkey",
+      // },
+      // {
+      //   fullName: "Prof. Rocco Pierri",
+      //   organisation: "University of Campania Luigi Vanvitelli, Italy",
+      // },
       {
         fullName: "Prof. Sembiam R. Rengarajan",
         organisation: " California State University, Northridge, USA",
       },
-      {
-        fullName: "Prof. Omar M Ramahi",
-        organisation: "University of Waterloo, Canada",
-      },
+      // {
+      //   fullName: "Prof. Omar M Ramahi",
+      //   organisation: "University of Waterloo, Canada",
+      // },
       {
         fullName: "Prof. K. Subramaniyan",
         organisation: "IGNOU, India",
@@ -277,10 +277,10 @@ export const committeeMembers = [
         fullName: "Prof. M.V. Kartikeyan",
         organisation: "IIT Tirupati, India",
       },
-      {
-        fullName: "Prof. Arturo Mediano",
-        organisation: "University of Zaragoza, Spain",
-      },
+      // {
+      //   fullName: "Prof. Arturo Mediano",
+      //   organisation: "University of Zaragoza, Spain",
+      // },
       {
         fullName: "Prof. Dharmendra Singh",
         organisation: "IIT Roorkee, India",
@@ -293,10 +293,10 @@ export const committeeMembers = [
         fullName: "Prof. Manoj Kumar Meshram",
         organisation: "IIT BHU, India",
       },
-      {
-        fullName: "Dr. Maurizio Bozzi",
-        organisation: "University of Pavia, Italy",
-      },
+      // {
+      //   fullName: "Dr. Maurizio Bozzi",
+      //   organisation: "University of Pavia, Italy",
+      // },
       {
         fullName: "Dr. Raghvendra Chaudhary",
         organisation: "IIT Kanpur, India",
@@ -325,10 +325,10 @@ export const committeeMembers = [
       //     fullName:'Dr. V.S. Gangwar',
       //     organisation:'LRDE, DRDO, India'
       // },
-      {
-        fullName: "Dr. George Shaker",
-        organisation: " University of Waterloo, Canada",
-      },
+      // {
+      //   fullName: "Dr. George Shaker",
+      //   organisation: " University of Waterloo, Canada",
+      // },
       {
         fullName: "Dr. Dilip Kumar Kothari",
         organisation: "Nirma University, Ahmedabad, India",
@@ -345,22 +345,22 @@ export const committeeMembers = [
         fullName: "Mr. Raj Kumar Malaviya",
         organisation: "ATMS, India",
       },
-      {
-        fullName: "Mr. Spandan Manna",
-        organisation: "RWTH Aachen University, Germany",
-      },
-      {
-        fullName: "Mr. Sanjeevikumar Padmanaban",
-        organisation: "Canada",
-      },
-      {
-        fullName: "Mr. Shobit Agarwal,",
-        organisation: "Università di Bologna, Italy",
-      },
-      {
-        fullName: "Dr. Chow Yen Desmond Sim",
-        organisation: "Feng Chia University, Taichung, Taiwan",
-      },
+      // {
+      //   fullName: "Mr. Spandan Manna",
+      //   organisation: "RWTH Aachen University, Germany",
+      // },
+      // {
+      //   fullName: "Mr. Sanjeevikumar Padmanaban",
+      //   organisation: "Canada",
+      // },
+      // {
+      //   fullName: "Mr. Shobit Agarwal,",
+      //   organisation: "Università di Bologna, Italy",
+      // },
+      // {
+      //   fullName: "Dr. Chow Yen Desmond Sim",
+      //   organisation: "Feng Chia University, Taichung, Taiwan",
+      // },
       // {
       //     fullName:'Mr. Pinaki Sen',
       //     organisation:'Scientist H, DEAL, DRDO'
@@ -439,24 +439,24 @@ export const committeeMembers = [
         fullName: "Dr. Prashant Ranjan (Chair)",
         organisation: "UEM Jaipur, India",
       },
-      {
-        fullName: "Prof. Zhi Ning Chen",
-        organisation: "ARTIC, NUS Singapore",
-      },
-      {
-        fullName: "Prof. Mohammad S. Sharawi",
-        organisation: " Polytechnique Montréal, Canada",
-      },
+      // {
+      //   fullName: "Prof. Zhi Ning Chen",
+      //   organisation: "ARTIC, NUS Singapore",
+      // },
+      // {
+      //   fullName: "Prof. Mohammad S. Sharawi",
+      //   organisation: " Polytechnique Montréal, Canada",
+      // },
 
-      {
-        fullName: "Dr. Wen Cheng Lai",
-        organisation:
-          "National Yunlin University of Science and Technology, Taiwan",
-      },
-      {
-        fullName: "Dr. Rabie A. Ramadan",
-        organisation: "University of Hail, KSA",
-      },
+      // {
+      //   fullName: "Dr. Wen Cheng Lai",
+      //   organisation:
+      //     "National Yunlin University of Science and Technology, Taiwan",
+      // },
+      // {
+      //   fullName: "Dr. Rabie A. Ramadan",
+      //   organisation: "University of Hail, KSA",
+      // },
       {
         fullName: "Dr. Gaurav Mittal",
         organisation: "DEAL, DRDO, India",
@@ -469,14 +469,14 @@ export const committeeMembers = [
         fullName: "Dr. Rajat Kumar Singh",
         organisation: "IIIT Allahabad, India",
       },
-      {
-        fullName: "Dr. Dhananjay Singh",
-        organisation: "Hankuk University, South Korea",
-      },
-      {
-        fullName: "Dr. Mohseen Koohestani",
-        organisation: "ESEO, Angers, France",
-      },
+      // {
+      //   fullName: "Dr. Dhananjay Singh",
+      //   organisation: "Hankuk University, South Korea",
+      // },
+      // {
+      //   fullName: "Dr. Mohseen Koohestani",
+      //   organisation: "ESEO, Angers, France",
+      // },
 
       {
         fullName: "Dr. Karun Rawat",
