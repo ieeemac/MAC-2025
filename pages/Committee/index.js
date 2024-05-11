@@ -1,9 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import gradients from '../../styles/customGradient.module.css';
-import ProfileCard from '../../components/ProfileCard';
-import { cheifpatrons, patrons, honChairs, genChairs, confChairs, FinChairs, PublicChairs } from '../../data/committee';
-import { useScrollLock, useViewportSize } from '@mantine/hooks';
-import CommitteeSidebar from '../../components/CommitteeSidebar';
+import React, { useState, useEffect } from "react";
+import gradients from "../../styles/customGradient.module.css";
+import ProfileCard from "../../components/ProfileCard";
+import {
+  cheifpatrons,
+  patrons,
+  honChairs,
+  genChairs,
+  confChairs,
+  FinChairs,
+  PublicChairs,
+  OrgChair,
+} from "../../data/committee";
+import { useScrollLock, useViewportSize } from "@mantine/hooks";
+import CommitteeSidebar from "../../components/CommitteeSidebar";
 
 const Committee = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,39 +29,44 @@ const Committee = () => {
   return (
     <>
       <div className={`mt-14 ${gradients.homePage} text-black`}>
-        <div className='relative md:flex '>
-          <CommitteeSidebar width={width} isOpen={isOpen} setIsOpen={setIsOpen} />
-          <div className='md:w-[70%] lg:w-[75%] pb-8'>
-            <div className='mt-2 mx-2 p-8 rounded-box flex flex-col gap-2 items-center'>
-              
+        <div className="relative md:flex ">
+          <CommitteeSidebar
+            width={width}
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+          />
+          <div className="md:w-[70%] lg:w-[75%] pb-8">
+            <div className="mt-2 mx-2 p-8 rounded-box flex flex-col gap-2 items-center">
               <div>
-                <div id='chiefpatron' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-4 text-xl md:text-3xl font-bold'>Chief Patron</h1>
+                <div id="chiefpatron" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-4 text-xl md:text-3xl font-bold">
+                  Chief Patron
+                </h1>
 
                 <ProfileCard
-                  title='Dr.'
+                  title="Dr."
                   fullName="B. K. Das"
-                  post='DG (ECS),'
+                  post="DG (ECS),"
                   organisation="DRDO"
-                  profileImage='/bkdas.png'
+                  profileImage="/bkdas.png"
                 />
-              </div> 
-               <div>
-                <div id='patron' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'>Patrons</h1>
-                <div className='flex gap-8 flex-wrap'>
+              </div>
+              <div>
+                <div id="patron" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">Patrons</h1>
+                <div className="flex gap-8 flex-wrap">
                   {patrons.map((patron) => (
                     <ProfileCard
                       key={patron.fullName}
                       title={patron.title}
                       fullName={patron.fullName}
-                      post=''
+                      post=""
                       profileImage={patron.profileImage}
                       organisation={patron.organisation}
                     />
                   ))}
                 </div>
-              </div> 
+              </div>
 
               {/* Commented out "Honorary Chairs" */}
               {/* <div>
@@ -71,17 +85,38 @@ const Committee = () => {
                   ))}
                 </div>
               </div> */}
-
               <div>
-                <div id='genchairs' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'>    General Chair</h1>
-                <div className='flex gap-8 flex-wrap'>
+                <div id="orgChair" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                  {" "}
+                  Organizing Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap">
+                  {OrgChair.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      title={chair.title}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div>
+                <div id="genchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                  {" "}
+                  General Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap">
                   {genChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
                       title={chair.title}
                       fullName={chair.fullName}
-                      post=''
+                      post=""
                       profileImage={chair.profileImage}
                       organisation={chair.organisation}
                     />
@@ -90,15 +125,17 @@ const Committee = () => {
               </div>
 
               <div>
-                <div id='confchairs' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold text-center'>Conference Chairs</h1>
-                <div className='flex gap-8 flex-wrap'>
+                <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  Conference Chairs
+                </h1>
+                <div className="flex gap-8 flex-wrap">
                   {confChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
                       title={chair.title}
                       fullName={chair.fullName}
-                      post=''
+                      post=""
                       profileImage={chair.profileImage}
                       organisation={chair.organisation}
                     />
@@ -107,15 +144,18 @@ const Committee = () => {
               </div>
 
               <div>
-                <div id='finchairs' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'> Finance Chair</h1>
-                <div className='flex gap-8 flex-wrap'>
+                <div id="finchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                  {" "}
+                  Finance Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap">
                   {FinChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
                       title={chair.title}
                       fullName={chair.fullName}
-                      post=''
+                      post=""
                       profileImage={chair.profileImage}
                       organisation={chair.organisation}
                     />
@@ -124,22 +164,24 @@ const Committee = () => {
               </div>
 
               <div>
-                <div id='pubchairs' className='h-20 mb-16 md:mb-0'></div>
-                <h1 className='mb-6 text-xl md:text-3xl font-bold'> Publication Chair</h1>
-                <div className='flex gap-8 flex-wrap'>
+                <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                  {" "}
+                  Publication Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap">
                   {PublicChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
                       title={chair.title}
                       fullName={chair.fullName}
-                      post=''
+                      post=""
                       profileImage={chair.profileImage}
                       organisation={chair.organisation}
                     />
                   ))}
                 </div>
               </div>
-
             </div>
           </div>
         </div>

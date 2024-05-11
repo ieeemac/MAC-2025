@@ -46,6 +46,12 @@ export const genChairs = [
     organisation: "MNNIT Allahabad, India",
     profileImage: "/vsTripathi.webp",
   },
+  {
+    title: "Prof.",
+    fullName: "Bharat Rawal",
+    organisation: "Grambling State University, USA",
+    profileImage: "/bharat rawal.JPG",
+  },
   // {
   //     title:'Mr.',
   //     fullName:'Manoj Kumar Dhaka',
@@ -60,6 +66,15 @@ export const FinChairs = [
     fullName: "Anand Sharma",
     organisation: "MNNIT Allahabad, India",
     profileImage: "/dranand.webp",
+  },
+];
+
+export const OrgChair = [
+  {
+    title: "Prof.",
+    fullName: "N P Pathak",
+    organisation: "IIT Roorkee, India",
+    profileImage: "/NAGENDRA P PATHAK.jpg",
   },
 ];
 
@@ -357,10 +372,10 @@ export const committeeMembers = [
       //   fullName: "Mr. Shobit Agarwal,",
       //   organisation: "Università di Bologna, Italy",
       // },
-      // {
-      //   fullName: "Dr. Chow Yen Desmond Sim",
-      //   organisation: "Feng Chia University, Taichung, Taiwan",
-      // },
+      {
+        fullName: "Dr. Chow Yen Desmond Sim",
+        organisation: "Feng Chia University, Taichung, Taiwan",
+      },
       // {
       //     fullName:'Mr. Pinaki Sen',
       //     organisation:'Scientist H, DEAL, DRDO'
@@ -504,6 +519,14 @@ export const committeeMembers = [
       },
       {
         fullName: "Dr. Ravi Panwar",
+        organisation: " IIT BHU Varanasi, India",
+      },
+      {
+        fullName: "Dr. Smrity Dwivedi",
+        organisation: " IIT BHU Varanasi, India",
+      },
+      {
+        fullName: "Dr. Om Jee Pandey",
         organisation: " IIT BHU Varanasi, India",
       },
       {
