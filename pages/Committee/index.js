@@ -44,7 +44,7 @@ const Committee = () => {
                 </h1>
 
                 <ProfileCard
-                  title="Dr."
+                  //title="Dr."
                   fullName="B. K. Das"
                   post="DG (ECS),"
                   organisation="DRDO"
@@ -58,7 +58,7 @@ const Committee = () => {
                   {patrons.map((patron) => (
                     <ProfileCard
                       key={patron.fullName}
-                      title={patron.title}
+                      // title={patron.title}
                       fullName={patron.fullName}
                       post=""
                       profileImage={patron.profileImage}
@@ -95,7 +95,7 @@ const Committee = () => {
                   {OrgChair.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
-                      title={chair.title}
+                      // title={chair.title}
                       fullName={chair.fullName}
                       post=""
                       profileImage={chair.profileImage}
@@ -114,7 +114,7 @@ const Committee = () => {
                   {genChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
-                      title={chair.title}
+                      // title={chair.title}
                       fullName={chair.fullName}
                       post=""
                       profileImage={chair.profileImage}
@@ -133,7 +133,7 @@ const Committee = () => {
                   {confChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
-                      title={chair.title}
+                      // title={chair.title}
                       fullName={chair.fullName}
                       post=""
                       profileImage={chair.profileImage}
@@ -153,7 +153,7 @@ const Committee = () => {
                   {FinChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
-                      title={chair.title}
+                      // title={chair.title}
                       fullName={chair.fullName}
                       post=""
                       profileImage={chair.profileImage}
@@ -173,7 +173,7 @@ const Committee = () => {
                   {PublicChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
-                      title={chair.title}
+                      // title={chair.title}
                       fullName={chair.fullName}
                       post=""
                       profileImage={chair.profileImage}
