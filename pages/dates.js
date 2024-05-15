@@ -9,108 +9,91 @@ const Dates = () => {
           Important Dates
         </span>
       </h1>
-      <div className="flex justify-center">
-        <div class="md:mx-28 bg-red-100 w-[90%] md:w-[60%] lg:w-[60%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
-          <table className="text-[12px] md:text-lg lg:text-lg w-full">
-            <tbody>
-              <tr>
-                <td
-                  className="w-[35%] text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
-                  rowSpan={3}
-                >
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <span className="text-red-500 font-bold">
-                      Paper Submission Deadline
-                    </span>
-                  </div>
-                </td>
-              </tr>
-              <tr className="border-b-2 border-stone-400">
-                <td className="text-center py-2">Early Bird*</td>
-                <td className="text-center py-2">April 30, 2024</td>
-              </tr>
-              <tr className="border-b-2 border-stone-400">
-                <td className="text-center py-2">Regular</td>
-                <td className="text-center py-2">July 31, 2024</td>
-              </tr>
-              <tr>
-                <td rowSpan={4} className="font-semibold">
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <span className="text-red-500 font-bold">
-                      Acceptance Notification
-                    </span>
-                  </div>
-                </td>
-              </tr>
-              <tr className="border-b-2 border-stone-400">
-                <td className="text-center py-2">Stage I</td>
-                <td className="text-center py-2">May 15, 2024</td>
-              </tr>
-              <tr className="border-b-2 border-stone-400">
-                <td className="text-center py-2">Stage II</td>
-                <td className="text-center py-2">June 15, 2024</td>
-              </tr>
-              <tr className="border-b-2 border-stone-400">
-                <td className="text-center py-2">Stage III</td>
-                <td className="text-center py-2">August 15, 2024</td>
-              </tr>
-              <tr>
-                <td rowSpan={2} className="font-semibold">
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <span className="text-red-500 font-bold">
-                      Camera Ready Paper
-                    </span>
-                  </div>
-                </td>
-              </tr>
-              <tr className="border-b-2 border-stone-400">
-                <td className="text-center py-2"> </td>
-                <td className="text-center py-2">September 15, 2024</td>
-              </tr>
-              <tr>
-                <td rowSpan={2} className="font-semibold">
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <span className="text-red-500 font-bold">
-                      Registration Deadline
-                    </span>
-                  </div>
-                </td>
-              </tr>
-              <tr className="border-b-2 border-stone-400">
-                <td className="text-center py-2"> </td>
-                <td className="text-center py-2">September 15, 2024</td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="flex justify-center">
+        <div class="flex flex-col w-full items-center justify-center">
+          <div class="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
+            <p class="md:mb-8 w-2/3 leading-relaxed font-semibold text-lg self-center text-left mt-4">
+              Papers are accepted in multiple stages.
+            </p>
+
+            <table class="text-[12px] md:text-lg lg:text-lg w-2/3">
+              <tbody colspan="3" rowspan="4">
+                <tr>
+                  <td class="text-center px-4 border border-black w-2/3 md: w-64">
+                    Category
+                  </td>
+                  <td class="text-center px-4 border border-black">
+                    Paper Submission Deadline
+                  </td>
+                  <td class="text-center px-4 border border-black w-2/3 md: w-64">
+                    Acceptance Notification
+                  </td>
+                </tr>
+                <tr class="">
+                  <td class="text-center py-2 border border-black w-2/3 md: w-64">
+                    Early Bird*
+                  </td>
+                  <td class="text-center py-2 text-red-500 border border-black">
+                    April 30, 2024
+                  </td>
+                  <td class="text-center py-2 border border-black w-2/3 md: w-64">
+                    May 15, 2024
+                  </td>
+                </tr>
+                <tr class="">
+                  <td class="text-center py-2 border border-black w-2/3 md: w-64">
+                    B.Tech/M.Tech Students*
+                  </td>
+                  <td class="text-center py-2 border border-black">
+                    May 30, 2024
+                  </td>
+                  <td class="text-center py-2 border border-black w-2/3 md: w-64">
+                    June 15, 2024
+                  </td>
+                </tr>
+                <tr class="">
+                  <td class="text-center py-2 border border-black w-2/3 md: w-64">
+                    Regular Paper
+                  </td>
+                  <td class="text-center py-2 border border-black">
+                    July 31, 2024
+                  </td>
+                  <td class="text-center py-2 border border-black w-2/3 md: w-64">
+                    August 15, 2024
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="w-full flex justify-center items-center font-bold italic">
+            <table class="w-2/3 border border-black">
+              <tbody>
+                <tr class=" border border-black" colSpan={3}>
+                  <td colSpan={2} class=" border border-black w-2/3 md: w-64">
+                    <div class="text-left px-4">
+                      Camera Ready Paper Submission Deadline
+                    </div>
+                  </td>
+                  <td class="text-center py-2 border border-black border border-black w-2/3 md: w-64">
+                    September 15, 2024
+                  </td>
+                </tr>
+                <tr class=" border border-black" colSpan={3}>
+                  <td colSpan={2} class=" border border-black w-2/3 md: w-64">
+                    <div class="text-left px-4">Registration Deadline</div>
+                  </td>
+                  <td class="text-center py-2 border border-black border border-black w-2/3 md: w-64">
+                    September 15, 2024
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-      <p className="md:mb-8 leading-relaxed font-semibold text-lg text-center">
-        *10% of Registration fee will be reimbursed (applicable for
-        B.Tech./M.Tech. Students).
+      <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
+        *10% of Registration fee will be reimbursed (applicable to only
+        B.Tech./M.Tech. Students who have registered as first author).
       </p>
 
       {/*

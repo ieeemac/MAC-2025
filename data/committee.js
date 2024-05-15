@@ -47,6 +47,12 @@ export const genChairs = [
     profileImage: "/vsTripathi.webp",
   },
   {
+    title: "Mr.",
+    fullName: "Puneet Kumar Mishra ",
+    organisation: "U R Rao Satellite Centre, ISRO Bengaluru",
+    profileImage: "/pkmishra.png",
+  },
+  {
     title: "Prof.",
     fullName: "Bharat Rawal",
     organisation: "Grambling State University, USA",
