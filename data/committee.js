@@ -24,19 +24,36 @@ export const patrons = [
 ];
 
 export const honChairs = [
+  // {
+  //   title: "Prof.",
+  //   fullName: "Bharat Rawal",
+  //   organisation: "Benedict College Columbia, USA",
+  //   profileImage: "/bharatRawal.webp",
+  // },
   {
     title: "Prof.",
-    fullName: "Bharat Rawal",
-    organisation: "Benedict College Columbia, USA",
-    profileImage: "/bharatRawal.webp",
+    fullName: "Cristiano Tomassoni",
+    organisation: "University of Perugia, Italy",
+    profileImage: "/Tomassoni_Cristiano (2).png",
   },
-
   {
-    title: "Prof.",
-    fullName: "Rajendra Kumar Nagaria",
-    organisation: "MNNIT Allahabad, India",
-    profileImage: "/rk.webp",
+    title: "Mr.",
+    fullName: "Manoj Kumar Dhaka",
+    organisation: "Scientist H,DRDO",
+    profileImage: "/sonali.png",
   },
+  {
+    title: "Mr.",
+    fullName: "Pinaki Sen",
+    organisation: "Scientist H,DRDO",
+    profileImage: "/sonali.png",
+  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Rajendra Kumar Nagaria",
+  //   organisation: "MNNIT Allahabad, India",
+  //   profileImage: "/rk.webp",
+  // },
 ];
 
 export const genChairs = [
@@ -44,13 +61,13 @@ export const genChairs = [
     title: "Prof.",
     fullName: "Vijay Shanker Tripathi ",
     organisation: "MNNIT Allahabad, India",
-    profileImage: "/vsTripathi.webp",
+    profileImage: "/vst_sir_pic.png",
   },
   {
     title: "Mr.",
     fullName: "Puneet Kumar Mishra ",
     organisation: "U R Rao Satellite Centre, ISRO Bengaluru",
-    profileImage: "/pkmishra.png",
+    profileImage: "/puneet_mishra_sir_1.png",
   },
   {
     title: "Prof.",
@@ -65,13 +82,225 @@ export const genChairs = [
   //     profileImage:'/mkdhaka.png'
   // }
 ];
+export const ProgramChair = [
+  {
+    title: "Dr.",
+    fullName: "Gaurav Mittal",
+    organisation: "Scientist E",
+    profileImage: "/sonali.png",
+  },
+];
+export const KeynoteChair = [
+  {
+    title: "Ms.",
+    fullName: "Neetu Kandpal",
+    organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+  {
+    title: "Ms.",
+    fullName: "Kiran Chauhan",
+    organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+  {
+    title: "Mr.",
+    fullName: "Satendra Kumar Yadav",
+    organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+];
+export const MarketingChair = [
+  {
+    title: "Mr.",
+    fullName: "T K Verma",
+    organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const WorkshopChair = [
+  {
+    title: "Mr.",
+    fullName: "Arvind Kumar",
+    organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const WorkshopCoChair = [
+  {
+    title: "Mr.",
+    fullName: "Umesh Bahuguna",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const WebsiteChair = [
+  {
+    title: "Mr.",
+    fullName: "Raj Kumar",
+    organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const IndustryInteractionChair = [
+  {
+    title: "Dr.",
+    fullName: "Girish Kumar Tripathi",
+    //organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const AcademicOutreachChair = [
+  {
+    title: "Mr.",
+    fullName: "Bhanu Pratap Singh",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const EventManagementChair = [
+  {
+    title: "Ms.",
+    fullName: "Jaya Mishra",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const SponsorshipChair = [
+  {
+    title: "Mr.",
+    fullName: "V N Singh",
+    organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+  {
+    title: "Mr.",
+    fullName: "V K Singh",
+    organisation: "Scientist G",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const LocalArrangementsChair = [
+  {
+    title: "Ms.",
+    fullName: "Gopa Bhattacharya Choudhary",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const RegistrationChair = [
+  {
+    title: "Dr.",
+    fullName: "Trilok Kumar Saini",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const SocialMediaChair = [
+  {
+    title: "Mr.",
+    fullName: "Binod Pal",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const PublicityCoChair = [
+  {
+    title: "Mr.",
+    fullName: "Sanjay",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
+  {
+    title: "Mr.",
+    fullName: "D P Tripathi",
+    organisation: "Scientist E",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const EventManagementCoChair = [
+  {
+    title: "Mr.",
+    fullName: "Atul Wadhwa",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const IndustryInteractionCoChair = [
+  {
+    title: "Mr.",
+    fullName: "Rajneesh Singhal",
+    organisation: "Scientist E",
+    profileImage: "/sonali.png",
+  },
+  {
+    title: "Mr.",
+    fullName: "Lalit Suthar",
+    organisation: "Scientist E",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const HospitalityChair = [
+  {
+    title: "Mr.",
+    fullName: "Sushil Kumar Singh",
+    organisation: "Scientist E",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const SponsorshipCoChair = [
+  {
+    title: "Mr.",
+    fullName: "Trilok Chand Dhal",
+    organisation: "Scientist D",
+    profileImage: "/sonali.png",
+  },
+];
+export const RegistrationCoChair = [
+  {
+    title: "Mr.",
+    fullName: "Nikhil Mittal",
+    organisation: "Scientist C",
+    profileImage: "/sonali.png",
+  },
+];
+
+export const LocalArrangementsCoChair = [
+  {
+    title: "Mr.",
+    fullName: "Akash Gupta",
+    organisation: "Scientist B",
+    profileImage: "/sonali.png",
+  },
+  {
+    title: "Ms.",
+    fullName: "Chanchal",
+    organisation: "Scientist B",
+    profileImage: "/sonali.png",
+  },
+];
 
 export const FinChairs = [
   {
     title: "Dr.",
     fullName: "Anand Sharma",
     organisation: "MNNIT Allahabad, India",
-    profileImage: "/dranand.webp",
+    profileImage: "/dranand.png",
   },
 ];
 
@@ -80,7 +309,7 @@ export const OrgChair = [
     title: "Prof.",
     fullName: "N P Pathak",
     organisation: "IIT Roorkee, India",
-    profileImage: "/NAGENDRA P PATHAK.jpg",
+    profileImage: "/nppathak.png",
   },
 ];
 
@@ -89,7 +318,7 @@ export const PublicChairs = [
     title: "Dr.",
     fullName: "Gaurav Upadhyay",
     organisation: "MANIT Bhopal, India",
-    profileImage: "/drgaurav.webp",
+    profileImage: "/drgaurav.png",
   },
 ];
 
@@ -98,7 +327,7 @@ export const confChairs = [
     title: "Dr.",
     fullName: "Tushar Goel ",
     organisation: "NIT Uttarakhand, India",
-    profileImage: "/drtushar.webp",
+    profileImage: "/drtushar.png",
   },
   {
     title: "Dr.",
@@ -106,12 +335,12 @@ export const confChairs = [
     organisation: "MMMUT Gorakhpur, India",
     profileImage: "/drrajanmishra.webp",
   },
-  // {
-  //     title:'Ms.',
-  //     fullName:'Sonali Agarwal ',
-  //     organisation:'Scientist F, DEAL, DRDO',
-  //     profileImage:'/sonali.png'
-  // },
+  {
+    title: "Ms.",
+    fullName: "Sonali Agarwal ",
+    organisation: "Scientist F",
+    profileImage: "/sonali.png",
+  },
   // {
   //     title:'Dr.',
   //     fullName:'Gaurav Mittal',
@@ -167,10 +396,10 @@ export const committeeMembers = [
         fullName: "Prof. Kumar Vaibhav Srivastava",
         organisation: "IIT Kanpur, India",
       },
-      {
-        fullName: "Mr. Puneet Kumar Mishra",
-        organisation: "ISRO India",
-      },
+      // {
+      //   fullName: "Mr. Puneet Kumar Mishra",
+      //   organisation: "ISRO India",
+      // },
       {
         fullName: "Prof. Yogesh Singh Chauhan",
         organisation: "IIT Kanpur, India",
@@ -634,6 +863,10 @@ export const committeeMembers = [
         fullName: "Dr. Thummaluru Sreenath Reddy",
         organisation: "IIIT Kanchipuram, India",
       },
+      {
+        fullName: "Mr. Anand Sahu",
+        organisation: "Scientist C, DEAL",
+      },
     ],
   },
   {
@@ -663,6 +896,14 @@ export const committeeMembers = [
       {
         fullName: "Ms. Shipra Bhatia",
         organisation: "CSIR-CEERI, Pilani, India",
+      },
+      {
+        fullName: "Ms. Subhashini",
+        organisation: "Scientist C, DEAL",
+      },
+      {
+        fullName: "Ms. Nupur Sood",
+        organisation: "Scientist D, DEAL",
       },
     ],
   },
