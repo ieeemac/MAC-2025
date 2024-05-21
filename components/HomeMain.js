@@ -34,7 +34,10 @@ const HomeMain = () => {
   </div>
 </div> */}
       <SponsorCarousel />
-
+      <p className="bg-blue-100 text-blue-900 px-4 py-3 shadow-md font-bold">
+        Extended version of the top 10% papers from MAC 2024 will be published
+        in a special issue of Defence Science Journal(SCI).
+      </p>
       <div
         className={`h-[60vh] md:h-[95vh] mt-[15px] relative ${gradients.homePage}`}
       >
