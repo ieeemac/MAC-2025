@@ -11,7 +11,7 @@ export const patrons = [
   {
     title: "Mr.",
     fullName: "L. C. Mangal",
-    organisation: "Director (DEAL), DRDO",
+    organisation: "Director (DEAL), DRDO,Dehradun,India",
     profileImage: "/lcmangal.png",
   },
   {
@@ -39,13 +39,13 @@ export const honChairs = [
   {
     title: "Mr.",
     fullName: "Manoj Kumar Dhaka",
-    organisation: "Scientist H,DRDO",
+    organisation: "Scientist H(DEAL),DRDO,Dehradun,India",
     profileImage: "/sonali.png",
   },
   {
     title: "Mr.",
     fullName: "Pinaki Sen",
-    organisation: "Scientist H,DRDO",
+    organisation: "Scientist H(DEAL),DRDO,Dehradun,India",
     profileImage: "/sonali.png",
   },
   // {
@@ -86,133 +86,133 @@ export const ProgramChair = [
   {
     title: "Dr.",
     fullName: "Gaurav Mittal",
-    organisation: "Scientist E",
+    organisation: "Scientist E (DEAL), DRDO,Dehradun,India",
     profileImage: "/sonali.png",
   },
 ];
 export const KeynoteChair = [
   {
     title: "Ms.",
-    fullName: "Neetu Kandpal",
-    organisation: "Scientist G",
+    fullName: "Neeta Kandpal",
+    organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
     profileImage: "/sonali.png",
   },
   {
     title: "Ms.",
     fullName: "Kiran Chauhan",
-    organisation: "Scientist G",
+    organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
     profileImage: "/sonali.png",
   },
-  {
-    title: "Mr.",
-    fullName: "Satendra Kumar Yadav",
-    organisation: "Scientist G",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Satendra Kumar Yadav",
+  //   organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 export const MarketingChair = [
-  {
-    title: "Mr.",
-    fullName: "T K Verma",
-    organisation: "Scientist G",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "T K Verma",
+  //   organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const WorkshopChair = [
-  {
-    title: "Mr.",
-    fullName: "Arvind Kumar",
-    organisation: "Scientist G",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Arvind Kumar",
+  //   organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const WorkshopCoChair = [
-  {
-    title: "Mr.",
-    fullName: "Umesh Bahuguna",
-    organisation: "Scientist F",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Umesh Bahuguna",
+  //   organisation: "Scientist F(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const WebsiteChair = [
-  {
-    title: "Mr.",
-    fullName: "Raj Kumar",
-    organisation: "Scientist G",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Raj Kumar",
+  //   organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const IndustryInteractionChair = [
-  {
-    title: "Dr.",
-    fullName: "Girish Kumar Tripathi",
-    //organisation: "Scientist G",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Girish Chandra Tripathi",
+  //   organisation: "Scientist G,Tejas network,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const AcademicOutreachChair = [
-  {
-    title: "Mr.",
-    fullName: "Bhanu Pratap Singh",
-    organisation: "Scientist F",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Bhanu Pratap Singh",
+  //   organisation: "Scientist F(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const EventManagementChair = [
-  {
-    title: "Ms.",
-    fullName: "Jaya Mishra",
-    organisation: "Scientist F",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Ms.",
+  //   fullName: "Jaya Mishra",
+  //   organisation: "Scientist F (DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const SponsorshipChair = [
-  {
-    title: "Mr.",
-    fullName: "V N Singh",
-    organisation: "Scientist G",
-    profileImage: "/sonali.png",
-  },
-  {
-    title: "Mr.",
-    fullName: "V K Singh",
-    organisation: "Scientist G",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "V N Singh",
+  //   organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
+  // {
+  //   title: "Mr.",
+  //   fullName: "V K Singh",
+  //   organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const LocalArrangementsChair = [
-  {
-    title: "Ms.",
-    fullName: "Gopa Bhattacharya Choudhary",
-    organisation: "Scientist F",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Ms.",
+  //   fullName: "Gopa Bhattacharya Choudhary",
+  //   organisation: "Scientist F(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const RegistrationChair = [
-  {
-    title: "Dr.",
-    fullName: "Trilok Kumar Saini",
-    organisation: "Scientist F",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Trilok Kumar Saini",
+  //   organisation: "Scientist F(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const SocialMediaChair = [
-  {
-    title: "Mr.",
-    fullName: "Binod Pal",
-    organisation: "Scientist F",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Binod Pal",
+  //   organisation: "Scientist F(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const PublicityCoChair = [
@@ -231,36 +231,36 @@ export const PublicityCoChair = [
 ];
 
 export const EventManagementCoChair = [
-  {
-    title: "Mr.",
-    fullName: "Atul Wadhwa",
-    organisation: "Scientist F",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Atul Wadhwa",
+  //   organisation: "Scientist F (DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const IndustryInteractionCoChair = [
-  {
-    title: "Mr.",
-    fullName: "Rajneesh Singhal",
-    organisation: "Scientist E",
-    profileImage: "/sonali.png",
-  },
-  {
-    title: "Mr.",
-    fullName: "Lalit Suthar",
-    organisation: "Scientist E",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Rajneesh Singhal",
+  //   organisation: "Scientist E(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Lalit Suthar",
+  //   organisation: "Scientist E(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const HospitalityChair = [
-  {
-    title: "Mr.",
-    fullName: "Sushil Kumar Singh",
-    organisation: "Scientist E",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Sushil Kumar Singh",
+  //   organisation: "Scientist E(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const SponsorshipCoChair = [
@@ -272,27 +272,27 @@ export const SponsorshipCoChair = [
   },
 ];
 export const RegistrationCoChair = [
-  {
-    title: "Mr.",
-    fullName: "Nikhil Mittal",
-    organisation: "Scientist C",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Nikhil Mittal",
+  //   organisation: "Scientist C(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const LocalArrangementsCoChair = [
-  {
-    title: "Mr.",
-    fullName: "Akash Gupta",
-    organisation: "Scientist B",
-    profileImage: "/sonali.png",
-  },
-  {
-    title: "Ms.",
-    fullName: "Chanchal",
-    organisation: "Scientist B",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Akash Gupta",
+  //   organisation: "Scientist B(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
+  // {
+  //   title: "Ms.",
+  //   fullName: "Chanchal",
+  //   organisation: "Scientist B(DEAL), DRDO,Dehradun,India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const FinChairs = [
@@ -338,7 +338,7 @@ export const confChairs = [
   {
     title: "Ms.",
     fullName: "Sonali Agarwal ",
-    organisation: "Scientist F",
+    organisation: "Scientist F(DEAL),DRDO,Dehradun,India",
     profileImage: "/sonali.png",
   },
   // {
@@ -497,6 +497,10 @@ export const committeeMembers = [
       {
         fullName: "Prof. Animesh Biswas",
         organisation: "IIT Kanpur, India",
+      },
+      {
+        fullName: "Prof. Cristiano Tomassoni",
+        organisation: "University of Perugia, Italy",
       },
       {
         fullName: "Prof. Arvind Choubey",

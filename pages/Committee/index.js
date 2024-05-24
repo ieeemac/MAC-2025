@@ -65,7 +65,7 @@ const Committee = () => {
                   //title="Dr."
                   fullName="B. K. Das"
                   post="DG (ECS),"
-                  organisation="DRDO"
+                  organisation="DRDO,India"
                   profileImage="/bkdas.png"
                 />
               </div>
@@ -187,7 +187,8 @@ const Committee = () => {
                   ))}
                 </div>
               </div>
-              <div>
+
+              {/* <div>
                 <div id="eventmanagechair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -207,8 +208,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div
                   id="eventmanagecochair"
                   className="h-20 mb-16 md:mb-0"
@@ -231,7 +233,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               <div>
                 <div id="keynotechair" className="h-20 mb-16 md:mb-0"></div>
@@ -252,7 +254,8 @@ const Committee = () => {
                   ))}
                 </div>
               </div>
-              <div>
+
+              {/* <div>
                 <div id="hospitalitychair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -272,9 +275,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
 
-              <div>
+              {/* <div>
                 <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -294,8 +297,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div
                   id="industryintcochair"
                   className="h-20 mb-16 md:mb-0"
@@ -318,8 +322,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div id="academicout" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -339,8 +344,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div id="sponsorshipchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -360,8 +366,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div id="marketingchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -381,8 +388,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div id="socialmdchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -402,8 +410,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div id="websitechair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -423,8 +432,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div id="workshopchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -444,8 +454,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div id="workshopcochair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -465,7 +476,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
+
+              {/*               
               <div>
                 <div id="regchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
@@ -486,8 +499,9 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+
+              {/* <div>
                 <div id="regcochair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -507,8 +521,8 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <div
                   id="localarrangechair"
                   className="h-20 mb-16 md:mb-0"
@@ -531,8 +545,8 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <div
                   id="localarrangecochair"
                   className="h-20 mb-16 md:mb-0"
@@ -555,7 +569,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
               <div>
                 <div id="finchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">

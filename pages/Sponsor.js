@@ -181,7 +181,8 @@ const Sponsor = () => {
       <div className="mt-8 p-2 mx-2 md:mx-8">
         <h1 className="font-extrabold text-2xl md:text-3xl text-center">
           <span className=" border-b-4 border-orange-500 px-0 md:px-8 pb-2">
-            Our <span className="text-cyan-600">Sponsors</span>
+            {/* Our <span className="text-cyan-600">Sponsors</span> */}
+            Our <span style={{ color: "#0000FF" }}>Sponsors</span>
           </span>
         </h1>
         {/* <div
