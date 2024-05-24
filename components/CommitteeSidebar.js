@@ -138,7 +138,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Program Chairs
             </li>
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#eventmanagechair");
                 if (width < 768) {
@@ -150,8 +150,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Event Management Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#eventmanagecochair");
                 if (width < 768) {
@@ -163,7 +163,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Event Management Co-Chair
-            </li>
+            </li> */}
             <li
               onClick={() => {
                 router.push("/Committee#keynotechair");
@@ -177,7 +177,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Keynote Chair
             </li>
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#hospitalitychair");
                 if (width < 768) {
@@ -358,7 +358,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Local Arrangements Co-Chair
-            </li>
+            </li> */}
             <li
               onClick={() => {
                 router.push("/Committee#finchairs");
