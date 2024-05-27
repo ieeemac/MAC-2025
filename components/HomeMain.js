@@ -12,6 +12,7 @@ import Link from "next/link";
 import Sponsors from "../components/Sponsors";
 import { IoMdNotifications } from "react-icons/io";
 import SponsorCarousel from "./SponsorCarousel";
+import NotificationCarousel from "./Notification";
 
 const HomeMain = () => {
   const router = useRouter();
@@ -34,10 +35,7 @@ const HomeMain = () => {
   </div>
 </div> */}
       <SponsorCarousel />
-      <p className="bg-blue-100 text-blue-900 px-4 py-3 shadow-md font-bold">
-        Extended version of the top 10% papers from MAC 2024 will be published
-        in a special issue of Defence Science Journal(SCI).
-      </p>
+      <NotificationCarousel />
       <div
         className={`h-[60vh] md:h-[95vh] mt-[15px] relative ${gradients.homePage}`}
       >
@@ -94,21 +92,21 @@ const HomeMain = () => {
             <a
               href="/CFP_MAC2024.pdf"
               download={true}
-              class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+              className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
             >
               Call For Papers
             </a>
 
             <a
               href="https://cmt3.research.microsoft.com/MAC2024/"
-              class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+              className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
             >
               Submit Papers
             </a>
 
             {/* <a href="/registration" class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Registration</a> */}
             <Link href="/registration">
-              <span class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+              <span className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
                 Registration
               </span>
             </Link>

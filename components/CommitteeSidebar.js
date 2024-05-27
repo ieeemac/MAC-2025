@@ -189,7 +189,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Hospitality Chair
-            </li>
+            </li>*/}
             <li
               onClick={() => {
                 router.push("/Committee#industryintchair");
@@ -203,7 +203,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Industry Interaction Chair
             </li>
-            <li
+            {/*<li
               onClick={() => {
                 router.push("/Committee#industryintcochair");
                 if (width < 768) {
