@@ -65,7 +65,7 @@ const Committee = () => {
                   //title="Dr."
                   fullName="B. K. Das"
                   post="DG (ECS),"
-                  organisation="DRDO,India"
+                  organisation="DRDO, India"
                   profileImage="/bkdas.png"
                 />
               </div>

@@ -11,7 +11,7 @@ export const patrons = [
   {
     title: "Mr.",
     fullName: "L. C. Mangal",
-    organisation: "Director (DEAL), DRDO,Dehradun,India",
+    organisation: "Director (DEAL), DRDO, Dehradun ,India",
     profileImage: "/lcmangal.png",
   },
   {
@@ -39,13 +39,13 @@ export const honChairs = [
   {
     title: "Mr.",
     fullName: "Manoj Kumar Dhaka",
-    organisation: "Scientist H(DEAL),DRDO,Dehradun,India",
+    organisation: "Scientist H (DEAL), DRDO, Dehradun, India",
     profileImage: "/sonali.png",
   },
   {
     title: "Mr.",
     fullName: "Pinaki Sen",
-    organisation: "Scientist H(DEAL),DRDO,Dehradun,India",
+    organisation: "Scientist H (DEAL), DRDO, Dehradun, India",
     profileImage: "/sonali.png",
   },
   // {
@@ -86,7 +86,7 @@ export const ProgramChair = [
   {
     title: "Dr.",
     fullName: "Gaurav Mittal",
-    organisation: "Scientist E (DEAL), DRDO,Dehradun,India",
+    organisation: "Scientist E (DEAL), DRDO, Dehradun, India",
     profileImage: "/sonali.png",
   },
 ];
@@ -94,13 +94,13 @@ export const KeynoteChair = [
   {
     title: "Ms.",
     fullName: "Neeta Kandpal",
-    organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
+    organisation: "Scientist G (DEAL), DRDO, Dehradun, India",
     profileImage: "/sonali.png",
   },
   {
     title: "Ms.",
     fullName: "Kiran Chauhan",
-    organisation: "Scientist G(DEAL), DRDO,Dehradun,India",
+    organisation: "Scientist G (DEAL), DRDO, Dehradun, India",
     profileImage: "/sonali.png",
   },
   // {
@@ -150,8 +150,8 @@ export const IndustryInteractionChair = [
   {
     title: "Dr.",
     fullName: "Girish Chandra Tripathi",
-    organisation: "Scientist G,Tejas Network,India",
-    profileImage: "/sonali.png",
+    organisation: "Tejas Networks, India",
+    profileImage: "/gctripathi.png",
   },
 ];
 
@@ -338,7 +338,7 @@ export const confChairs = [
   {
     title: "Ms.",
     fullName: "Sonali Agarwal ",
-    organisation: "Scientist F(DEAL),DRDO,Dehradun,India",
+    organisation: "Scientist F (DEAL), DRDO, Dehradun, India",
     profileImage: "/sonali.png",
   },
   // {

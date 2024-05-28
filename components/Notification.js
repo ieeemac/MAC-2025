@@ -67,6 +67,43 @@ const NotificationCarousel = () => {
           max-height: 60px; /* Set a max-height for the image */
           margin-right: 10px; /* Add some space between the image and text */
         }
+        /* Media queries for responsive design */
+        @media (max-width: 768px) {
+          .carousel-container {
+            padding: 30px;
+          }
+
+          .carousel-text {
+            font-size: 16px;
+          }
+
+          .carousel-image {
+            max-width: 60px; /* Increase image size slightly for better visibility */
+            max-height: 60px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .carousel-container {
+            padding: 50px;
+          }
+
+          .carousel-text {
+            font-size: 14px;
+            flex-direction: column; /* Stack text and image vertically on small screens */
+            text-align: center;
+          }
+
+          .image-text-container {
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .carousel-image {
+            margin-left: 0; /* Remove margin when stacking vertically */
+            margin-top: 10px; /* Add margin on top for spacing */
+          }
+        }
       `}</style>
       <div className="carousel-container">
         {texts.map((item, index) => (
