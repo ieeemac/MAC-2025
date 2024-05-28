@@ -179,8 +179,8 @@ const Sponsor = () => {
         </div>
       </div>
       <div className="mt-8 p-2 mx-2 md:mx-8">
-        <h1 className="font-extrabold text-2xl md:text-3xl text-center">
-          <span className=" border-b-4 border-orange-500 px-0 md:px-8 pb-2">
+        <h1 className="font-extrabold text-4xl md:text-5xl text-center">
+          <span className=" border-b-4 border-orange-500 px-0 md:px-8 pb-2 ">
             {/* Our <span className="text-cyan-600">Sponsors</span> */}
             Our <span style={{ color: "#0000FF" }}>Sponsors</span>
           </span>
@@ -220,7 +220,7 @@ const Sponsor = () => {
           className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
           <div className="inline-flex ">
-            <h1 className=" text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600">
+            <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
               Gold{" "}
             </h1>
           </div>

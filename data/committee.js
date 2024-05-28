@@ -147,12 +147,12 @@ export const WebsiteChair = [
 ];
 
 export const IndustryInteractionChair = [
-  // {
-  //   title: "Dr.",
-  //   fullName: "Girish Chandra Tripathi",
-  //   organisation: "Scientist G,Tejas network,India",
-  //   profileImage: "/sonali.png",
-  // },
+  {
+    title: "Dr.",
+    fullName: "Girish Chandra Tripathi",
+    organisation: "Scientist G,Tejas Network,India",
+    profileImage: "/sonali.png",
+  },
 ];
 
 export const AcademicOutreachChair = [
@@ -1053,6 +1053,14 @@ export const committeeMembers = [
         fullName: "Mr. Piyush Patel",
         organisation: "MNNIT Allahabad, India",
       },
+      {
+        fullName: "Mr. Sattwik Ranjan",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Mr. Manish Kumar",
+        organisation: "MNNIT Allahabad, India",
+      },
     ],
   },
   {
@@ -1078,6 +1086,14 @@ export const committeeMembers = [
       {
         fullName: "Ms. Pooja Sharma",
         organisation: "MNNIT ALLAHABAD, India",
+      },
+      {
+        fullName: "Mr. Satendra Pathak",
+        organisation: "NIT Uttrakhand, India",
+      },
+      {
+        fullName: "Mr. Avinash Bhatt",
+        organisation: "NIT Uttrakhand, India",
       },
     ],
   },
