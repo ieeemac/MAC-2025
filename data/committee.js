@@ -663,6 +663,10 @@ export const committeeMembers = [
       //     fullName:'Ms. Gopa Bhattacharya Choudhury',
       //     organisation:'Scientist F, DEAL, DRDO'
       // },
+      {
+        fullName: "Dr. Asad M. Madni",
+        organisation: "University of California, Los Angeles",
+      },
     ],
   },
   {
