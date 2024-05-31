@@ -37,6 +37,12 @@ export const honChairs = [
     profileImage: "/Tomassoni_Cristiano (2).png",
   },
   {
+    title: "Dr.",
+    fullName: "Asad M. Madni",
+    organisation: "University of California, Los Angeles",
+    profileImage: "/asad.png",
+  },
+  {
     title: "Mr.",
     fullName: "Manoj Kumar Dhaka",
     organisation: "Scientist H (DEAL), DRDO, Dehradun, India",
@@ -663,10 +669,6 @@ export const committeeMembers = [
       //     fullName:'Ms. Gopa Bhattacharya Choudhury',
       //     organisation:'Scientist F, DEAL, DRDO'
       // },
-      {
-        fullName: "Dr. Asad M. Madni",
-        organisation: "University of California, Los Angeles",
-      },
     ],
   },
   {
