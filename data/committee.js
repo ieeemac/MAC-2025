@@ -562,6 +562,10 @@ export const committeeMembers = [
         organisation: "IIT Kanpur, India",
       },
       {
+        fullName: "Dr. Asad M. Madni",
+        organisation: "University of California, Los Angeles",
+      },
+      {
         fullName: "Dr. Anthony Ghiotto",
         organisation: "University of Bordeaux, France",
       },
@@ -801,6 +805,10 @@ export const committeeMembers = [
       {
         fullName: "Dr. Vivek Rajpoot",
         organisation: "VIT Vellore, India",
+      },
+      {
+        fullName: "Dr. S. Yuvaraj",
+        organisation: "NIT Andhra Pradesh, India",
       },
       {
         fullName: "Mr. Mahesh Kumar Aghwariya",
