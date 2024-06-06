@@ -75,6 +75,33 @@ const Sponsor = () => {
         <div className="lg:px-16 flex flex-col items-center">
           <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
             <h2 className="text-xl lg:text-2xl font-bold p-2">
+              <span style={{ color: "#0000FF" }}>Organizing</span> Partner:{" "}
+              <span style={{ color: "#0000FF" }}>INR 10.0 Lakh</span>
+            </h2>
+            <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
+              <li>
+                Elevate your brand become Partner with Institutes of National
+                Importance and DRDO!
+              </li>
+              <li>
+                Be seen by the leaders you want to meet & Get prominent
+                recognition.
+              </li>
+              <li>
+                Network with key decision-makers with 10 Complimentary passes.
+              </li>
+              <li>
+                Shine a spotlight on your contributions during Key Events.
+              </li>
+              <li>
+                Maximize your brand exposure by displaying of your Name/Logo on
+                all printed materials, backdrop, and website.
+              </li>
+            </ul>
+          </div>
+
+          <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
+            <h2 className="text-xl lg:text-2xl font-bold p-2">
               <span style={{ color: "#0000FF" }}>Signature</span> sponsor:{" "}
               <span style={{ color: "#0000FF" }}>INR 5.0 Lakh</span>
             </h2>
