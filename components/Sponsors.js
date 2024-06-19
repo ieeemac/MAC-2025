@@ -85,7 +85,7 @@ export default function Sponsors() {
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
-          className="mySwiper w-[100%] h-[150px] lg:h-[300px] bg-white rounded-lg"
+          className="mySwiper w-[100%] h-[200px] lg:h-[300px] bg-white rounded-lg"
         >
           {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
           <div>

@@ -524,6 +524,14 @@ export const committeeMembers = [
         fullName: "Prof. Sembiam R. Rengarajan",
         organisation: " California State University, Northridge, USA",
       },
+      {
+        fullName: "Dr. R. K. Bharadwaj",
+        organisation: "Scientist F, DEAL, DRDO",
+      },
+      {
+        fullName: "Prof. Yogesh Singh Chauhan",
+        organisation: "IIT Kanpur, India",
+      },
       // {
       //   fullName: "Prof. Omar M Ramahi",
       //   organisation: "University of Waterloo, Canada",
@@ -653,10 +661,7 @@ export const committeeMembers = [
       //     fullName:'Dr. Rajendra Singh',
       //     organisation:'Scientist G, DEAL, DRDO'
       // },
-      // {
-      //     fullName:'Dr. R. K. Bharadwaj',
-      //     organisation:'Scientist F, DEAL, DRDO'
-      // },
+
       // {
       //     fullName:'Mr. Umesh Bahuguna',
       //     organisation:'Scientist F, DEAL, DRDO'
