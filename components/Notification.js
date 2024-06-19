@@ -9,6 +9,11 @@ const NotificationCarousel = () => {
     },
     {
       type: "image",
+      content: "Welcome onboard Agmatel(Platinum Sponsor).",
+      imageUrl: "agmatel.png", // Replace with your image URL
+    },
+    {
+      type: "image",
       content: "Welcome onboard JV Micronics(Gold Sponsor).",
       imageUrl: "Logo-JV-Micronics.png", // Replace with your image URL
     },
@@ -30,7 +35,7 @@ const NotificationCarousel = () => {
         .carousel-container {
           background-color: #ebf8ff;
           color: #1c3d5a;
-          padding: 20px;
+          padding: 30px;
           font-weight: bold;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
           position: relative;
@@ -39,12 +44,12 @@ const NotificationCarousel = () => {
           align-items: center;
           justify-content: center;
           text-align: center;
-          min-height: 70px; /* Minimum height to ensure some space */
+          min-height: 100px; /* Minimum height to ensure some space */
           transition: height 1s ease-in-out;
         }
 
         .carousel-text {
-          font-size: 15pt;
+          font-size: 20pt;
           color: #ff0f0f;
           position: absolute;
           opacity: 0;
@@ -63,9 +68,9 @@ const NotificationCarousel = () => {
         }
 
         .carousel-image {
-          max-width: 60px; /* Set a max-width for the image */
-          max-height: 60px; /* Set a max-height for the image */
-          margin-right: 10px; /* Add some space between the image and text */
+          max-width: 150px; /* Set a max-width for the image */
+          max-height: 150px; /* Set a max-height for the image */
+          margin-right: 20px; /* Add some space between the image and text */
         }
         /* Media queries for responsive design */
         @media (max-width: 768px) {
@@ -74,12 +79,12 @@ const NotificationCarousel = () => {
           }
 
           .carousel-text {
-            font-size: 16px;
+            font-size: 20px;
           }
 
           .carousel-image {
-            max-width: 60px; /* Increase image size slightly for better visibility */
-            max-height: 60px;
+            max-width: 100px; /* Increase image size slightly for better visibility */
+            max-height: 100px;
           }
         }
 
@@ -89,7 +94,7 @@ const NotificationCarousel = () => {
           }
 
           .carousel-text {
-            font-size: 14px;
+            font-size: 18px;
             flex-direction: column; /* Stack text and image vertically on small screens */
             text-align: center;
           }
