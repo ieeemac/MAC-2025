@@ -203,6 +203,19 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Industry Interaction Chair
             </li>
+            <li
+              onClick={() => {
+                router.push("/Committee#sponsorshipcochair");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee#sponsorshipcochair"
+              )}`}
+            >
+              Sponsorship Co-Chair
+            </li>
             {/*<li
               onClick={() => {
                 router.push("/Committee#industryintcochair");

@@ -270,10 +270,16 @@ export const HospitalityChair = [
 ];
 
 export const SponsorshipCoChair = [
+  // {
+  //   title: "Mr.",
+  //   fullName: "Trilok Chand Dhal",
+  //   organisation: "Scientist D",
+  //   profileImage: "/sonali.png",
+  // },
   {
-    title: "Mr.",
-    fullName: "Trilok Chand Dhal",
-    organisation: "Scientist D",
+    title: "",
+    fullName: "Pooja Sharma",
+    organisation: "MNNIT Allahabad,India",
     profileImage: "/sonali.png",
   },
 ];
@@ -1113,6 +1119,14 @@ export const committeeMembers = [
       {
         fullName: "Mr. Avinash Bhatt",
         organisation: "NIT Uttrakhand, India",
+      },
+      {
+        fullName: "Mr. Adnaan Saleem",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Mr. Kshitij Singh Yadav",
+        organisation: "MNNIT Allahabad, India",
       },
     ],
   },

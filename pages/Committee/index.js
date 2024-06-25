@@ -28,6 +28,7 @@ import {
   RegistrationCoChair,
   LocalArrangementsChair,
   LocalArrangementsCoChair,
+  SponsorshipCoChair,
 } from "../../data/committee";
 import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
@@ -285,6 +286,31 @@ const Committee = () => {
                 </h1>
                 <div className="flex gap-8 flex-wrap">
                   {IndustryInteractionChair.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      // title={chair.title}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={
+                        chair.profileImage ? chair.profileImage : null
+                      }
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <div
+                  id="sponsorshipcochair"
+                  className="h-20 mb-16 md:mb-0"
+                ></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                  {" "}
+                  Sponsorship Co-Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap">
+                  {SponsorshipCoChair.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
                       // title={chair.title}
