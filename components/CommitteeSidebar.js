@@ -47,7 +47,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
         </div>
         {isOpen && (
           <ul className="fixed md:static top-16 overflow-auto h-[90vh] md:h-[85vh] md:pb-12 bg-white z-10 px-4 py-16 md:py-2 text-lg lg:text-xl flex flex-col gap-2 w-full ">
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#chiefpatron");
                 if (width < 768) {
@@ -59,7 +59,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Chief Patron
-            </li>
+            </li> */}
             <li
               onClick={() => {
                 router.push("/Committee#patron");
@@ -86,7 +86,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Honorary Chair
             </li>
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#orgChair");
                 if (width < 768) {
@@ -98,7 +98,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Organizing Chair
-            </li>
+            </li> */}
             <li
               onClick={() => {
                 router.push("/Committee#genchairs");
@@ -125,7 +125,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Conference Chairs
             </li>
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#programchairs");
                 if (width < 768) {
@@ -137,7 +137,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Program Chairs
-            </li>
+            </li> */}
             {/* <li
               onClick={() => {
                 router.push("/Committee#eventmanagechair");
@@ -164,7 +164,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Event Management Co-Chair
             </li> */}
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#keynotechair");
                 if (width < 768) {
@@ -176,7 +176,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Keynote Chair
-            </li>
+            </li> */}
             {/* <li
               onClick={() => {
                 router.push("/Committee#hospitalitychair");
