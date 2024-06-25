@@ -8,12 +8,12 @@ export const cheifpatrons = [
 ];
 
 export const patrons = [
-  {
-    title: "Mr.",
-    fullName: "L. C. Mangal",
-    organisation: "Director (DEAL), DRDO, Dehradun ,India",
-    profileImage: "/lcmangal.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "L. C. Mangal",
+  //   organisation: "Director (DEAL), DRDO, Dehradun ,India",
+  //   profileImage: "/lcmangal.png",
+  // },
   {
     title: "Dr.",
     fullName: "Sharad Kumar Pradhan",
@@ -42,18 +42,18 @@ export const honChairs = [
     organisation: "University of California, Los Angeles",
     profileImage: "/asad.png",
   },
-  {
-    title: "Mr.",
-    fullName: "Manoj Kumar Dhaka",
-    organisation: "Scientist H (DEAL), DRDO, Dehradun, India",
-    profileImage: "/sonali.png",
-  },
-  {
-    title: "Mr.",
-    fullName: "Pinaki Sen",
-    organisation: "Scientist H (DEAL), DRDO, Dehradun, India",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Manoj Kumar Dhaka",
+  //   organisation: "Scientist H (DEAL), DRDO, Dehradun, India",
+  //   profileImage: "/sonali.png",
+  // },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Pinaki Sen",
+  //   organisation: "Scientist H (DEAL), DRDO, Dehradun, India",
+  //   profileImage: "/sonali.png",
+  // },
   // {
   //   title: "Prof.",
   //   fullName: "Rajendra Kumar Nagaria",
@@ -89,26 +89,26 @@ export const genChairs = [
   // }
 ];
 export const ProgramChair = [
-  {
-    title: "Dr.",
-    fullName: "Gaurav Mittal",
-    organisation: "Scientist E (DEAL), DRDO, Dehradun, India",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Gaurav Mittal",
+  //   organisation: "Scientist E (DEAL), DRDO, Dehradun, India",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 export const KeynoteChair = [
-  {
-    title: "Ms.",
-    fullName: "Neeta Kandpal",
-    organisation: "Scientist G (DEAL), DRDO, Dehradun, India",
-    profileImage: "/sonali.png",
-  },
-  {
-    title: "Ms.",
-    fullName: "Kiran Chauhan",
-    organisation: "Scientist G (DEAL), DRDO, Dehradun, India",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Ms.",
+  //   fullName: "Neeta Kandpal",
+  //   organisation: "Scientist G (DEAL), DRDO, Dehradun, India",
+  //   profileImage: "/sonali.png",
+  // },
+  // {
+  //   title: "Ms.",
+  //   fullName: "Kiran Chauhan",
+  //   organisation: "Scientist G (DEAL), DRDO, Dehradun, India",
+  //   profileImage: "/sonali.png",
+  // },
   // {
   //   title: "Mr.",
   //   fullName: "Satendra Kumar Yadav",
@@ -270,10 +270,16 @@ export const HospitalityChair = [
 ];
 
 export const SponsorshipCoChair = [
+  // {
+  //   title: "Mr.",
+  //   fullName: "Trilok Chand Dhal",
+  //   organisation: "Scientist D",
+  //   profileImage: "/sonali.png",
+  // },
   {
-    title: "Mr.",
-    fullName: "Trilok Chand Dhal",
-    organisation: "Scientist D",
+    title: "",
+    fullName: "Pooja Sharma",
+    organisation: "MNNIT Allahabad,India",
     profileImage: "/sonali.png",
   },
 ];
@@ -311,12 +317,12 @@ export const FinChairs = [
 ];
 
 export const OrgChair = [
-  {
-    title: "Prof.",
-    fullName: "N P Pathak",
-    organisation: "IIT Roorkee, India",
-    profileImage: "/nppathak.png",
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "N P Pathak",
+  //   organisation: "IIT Roorkee, India",
+  //   profileImage: "/nppathak.png",
+  // },
 ];
 
 export const PublicChairs = [
@@ -341,12 +347,12 @@ export const confChairs = [
     organisation: "MMMUT Gorakhpur, India",
     profileImage: "/drrajanmishra.webp",
   },
-  {
-    title: "Ms.",
-    fullName: "Sonali Agarwal ",
-    organisation: "Scientist F (DEAL), DRDO, Dehradun, India",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Ms.",
+  //   fullName: "Sonali Agarwal ",
+  //   organisation: "Scientist F (DEAL), DRDO, Dehradun, India",
+  //   profileImage: "/sonali.png",
+  // },
   // {
   //     title:'Dr.',
   //     fullName:'Gaurav Mittal',
@@ -394,10 +400,10 @@ export const committeeMembers = [
         fullName: "Prof. Shiban K. Koul",
         organisation: "IIT Delhi, India",
       },
-      {
-        fullName: "Prof. M. Jaleel Akhtar",
-        organisation: "IIT Kanpur, India",
-      },
+      // {
+      //   fullName: "Prof. M. Jaleel Akhtar",
+      //   organisation: "IIT Kanpur, India",
+      // },
       {
         fullName: "Prof. Kumar Vaibhav Srivastava",
         organisation: "IIT Kanpur, India",
@@ -418,10 +424,10 @@ export const committeeMembers = [
         fullName: "Dr. Chandrakanta Kumar",
         organisation: "ISRO, India",
       },
-      {
-        fullName: "Dr. Satish Kumar Singh",
-        organisation: "IIIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Dr. Satish Kumar Singh",
+      //   organisation: "IIIT Allahabad, India",
+      // },
       {
         fullName: "Dr. Taimoor Khan",
         organisation: "NIT Silchar, India",
@@ -442,10 +448,10 @@ export const committeeMembers = [
         fullName: "Dr. Sanjeev Yadav",
         organisation: "Central University of Jammu, India",
       },
-      {
-        fullName: "Mr. Atmakuru Nagaraju",
-        organisation: "CSIR-CEERI, Pilani, India",
-      },
+      // {
+      //   fullName: "Mr. Atmakuru Nagaraju",
+      //   organisation: "CSIR-CEERI, Pilani, India",
+      // },
       {
         fullName: "Dr. Nagendra Prasad Yadav",
         organisation: "Hubei Polytechnic University, China",
@@ -465,6 +471,10 @@ export const committeeMembers = [
         organisation: "VP, Satellite Network Engineering and Operations, USA",
       },
       {
+        fullName: "Prof. Satish Sharma",
+        organisation: "San Diego State University, USA",
+      },
+      {
         fullName: "Dr. Sudhakar Rao",
         organisation: " Northrop Grumman Space Systems, USA",
       },
@@ -480,26 +490,26 @@ export const committeeMembers = [
         fullName: "Dr. Kumar Krishen",
         organisation: "University of Houston, USA",
       },
-      // {
-      //   fullName: "Dr. Leon T. Geter",
-      //   organisation: "Benedict College, Columbia, USA",
-      // },
+      {
+        fullName: "Dr. Leon T. Geter",
+        organisation: "Benedict College, Columbia, USA",
+      },
       // {
       //   fullName: "Dr. Anurag K. Srivastava",
       //   organisation: "West Virginia University, Morgantown, USA",
       // },
-      {
-        fullName: "Prof. Abhay Karandikar",
-        organisation: "IIT Kanpur, India",
-      },
-      {
-        fullName: "Prof. A.K. Chaturvedi",
-        organisation: "IIT Roorkee, India",
-      },
-      {
-        fullName: "Prof. S.N. Singh",
-        organisation: "ABV-IIITM Gwalior, India",
-      },
+      // {
+      //   fullName: "Prof. Abhay Karandikar",
+      //   organisation: "IIT Kanpur, India",
+      // },
+      // {
+      //   fullName: "Prof. A.K. Chaturvedi",
+      //   organisation: "IIT Roorkee, India",
+      // },
+      // {
+      //   fullName: "Prof. S.N. Singh",
+      //   organisation: "ABV-IIITM Gwalior, India",
+      // },
       {
         fullName: "Prof. Animesh Biswas",
         organisation: "IIT Kanpur, India",
@@ -541,18 +551,18 @@ export const committeeMembers = [
         organisation: "IGNOU, India",
       },
 
-      {
-        fullName: "Prof. M.V. Kartikeyan",
-        organisation: "IIT Tirupati, India",
-      },
+      // {
+      //   fullName: "Prof. M.V. Kartikeyan",
+      //   organisation: "IIT Tirupati, India",
+      // },
       // {
       //   fullName: "Prof. Arturo Mediano",
       //   organisation: "University of Zaragoza, Spain",
       // },
-      {
-        fullName: "Prof. Dharmendra Singh",
-        organisation: "IIT Roorkee, India",
-      },
+      // {
+      //   fullName: "Prof. Dharmendra Singh",
+      //   organisation: "IIT Roorkee, India",
+      // },
       {
         fullName: "Prof. Asheesh K. Singh",
         organisation: "MNNIT Allahabad, India",
@@ -577,18 +587,18 @@ export const committeeMembers = [
         fullName: "Dr. Anthony Ghiotto",
         organisation: "University of Bordeaux, France",
       },
-      {
-        fullName: "Dr. Rajeev Jyoti",
-        organisation: "ISRO, India",
-      },
+      // {
+      //   fullName: "Dr. Rajeev Jyoti",
+      //   organisation: "ISRO, India",
+      // },
       {
         fullName: "Dr. Mirza Mohammad Zaheer",
         organisation: "ISRO, India",
       },
-      {
-        fullName: "Dr. Chinmoy Saha",
-        organisation: "IIST, Thiruvananthapuram, India",
-      },
+      // {
+      //   fullName: "Dr. Chinmoy Saha",
+      //   organisation: "IIST, Thiruvananthapuram, India",
+      // },
       {
         fullName: "Dr. Ashutosh Kedar",
         organisation: "LRDE, DRDO, India",
@@ -605,18 +615,18 @@ export const committeeMembers = [
         fullName: "Dr. Dilip Kumar Kothari",
         organisation: "Nirma University, Ahmedabad, India",
       },
-      {
-        fullName: "Dr. Yatendra Kumar Singh",
-        organisation: " IIT Patna, India",
-      },
-      {
-        fullName: "Dr. Lalit Kumar",
-        organisation: "CSIR-CEERI, Pilani, India",
-      },
-      {
-        fullName: "Mr. Raj Kumar Malaviya",
-        organisation: "ATMS, India",
-      },
+      // {
+      //   fullName: "Dr. Yatendra Kumar Singh",
+      //   organisation: " IIT Patna, India",
+      // },
+      // {
+      //   fullName: "Dr. Lalit Kumar",
+      //   organisation: "CSIR-CEERI, Pilani, India",
+      // },
+      // {
+      //   fullName: "Mr. Raj Kumar Malaviya",
+      //   organisation: "ATMS, India",
+      // },
       // {
       //   fullName: "Mr. Spandan Manna",
       //   organisation: "RWTH Aachen University, Germany",
@@ -734,10 +744,10 @@ export const committeeMembers = [
         fullName: "Dr. Akhilesh Tiwari",
         organisation: "IIIT Allahabad, India",
       },
-      {
-        fullName: "Dr. Rajat Kumar Singh",
-        organisation: "IIIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Dr. Rajat Kumar Singh",
+      //   organisation: "IIIT Allahabad, India",
+      // },
       // {
       //   fullName: "Dr. Dhananjay Singh",
       //   organisation: "Hankuk University, South Korea",
@@ -747,10 +757,10 @@ export const committeeMembers = [
       //   organisation: "ESEO, Angers, France",
       // },
 
-      {
-        fullName: "Dr. Karun Rawat",
-        organisation: "IIT Roorkee, India",
-      },
+      // {
+      //   fullName: "Dr. Karun Rawat",
+      //   organisation: "IIT Roorkee, India",
+      // },
       {
         fullName: "Dr. R. K. Chaudhary",
         organisation: "IIT Kanpur, India",
@@ -759,10 +769,10 @@ export const committeeMembers = [
         fullName: "Dr. Ravi Kumar Gangwar",
         organisation: "IIT(ISM) Dhanbad, India",
       },
-      {
-        fullName: "Dr. Prashant Vasistha",
-        organisation: "Defence Lab, DRDO, India",
-      },
+      // {
+      //   fullName: "Dr. Prashant Vasistha",
+      //   organisation: "Defence Lab, DRDO, India",
+      // },
       {
         fullName: "Dr. Akhilesh Mohan",
         organisation: "IIT Roorkee, India",
@@ -799,10 +809,10 @@ export const committeeMembers = [
         fullName: "Dr. Sandeep Kumar Singh",
         organisation: " MNNIT Allahabad, India",
       },
-      {
-        fullName: "Dr. M. Venkatesh Kumar",
-        organisation: "Amrita Vishwa Vidyapeetham,Chennai",
-      },
+      // {
+      //   fullName: "Dr. M. Venkatesh Kumar",
+      //   organisation: "Amrita Vishwa Vidyapeetham,Chennai",
+      // },
       {
         fullName: "Dr. Nand Kishore",
         organisation: "HBTU Kanpur, India",
@@ -873,11 +883,11 @@ export const committeeMembers = [
         fullName: "Dr. Dinesh Yadav",
         organisation: "Manipal University, Jaipur, India",
       },
-      {
-        fullName: "Mr. Krish E",
-        organisation:
-          "Ministry of Electronics & Information Technology, Govt. of India",
-      },
+      // {
+      //   fullName: "Mr. Krish E",
+      //   organisation:
+      //     "Ministry of Electronics & Information Technology, Govt. of India",
+      // },
       {
         fullName: "Dr. Abhishek Sharma",
         organisation: "Stevens Institute of Technology, New Jersey, USA",
@@ -886,24 +896,24 @@ export const committeeMembers = [
         fullName: "Dr. Thummaluru Sreenath Reddy",
         organisation: "IIIT Kanchipuram, India",
       },
-      {
-        fullName: "Mr. Anand Sahu",
-        organisation: "Scientist C, DEAL",
-      },
+      // {
+      //   fullName: "Mr. Anand Sahu",
+      //   organisation: "Scientist C, DEAL",
+      // },
     ],
   },
   {
     title: "Women In Engineering",
     name: "womenInEngineering",
     data: [
-      {
-        fullName: "Dr. Meenakshi Rawat",
-        organisation: "IIT Roorkee. India",
-      },
-      {
-        fullName: "Dr. Seema Awasthi",
-        organisation: "IIIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Dr. Meenakshi Rawat",
+      //   organisation: "IIT Roorkee. India",
+      // },
+      // {
+      //   fullName: "Dr. Seema Awasthi",
+      //   organisation: "IIIT Allahabad, India",
+      // },
       {
         fullName: "Dr. Shweta Tripathi",
         organisation: "MNNIT Allahabad, India",
@@ -921,13 +931,17 @@ export const committeeMembers = [
         organisation: "CSIR-CEERI, Pilani, India",
       },
       {
-        fullName: "Ms. Subhashini",
-        organisation: "Scientist C, DEAL",
+        fullName: "Ms. Jaya Mishra",
+        organisation: "DEAL DRDO, Dehradun",
       },
-      {
-        fullName: "Ms. Nupur Sood",
-        organisation: "Scientist D, DEAL",
-      },
+      // {
+      //   fullName: "Ms. Subhashini",
+      //   organisation: "Scientist C, DEAL",
+      // },
+      // {
+      //   fullName: "Ms. Nupur Sood",
+      //   organisation: "Scientist D, DEAL",
+      // },
     ],
   },
   {
@@ -1113,6 +1127,14 @@ export const committeeMembers = [
       {
         fullName: "Mr. Avinash Bhatt",
         organisation: "NIT Uttrakhand, India",
+      },
+      {
+        fullName: "Mr. Adnaan Saleem",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Mr. Kshitij Singh Yadav",
+        organisation: "MNNIT Allahabad, India",
       },
     ],
   },

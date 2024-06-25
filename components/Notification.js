@@ -44,12 +44,12 @@ const NotificationCarousel = () => {
           align-items: center;
           justify-content: center;
           text-align: center;
-          min-height: 100px; /* Minimum height to ensure some space */
+          min-height: 150px; /* Minimum height to ensure some space */
           transition: height 1s ease-in-out;
         }
 
         .carousel-text {
-          font-size: 20pt;
+          font-size: 26pt;
           color: #ff0f0f;
           position: absolute;
           opacity: 0;
@@ -68,8 +68,8 @@ const NotificationCarousel = () => {
         }
 
         .carousel-image {
-          max-width: 150px; /* Set a max-width for the image */
-          max-height: 150px; /* Set a max-height for the image */
+          max-width: 220px; /* Set a max-width for the image */
+          max-height: 220px; /* Set a max-height for the image */
           margin-right: 20px; /* Add some space between the image and text */
         }
         /* Media queries for responsive design */
@@ -79,12 +79,12 @@ const NotificationCarousel = () => {
           }
 
           .carousel-text {
-            font-size: 20px;
+            font-size: 24px;
           }
 
           .carousel-image {
-            max-width: 100px; /* Increase image size slightly for better visibility */
-            max-height: 100px;
+            max-width: 200px; /* Increase image size slightly for better visibility */
+            max-height: 200px;
           }
         }
 
@@ -94,7 +94,7 @@ const NotificationCarousel = () => {
           }
 
           .carousel-text {
-            font-size: 18px;
+            font-size: 22px;
             flex-direction: column; /* Stack text and image vertically on small screens */
             text-align: center;
           }
@@ -107,6 +107,8 @@ const NotificationCarousel = () => {
           .carousel-image {
             margin-left: 0; /* Remove margin when stacking vertically */
             margin-top: 10px; /* Add margin on top for spacing */
+            max-width: 200px; /* Increase image size slightly for better visibility */
+            max-height: 200px;
           }
         }
       `}</style>
