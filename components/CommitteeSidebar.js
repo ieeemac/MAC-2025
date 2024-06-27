@@ -60,7 +60,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Chief Patron
             </li> */}
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#patron");
                 if (width < 768) {
@@ -72,7 +72,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Patrons
-            </li>
+            </li> */}
             <li
               onClick={() => {
                 router.push("/Committee#honchairs");
@@ -86,7 +86,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Honorary Chair
             </li>
-            {/* <li
+            <li
               onClick={() => {
                 router.push("/Committee#orgChair");
                 if (width < 768) {
@@ -98,7 +98,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Organizing Chair
-            </li> */}
+            </li>
             <li
               onClick={() => {
                 router.push("/Committee#genchairs");
@@ -125,7 +125,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Conference Chairs
             </li>
-            {/* <li
+            <li
               onClick={() => {
                 router.push("/Committee#programchairs");
                 if (width < 768) {
@@ -137,7 +137,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Program Chairs
-            </li> */}
+            </li>
             {/* <li
               onClick={() => {
                 router.push("/Committee#eventmanagechair");
@@ -192,6 +192,19 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             </li>*/}
             <li
               onClick={() => {
+                router.push("/Committee#academicout");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee#academicout"
+              )}`}
+            >
+              Academic Outreach Chair
+            </li>
+            <li
+              onClick={() => {
                 router.push("/Committee#industryintchair");
                 if (width < 768) {
                   setIsOpen(false);
@@ -228,21 +241,9 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Industry Interaction Co-Chair
-            </li>
-            <li
-              onClick={() => {
-                router.push("/Committee#academicout");
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
-                "/Committee#academicout"
-              )}`}
-            >
-              Academic Outreach Chair
-            </li>
-            <li
+            </li>*/}
+
+            {/*<li
               onClick={() => {
                 router.push("/Committee#sponsorshipchair");
                 if (width < 768) {
