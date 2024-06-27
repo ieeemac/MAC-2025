@@ -48,7 +48,7 @@ const Dates = () => {
                     <s>May 30, 2024</s>
                   </td>
                   <td class="text-center py-2 border border-black w-2/3 md: w-64">
-                    June 15, 2024
+                    <s>June 15, 2024</s>
                   </td>
                 </tr>
                 <tr class="">

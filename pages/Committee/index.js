@@ -70,7 +70,7 @@ const Committee = () => {
                   profileImage="/bkdas.png"
                 />
               </div> */}
-              <div>
+              {/* <div>
                 <div id="patron" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">Patrons</h1>
                 <div className="flex gap-8 flex-wrap">
@@ -85,7 +85,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               {/* Commented out "Honorary Chairs" */}
               <div>
@@ -108,7 +108,7 @@ const Committee = () => {
                   ))}
                 </div>
               </div>
-              {/* <div>
+              <div>
                 <div id="orgChair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -126,7 +126,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div>
               <div>
                 <div id="genchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
@@ -167,7 +167,7 @@ const Committee = () => {
                   ))}
                 </div>
               </div>
-              {/* <div>
+              <div>
                 <div id="programchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -187,7 +187,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div>
 
               {/* <div>
                 <div id="eventmanagechair" className="h-20 mb-16 md:mb-0"></div>
@@ -279,6 +279,28 @@ const Committee = () => {
               </div> */}
 
               <div>
+                <div id="academicout" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                  {" "}
+                  Academic Outreach Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap">
+                  {AcademicOutreachChair.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      // title={chair.title}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={
+                        chair.profileImage ? chair.profileImage : null
+                      }
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              <div>
                 <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -336,28 +358,6 @@ const Committee = () => {
                 </h1>
                 <div className="flex gap-8 flex-wrap">
                   {IndustryInteractionCoChair.map((chair) => (
-                    <ProfileCard
-                      key={chair.fullName}
-                      // title={chair.title}
-                      fullName={chair.fullName}
-                      post=""
-                      profileImage={
-                        chair.profileImage ? chair.profileImage : null
-                      }
-                      organisation={chair.organisation}
-                    />
-                  ))}
-                </div>
-              </div> */}
-
-              {/* <div>
-                <div id="academicout" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold">
-                  {" "}
-                  Academic Outreach Chair
-                </h1>
-                <div className="flex gap-8 flex-wrap">
-                  {AcademicOutreachChair.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
                       // title={chair.title}
