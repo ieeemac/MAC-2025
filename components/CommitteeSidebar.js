@@ -112,19 +112,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               General Chair
             </li>
-            <li
-              onClick={() => {
-                router.push("/Committee#confchairs");
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
-                "/Committee#confchairs"
-              )}`}
-            >
-              Conference Chairs
-            </li>
+
             <li
               onClick={() => {
                 router.push("/Committee#programchairs");
@@ -215,6 +203,19 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Industry Interaction Chair
+            </li>
+            <li
+              onClick={() => {
+                router.push("/Committee#confchairs");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee#confchairs"
+              )}`}
+            >
+              Conference Chairs
             </li>
             <li
               onClick={() => {

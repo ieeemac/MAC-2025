@@ -298,7 +298,7 @@ export const SponsorshipCoChair = [
     title: "",
     fullName: "Shashwat Pathak",
     organisation: "Atal Incubation Centre - GNITS,India",
-    profileImage: "/shashwat1.png",
+    profileImage: "/shashwat2.jpeg",
   },
   {
     title: "",
