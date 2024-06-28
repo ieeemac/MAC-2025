@@ -146,50 +146,30 @@ const Committee = () => {
                   ))}
                 </div>
               </div>
-
-              <div>
-                <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
-                  Conference Chairs
-                </h1>
-                <div className="flex gap-8 flex-wrap">
-                  {confChairs.map((chair) => (
-                    <ProfileCard
-                      key={chair.fullName}
-                      // title={chair.title}
-                      fullName={chair.fullName}
-                      post=""
-                      profileImage={
-                        chair.profileImage ? chair.profileImage : null
-                      }
-                      organisation={chair.organisation}
-                    />
-                  ))}
-                </div>
+            </div>
+            <div>
+              <div id="programchairs" className="h-20 mb-16 md:mb-0"></div>
+              <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                {" "}
+                Program Chair
+              </h1>
+              <div className="flex gap-8 flex-wrap">
+                {ProgramChair.map((chair) => (
+                  <ProfileCard
+                    key={chair.fullName}
+                    // title={chair.title}
+                    fullName={chair.fullName}
+                    post=""
+                    profileImage={
+                      chair.profileImage ? chair.profileImage : null
+                    }
+                    organisation={chair.organisation}
+                  />
+                ))}
               </div>
-              <div>
-                <div id="programchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold">
-                  {" "}
-                  Program Chair
-                </h1>
-                <div className="flex gap-8 flex-wrap">
-                  {ProgramChair.map((chair) => (
-                    <ProfileCard
-                      key={chair.fullName}
-                      // title={chair.title}
-                      fullName={chair.fullName}
-                      post=""
-                      profileImage={
-                        chair.profileImage ? chair.profileImage : null
-                      }
-                      organisation={chair.organisation}
-                    />
-                  ))}
-                </div>
-              </div>
+            </div>
 
-              {/* <div>
+            {/* <div>
                 <div id="eventmanagechair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -211,7 +191,7 @@ const Committee = () => {
                 </div>
               </div> */}
 
-              {/* <div>
+            {/* <div>
                 <div
                   id="eventmanagecochair"
                   className="h-20 mb-16 md:mb-0"
@@ -236,7 +216,7 @@ const Committee = () => {
                 </div>
               </div> */}
 
-              {/* <div>
+            {/* <div>
                 <div id="keynotechair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold flex-">
                   {" "}
@@ -256,7 +236,7 @@ const Committee = () => {
                 </div>
               </div> */}
 
-              {/* <div>
+            {/* <div>
                 <div id="hospitalitychair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -278,50 +258,69 @@ const Committee = () => {
                 </div>
               </div> */}
 
-              <div>
-                <div id="academicout" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold">
-                  {" "}
-                  Academic Outreach Chair
-                </h1>
-                <div className="flex gap-8 flex-wrap">
-                  {AcademicOutreachChair.map((chair) => (
-                    <ProfileCard
-                      key={chair.fullName}
-                      // title={chair.title}
-                      fullName={chair.fullName}
-                      post=""
-                      profileImage={
-                        chair.profileImage ? chair.profileImage : null
-                      }
-                      organisation={chair.organisation}
-                    />
-                  ))}
-                </div>
+            <div>
+              <div id="academicout" className="h-20 mb-16 md:mb-0"></div>
+              <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                {" "}
+                Academic Outreach Chair
+              </h1>
+              <div className="flex gap-8 flex-wrap">
+                {AcademicOutreachChair.map((chair) => (
+                  <ProfileCard
+                    key={chair.fullName}
+                    // title={chair.title}
+                    fullName={chair.fullName}
+                    post=""
+                    profileImage={
+                      chair.profileImage ? chair.profileImage : null
+                    }
+                    organisation={chair.organisation}
+                  />
+                ))}
               </div>
+            </div>
 
-              <div>
-                <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold">
-                  {" "}
-                  Industry Interaction Chair
-                </h1>
-                <div className="flex gap-8 flex-wrap">
-                  {IndustryInteractionChair.map((chair) => (
-                    <ProfileCard
-                      key={chair.fullName}
-                      // title={chair.title}
-                      fullName={chair.fullName}
-                      post=""
-                      profileImage={
-                        chair.profileImage ? chair.profileImage : null
-                      }
-                      organisation={chair.organisation}
-                    />
-                  ))}
-                </div>
+            <div>
+              <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
+              <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                {" "}
+                Industry Interaction Chair
+              </h1>
+              <div className="flex gap-8 flex-wrap">
+                {IndustryInteractionChair.map((chair) => (
+                  <ProfileCard
+                    key={chair.fullName}
+                    // title={chair.title}
+                    fullName={chair.fullName}
+                    post=""
+                    profileImage={
+                      chair.profileImage ? chair.profileImage : null
+                    }
+                    organisation={chair.organisation}
+                  />
+                ))}
               </div>
+            </div>
 
+            <div>
+              <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
+              <h1 className="mb-6 text-xl md:text-3xl font-bold">
+                Conference Chairs
+              </h1>
+              <div className="flex gap-8 flex-wrap">
+                {confChairs.map((chair) => (
+                  <ProfileCard
+                    key={chair.fullName}
+                    // title={chair.title}
+                    fullName={chair.fullName}
+                    post=""
+                    profileImage={
+                      chair.profileImage ? chair.profileImage : null
+                    }
+                    organisation={chair.organisation}
+                  />
+                ))}
+              </div>
               <div>
                 <div
                   id="sponsorshipcochair"
