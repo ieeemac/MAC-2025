@@ -123,12 +123,18 @@ const Registration = () => {
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">IEEE</td>
                 <td className="py-2">INR 6,900</td>
-                <td className="py-2">USD 190</td>
+                <td className="py-2">
+                  <span class="line-through mr-2">USD 190</span>
+                  <span>USD 90</span>
+                </td>
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">Non-IEEE</td>
                 <td className="py-2">INR 9,900</td>
-                <td className="py-2">USD 250</td>
+                <td className="py-2">
+                  <span class="line-through mr-2">USD 250</span>
+                  <span>USD 150</span>
+                </td>
               </tr>
               <tr>
                 <td rowSpan={3} className="font-semibold">
@@ -148,12 +154,18 @@ const Registration = () => {
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">IEEE</td>
                 <td className="py-2">INR 12,900</td>
-                <td className="py-2">USD 290</td>
+                <td className="py-2">
+                  <span class="line-through mr-2">USD 290</span>
+                  <span>USD 190</span>
+                </td>
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">Non-IEEE</td>
                 <td className="py-2">INR 14,900</td>
-                <td className="py-2">USD 350</td>
+                <td className="py-2">
+                  <span class="line-through mr-2">USD 350</span>
+                  <span>USD 250</span>
+                </td>
               </tr>
             </tbody>
           </table>
