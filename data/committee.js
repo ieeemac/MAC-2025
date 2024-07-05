@@ -455,6 +455,10 @@ export const committeeMembers = [
         organisation: "ISRO, India",
       },
       {
+        fullName: "Prof. R.K. Nagaria",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
         fullName: "Dr. Satish Kumar Singh",
         organisation: "IIIT Allahabad, India",
       },
@@ -511,6 +515,10 @@ export const committeeMembers = [
       {
         fullName: "Dr. Sudhakar Rao",
         organisation: " Northrop Grumman Space Systems, USA",
+      },
+      {
+        fullName: "Prof. Rajeev Tripathi",
+        organisation: " MNNIT Allahabad, India ",
       },
       {
         fullName: "Dr. Sharad Kumar Pradhan",
@@ -609,6 +617,10 @@ export const committeeMembers = [
       {
         fullName: "Prof. Manoj Kumar Meshram",
         organisation: "IIT BHU, India",
+      },
+      {
+        fullName: "Prof. Mahesh P.Abegaonkar",
+        organisation: "IIT Delhi,India",
       },
       // {
       //   fullName: "Dr. Maurizio Bozzi",
@@ -723,10 +735,6 @@ export const committeeMembers = [
       //     fullName:'Ms. Jaya Mishra',
       //     organisation:'Scientist F, DEAL, DRDO'
       // },
-      // {
-      //     fullName:'Ms. Gopa Bhattacharya Choudhury',
-      //     organisation:'Scientist F, DEAL, DRDO'
-      // },
     ],
   },
   {
@@ -837,6 +845,10 @@ export const committeeMembers = [
       //   organisation: " MNNIT Allahabad, India",
       // },
       {
+        fullName: "Dr. Santosh Kumar Gupta",
+        organisation: " MNNIT Allahabad, India",
+      },
+      {
         fullName: "Dr. Dharmendra Dixit",
         organisation: " MNNIT Allahabad, India",
       },
@@ -943,6 +955,22 @@ export const committeeMembers = [
       //   fullName: "Mr. Anand Sahu",
       //   organisation: "Scientist C, DEAL",
       // },
+      {
+        fullName: "Dr. Nrusingha Charan Pradhan",
+        organisation: "Reykjavik University, Iceland",
+      },
+      {
+        fullName: "Dr. Vimal Kumar Singh",
+        organisation: "MNNIT Allahabad,India",
+      },
+      {
+        fullName: "Dr. Deepak Punetha",
+        organisation: "MNNIT Allahabad,India",
+      },
+      {
+        fullName: "Dr. Nirmal Ch. Roy",
+        organisation: "MNNIT Allahabad,India",
+      },
     ],
   },
   {
