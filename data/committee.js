@@ -42,6 +42,12 @@ export const honChairs = [
     organisation: "University of California, Los Angeles",
     profileImage: "/asad.png",
   },
+  {
+    title: "Prof.",
+    fullName: "Sima Noghanian",
+    organisation: "CommScope Ruckess Networks Sunnyvale, California, USA",
+    profileImage: "/sima.png",
+  },
   // {
   //   title: "Mr.",
   //   fullName: "Manoj Kumar Dhaka",
@@ -423,6 +429,18 @@ export const committeeMembers = [
         organisation: "Institute for Infocomm Research, Singapore",
       },
       {
+        fullName: "Prof. Brijesh Kumar",
+        organisation: "Delhi Technological University, India",
+      },
+      {
+        fullName: "Prof. Ganga Ram Mishra",
+        organisation: "Dr. Rammanohar Lohia Avadh University, Ayodhya, India",
+      },
+      {
+        fullName: "Dr. Shubhankar Majumdar",
+        organisation: "IIT Kharagpur, India",
+      },
+      {
         fullName: "Prof. Ghanshyam Singh",
         organisation: "University of Johannesburg, South Africa",
       },
@@ -512,6 +530,11 @@ export const committeeMembers = [
         fullName: "Prof. Satish Sharma",
         organisation: "San Diego State University, USA",
       },
+      {
+        fullName: "Prof. M. Jaleel Akhtar",
+        organisation: "IIT Kanpur, India",
+      },
+
       {
         fullName: "Dr. Sudhakar Rao",
         organisation: " Northrop Grumman Space Systems, USA",
@@ -992,6 +1015,10 @@ export const committeeMembers = [
       {
         fullName: "Dr. Smriti Agarwal",
         organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Prof. Poornima Mittal",
+        organisation: "Delhi Technological University, India",
       },
       {
         fullName: "Dr. Situ Rani Patre",
