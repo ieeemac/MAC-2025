@@ -436,10 +436,7 @@ export const committeeMembers = [
         fullName: "Prof. Ganga Ram Mishra",
         organisation: "Dr. Rammanohar Lohia Avadh University, Ayodhya, India",
       },
-      {
-        fullName: "Dr. Shubhankar Majumdar",
-        organisation: "IIT Kharagpur, India",
-      },
+
       {
         fullName: "Prof. Ghanshyam Singh",
         organisation: "University of Johannesburg, South Africa",
@@ -475,6 +472,10 @@ export const committeeMembers = [
       {
         fullName: "Prof. R.K. Nagaria",
         organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Dr. Shubhankar Majumdar",
+        organisation: "IIT Kharagpur, India",
       },
       {
         fullName: "Dr. Satish Kumar Singh",
@@ -530,10 +531,6 @@ export const committeeMembers = [
         fullName: "Prof. Satish Sharma",
         organisation: "San Diego State University, USA",
       },
-      {
-        fullName: "Prof. M. Jaleel Akhtar",
-        organisation: "IIT Kanpur, India",
-      },
 
       {
         fullName: "Dr. Sudhakar Rao",
@@ -555,6 +552,10 @@ export const committeeMembers = [
       {
         fullName: "Dr. D.C Pande",
         organisation: "LRDE, DRDO , India",
+      },
+      {
+        fullName: "Prof. M. Jaleel Akhtar",
+        organisation: "IIT Kanpur, India",
       },
       {
         fullName: "Dr. Kumar Krishen",
