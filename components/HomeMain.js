@@ -136,8 +136,7 @@ const HomeMain = () => {
                     NIT Uttarakhand, India
                   </span>
                   <span className="text-orange-500 font-bold text-xl block">
-                    THDC Institute of Hydropower Engineering and Technology,
-                    Uttarakhand, India
+                    VMSB UTU (THDC-IHET), Uttarakhand, India
                   </span>
                   {/* <span className="text-black-500 font-bold text-xl block">
     &
