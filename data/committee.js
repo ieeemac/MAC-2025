@@ -430,7 +430,7 @@ export const committeeMembers = [
       },
       {
         fullName: "Prof. Brijesh Kumar",
-        organisation: "Delhi Technological University, India",
+        organisation: "Indira Gandhi Delhi Technical University, Delhi, India",
       },
       {
         fullName: "Prof. Ganga Ram Mishra",
@@ -452,6 +452,10 @@ export const committeeMembers = [
       {
         fullName: "Prof. Kumar Vaibhav Srivastava",
         organisation: "IIT Kanpur, India",
+      },
+      {
+        fullName: "Dr. Ravi Kumar Arya",
+        organisation: "ZICUST, China",
       },
       // {
       //   fullName: "Mr. Puneet Kumar Mishra",
@@ -512,6 +516,14 @@ export const committeeMembers = [
       {
         fullName: "Dr. Nagendra Prasad Yadav",
         organisation: "Hubei Polytechnic University, China",
+      },
+      {
+        fullName: "Dr. Sanjay Kumar Sharma",
+        organisation: "BBDNIIT, Lucknow",
+      },
+      {
+        fullName: "Prof. Dilip Kumar Singh",
+        organisation: "GLA, Mathura",
       },
     ],
   },

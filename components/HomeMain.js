@@ -57,7 +57,7 @@ const HomeMain = () => {
               </span>
             </div>
             <div className="w-full my-2 sm:pl-0 flex flex-col justify-center gap-4 lg:justify-start lg:gap-10 font-semibold">
-              <div className="flex w-full max-w-[600px] justify-around md:justify-between">
+              <div className="flex w-full max-w-[650px] justify-around md:justify-between">
                 <div>
                   <p className="flex items-center gap-3">
                     <Link href="/registration">
@@ -81,7 +81,7 @@ const HomeMain = () => {
                     </Link>
                     <span className="text-sm lg:text-lg text-white">
                       {" "}
-                      Dehradun, Uttarakhand, India
+                      Hotel Rudra, Dehradun, Uttarakhand, India
                     </span>
                   </p>
                 </div>
@@ -91,7 +91,7 @@ const HomeMain = () => {
           </div>
           <div className="top-[10%] md:top-[10%] lg:top-[20%] xl:top-[5%] py-8 px-4 w-[90%] md:w-[30%] lg:w-[30%] flex flex-col justify-center items-center text-white rounded-2xl z-10 ">
             <a
-              href="/CFP_MAC-2024.pdf"
+              href="/CFP_MAC 2024.pdf"
               download={true}
               className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
             >
@@ -229,6 +229,14 @@ const HomeMain = () => {
               >
                 https://cmt3.research.microsoft.com/MAC2024/
               </a>
+
+              <h1 className="title-font text-orange-600 sm:text-3xl text-2xl mb-1 mt-8 md:mt-2 font-medium text-gray-900 block">
+                Mode of Conduction:
+              </h1>
+              <h1 className="title-font sm:text-2xl text-2xl mb-4 mt-1 md:mt-2 font-medium text-gray-900 block">
+                Hybrid Mode
+              </h1>
+              <p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg"></p>
             </div>
           </div>
         </section>
