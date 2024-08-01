@@ -56,10 +56,14 @@ const Dates = () => {
                     Regular Paper
                   </td>
                   <td class="text-center py-2 border border-black">
-                    July 31, 2024
+                    <s>July 31, 2024</s>
+                    <br />
+                    <span className="text-red-500">August 18,2024</span>
                   </td>
                   <td class="text-center py-2 border border-black w-2/3 md: w-64">
-                    August 15, 2024
+                    <s>August 15, 2024</s>
+                    <br />
+                    <span className="text-red-500">September 02,2024</span>
                   </td>
                 </tr>
               </tbody>

@@ -69,6 +69,30 @@ export default function Sponsors1() {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+            <div className="">
+              <div className="inline-flex ">
+                <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+                  Gold{" "}
+                </h1>
+              </div>
+              <div className=" flex flex-col md:flex-row justify-around items-center ">
+                <div
+                  className="flex flex-col items-center justify-center"
+                  style={{ width: "200px", height: "100px" }}
+                >
+                  <img
+                    src="/apc.png"
+                    alt="logo"
+                    className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                  />
+                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                    APC Technologies
+                  </p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
       <div className="hidden md:block">
@@ -122,6 +146,19 @@ export default function Sponsors1() {
                   />
                   <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
                     JV Micronics
+                  </p>
+                </div>
+                <div
+                  className="flex flex-col items-center justify-center"
+                  style={{ width: "200px", height: "200px" }}
+                >
+                  <img
+                    src="/apc.png"
+                    alt="logo"
+                    className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                  />
+                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                    APC technologies
                   </p>
                 </div>
               </div>

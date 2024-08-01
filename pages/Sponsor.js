@@ -305,31 +305,31 @@ const Sponsor = () => {
           className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
           <div className="inline-flex ">
-            <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+            <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
               Gold{" "}
             </h1>
           </div>
-          <div className=" flex flex-col md:flex-row justify-around items-center ">
-            <div>
+          <div className="flex flex-col md:flex-row justify-around items-center">
+            <div className="flex flex-col items-center">
               <img
                 src="/Logo-JV-Micronics.png"
                 alt="logo"
-                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
               />
               <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
                 JV Micronics
               </p>
             </div>
-            {/* <div>
+            <div className="flex flex-col items-center">
               <img
-                src="/CSIR.webp"
+                src="/apc.png"
                 alt="logo"
-                className="md:-mt-8 w-64 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
               />
               <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                CSIR, GOI
+                APC Technologies
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

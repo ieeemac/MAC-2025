@@ -17,6 +17,11 @@ const NotificationCarousel = () => {
       content: "Welcome onboard JV Micronics(Gold Sponsor).",
       imageUrl: "Logo-JV-Micronics.png", // Replace with your image URL
     },
+    {
+      type: "image",
+      content: "Welcome onboard APC Technologies(Gold Sponsor).",
+      imageUrl: "apc.png", // Replace with your image URL
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
