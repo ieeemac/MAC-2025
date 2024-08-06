@@ -876,6 +876,11 @@ export const committeeMembers = [
         fullName: "Dr. Om Jee Pandey",
         organisation: " IIT BHU Varanasi, India",
       },
+      {
+        fullName: "Dr. Zubair Akhter",
+        organisation: " Technology Innovation Institute (TII), UAE",
+      },
+
       // {
       //   fullName: "Dr. Arvind Kumar",
       //   organisation: " MNNIT Allahabad, India",
