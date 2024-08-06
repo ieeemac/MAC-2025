@@ -22,6 +22,16 @@ const NotificationCarousel = () => {
       content: "Welcome onboard APC Technologies(Gold Sponsor).",
       imageUrl: "apc.png", // Replace with your image URL
     },
+    {
+      type: "image",
+      content: "Welcome onboard Scientific Microwave(Gold Sponsor).",
+      imageUrl: "SciMic.png", // Replace with your image URL
+    },
+    {
+      type: "image",
+      content: "Welcome onboard Icon Electromatic(Bronze Sponsor).",
+      imageUrl: "electro.png", // Replace with your image URL
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

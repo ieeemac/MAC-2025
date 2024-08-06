@@ -330,6 +330,37 @@ const Sponsor = () => {
                 APC Technologies
               </p>
             </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/SciMic.png"
+                alt="logo"
+                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                Scientific Microwave
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className={` text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
+        >
+          <div className="inline-flex ">
+            <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+              Bronze{" "}
+            </h1>
+          </div>
+          <div className="flex flex-col md:flex-row justify-around items-center">
+            <div className="flex flex-col items-center">
+              <img
+                src="/electro.png"
+                alt="logo"
+                className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                Icon Electromatic
+              </p>
+            </div>
           </div>
         </div>
       </div>
