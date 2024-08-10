@@ -32,6 +32,7 @@ import {
 } from "../../data/committee";
 import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
+import SponsorFix from "../../components/SponsorFix";
 
 const Committee = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -636,6 +637,7 @@ const Committee = () => {
             </div>
           </div>
         </div>
+        <SponsorFix />
       </div>
     </>
   );

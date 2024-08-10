@@ -1,6 +1,7 @@
 import React from "react";
 import gradients from "../styles/customGradient.module.css";
 import cool from "../styles/track.module.css";
+import SponsorFix from "../components/SponsorFix";
 
 const Sponsor = () => {
   return (
@@ -342,6 +343,7 @@ const Sponsor = () => {
             </div>
           </div>
         </div>
+
         <div
           className={` text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
@@ -358,7 +360,7 @@ const Sponsor = () => {
                 className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
               />
               <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                Icon Electromatic
+                Icon Electromatic Private Limited
               </p>
             </div>
           </div>

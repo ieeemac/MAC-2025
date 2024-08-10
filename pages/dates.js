@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import SponsorFix from "../components/SponsorFix";
 
 const Dates = () => {
   return (
@@ -224,6 +225,7 @@ const Dates = () => {
 
 </div>
 */}
+      <SponsorFix />
     </div>
   );
 };
