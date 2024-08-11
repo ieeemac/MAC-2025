@@ -103,7 +103,7 @@ export default function Sponsors1() {
               <div className=" flex flex-col md:flex-row justify-around items-center ">
                 <div
                   className="flex flex-col items-center justify-center"
-                  style={{ width: "200px", height: "100px" }}
+                  style={{ width: "150px", height: "150px" }}
                 >
                   <img
                     src="/SciMic.png"
@@ -127,7 +127,7 @@ export default function Sponsors1() {
               <div className=" flex flex-col md:flex-row justify-around items-center ">
                 <div
                   className="flex flex-col items-center justify-center"
-                  style={{ width: "200px", height: "100px" }}
+                  style={{ width: "150px", height: "150px" }}
                 >
                   <img
                     src="/electro.png"
@@ -135,7 +135,7 @@ export default function Sponsors1() {
                     className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
                   />
                   <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                    Icon Electromatic
+                    Icon Electromatic Private Limited
                   </p>
                 </div>
               </div>
@@ -211,7 +211,7 @@ export default function Sponsors1() {
                 </div>
                 <div
                   className="flex flex-col items-center justify-center mb-4 md:mb-0 md:mr-4"
-                  style={{ width: "190px", height: "190px" }}
+                  style={{ width: "180px", height: "180px" }}
                 >
                   <img
                     src="/SciMic.png"
@@ -240,7 +240,7 @@ export default function Sponsors1() {
                     className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
                   />
                   <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                    Icon Electromatic
+                    Icon Electromatic Private Limited
                   </p>
                 </div>
               </div>

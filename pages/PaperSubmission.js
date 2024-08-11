@@ -2,6 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import examsPreparation from "../lottieFiles/examsPreparation.json";
 import gradients from "../styles/customGradient.module.css";
+import SponsorFix from "../components/SponsorFix";
 
 const guideline = () => {
   return (
@@ -89,6 +90,8 @@ const guideline = () => {
             </section>
           </main>
         </div>
+
+        <SponsorFix />
       </div>
     </main>
   );

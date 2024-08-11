@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import SponsorFix from "../components/SponsorFix";
 
 const Registration = () => {
   return (
@@ -328,6 +329,7 @@ const Registration = () => {
       </div>
 
       <div className="h-12 w-full"></div>
+      <SponsorFix />
     </div>
   );
 };

@@ -29,7 +29,8 @@ const NotificationCarousel = () => {
     },
     {
       type: "image",
-      content: "Welcome onboard Icon Electromatic(Bronze Sponsor).",
+      content:
+        "Welcome onboard Icon Electromatic Private Limited(Bronze Sponsor).",
       imageUrl: "electro.png", // Replace with your image URL
     },
   ];
@@ -106,6 +107,7 @@ const NotificationCarousel = () => {
         @media (max-width: 480px) {
           .carousel-container {
             padding: 50px;
+            min-height: 250px;
           }
 
           .carousel-text {
