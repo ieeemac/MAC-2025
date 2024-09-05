@@ -361,12 +361,33 @@ export const OrgChair = [
   },
 ];
 
+export const TPC = [
+  {
+    title: "Dr.",
+    fullName: "Prashant Ranjan",
+    organisation: "UEM Jaipur, India",
+    profileImage: "/sonali.png",
+  },
+  {
+    title: "Dr.",
+    fullName: "Sandeep Kumar Singh",
+    organisation: "MNNIT Allahabad, India",
+    profileImage: "/sandeepsingh.jpeg",
+  },
+];
+
 export const PublicChairs = [
   {
     title: "Dr.",
     fullName: "Gaurav Upadhyay",
     organisation: "MANIT Bhopal, India",
     profileImage: "/drgaurav.png",
+  },
+  {
+    title: "Dr.",
+    fullName: "Tilakdhari Singh",
+    organisation: "MNNIT Allahabad, India",
+    profileImage: "/SD.jpg",
   },
 ];
 

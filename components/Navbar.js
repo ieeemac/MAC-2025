@@ -45,15 +45,89 @@ const Navbar = () => {
             Committee
           </span>
         </Link>
-        <Link href="/tuned">
-          <span
-            className={`${
-              router.pathname == "/tuned" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+        <span
+          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
+        >
+          <label
+            tabIndex={0}
+            className=" hover:text-orange-400 m-1 relative text-white"
           >
-            Keynote
-          </span>
-        </Link>
+            Program{" "}
+          </label>
+          <div className="absolute top-[42px] -left-10 dropdown-content p-4">
+            <ul
+              tabIndex={0}
+              className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
+            >
+              <Link href="/keynotes">
+                <li
+                  className={`${
+                    router.pathname == "/keynotes"
+                      ? " hover:border-orange-400 text-orange-400"
+                      : ""
+                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
+                >
+                  Keynotes
+                </li>
+              </Link>
+              <Link href="/tuned">
+                <li
+                  className={`${
+                    router.pathname == "/tuned"
+                      ? " hover:border-orange-400 text-orange-400"
+                      : ""
+                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                >
+                  Workshop
+                </li>
+              </Link>
+              <Link href="/tuned">
+                <li
+                  className={`${
+                    router.pathname == "/tuned"
+                      ? " hover:border-orange-400 text-orange-400"
+                      : ""
+                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                >
+                  TPC
+                </li>
+              </Link>
+              <Link href="/tuned">
+                <li
+                  className={`${
+                    router.pathname == "/tuned"
+                      ? " hover:border-orange-400 text-orange-400"
+                      : ""
+                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                >
+                  WIE
+                </li>
+              </Link>
+              <Link href="/tuned">
+                <li
+                  className={`${
+                    router.pathname == "/tuned"
+                      ? " hover:border-orange-400 text-orange-400"
+                      : ""
+                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                >
+                  SIGHT
+                </li>
+              </Link>
+              <Link href="/tuned">
+                <li
+                  className={`${
+                    router.pathname == "/tuned"
+                      ? " hover:border-orange-400 text-orange-400"
+                      : ""
+                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                >
+                  Conference Schedule
+                </li>
+              </Link>
+            </ul>
+          </div>
+        </span>
         <Link href="/tracks">
           <span
             className={`${
@@ -136,6 +210,46 @@ const Navbar = () => {
             Registration
           </span>
         </Link>
+
+        <span
+          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
+        >
+          <label
+            tabIndex={0}
+            className=" hover:text-orange-400 m-1 relative text-white"
+          >
+            Accommodation{" "}
+          </label>
+          <div className="absolute top-[42px] -left-10 dropdown-content p-4">
+            <ul
+              tabIndex={0}
+              className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
+            >
+              <Link href="/Venue">
+                <li
+                  className={`${
+                    router.pathname == "/PaperSubmission"
+                      ? " hover:border-orange-400 text-orange-400"
+                      : ""
+                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
+                >
+                  Conference venue
+                </li>
+              </Link>
+              <Link href="/Accommodation">
+                <li
+                  className={`${
+                    router.pathname == "/Accommodation"
+                      ? " hover:border-orange-400 text-orange-400"
+                      : ""
+                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                >
+                  Accommodation
+                </li>
+              </Link>
+            </ul>
+          </div>
+        </span>
         <Link href="/Gallery">
           <span
             className={`${

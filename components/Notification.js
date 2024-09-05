@@ -33,6 +33,11 @@ const NotificationCarousel = () => {
         "Welcome onboard Icon Electromatic Private Limited(Bronze Sponsor).",
       imageUrl: "electro.png", // Replace with your image URL
     },
+    {
+      type: "image",
+      content: "Welcome onboard  NUMEREGION's TaraNG(Bronze Sponsor).",
+      imageUrl: "/6_Bronze.jpeg", // Replace with your image URL
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
