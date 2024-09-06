@@ -376,6 +376,19 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             </li> */}
             <li
               onClick={() => {
+                router.push("/Committee#tpcchairs");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee#pubchairs"
+              )}`}
+            >
+              Technical Program Committee Co-Chair
+            </li>
+            <li
+              onClick={() => {
                 router.push("/Committee#finchairs");
                 if (width < 768) {
                   setIsOpen(false);
@@ -398,7 +411,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                 "/Committee#pubchairs"
               )}`}
             >
-              Publication Chair
+              Publication Co-Chair
             </li>
             <li
               onClick={() => {

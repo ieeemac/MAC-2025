@@ -51,9 +51,14 @@ const SponsorFix = () => {
           <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 ">
             Bronze
           </h1>
-          <div className="flex flex-row items-center">
+          <div className="flex flex-col sm:flex-row items center">
             <img
               src="/electro.png"
+              alt="logo"
+              className="w-48 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+            />
+            <img
+              src="/6_Bronze.jpeg"
               alt="logo"
               className="w-48 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
             />
