@@ -60,6 +60,13 @@ const Sidebar = ({ setIsOpenSidebar }) => {
           >
             About
           </motion.div>
+          <motion.div
+            variants={item}
+            onClick={() => navigate("/Committee")}
+            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+          >
+            Committee
+          </motion.div>
           {/* <motion.div
             variants={item}
             onClick={() => navigate("/tuned")}
@@ -117,13 +124,6 @@ const Sidebar = ({ setIsOpenSidebar }) => {
                 </li>
               </ul>
             </div>
-          </motion.div>
-          <motion.div
-            variants={item}
-            onClick={() => navigate("/Committee")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
-          >
-            Committee
           </motion.div>
           <motion.div
             variants={item}
