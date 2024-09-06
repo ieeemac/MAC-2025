@@ -11,7 +11,7 @@ export const patrons = [
     title: "Coming Soon...",
     fullName: "Dr. C J Reddy",
     organisation: "Business Development at Altair Engineering, Inc. USA",
-    profileImage: "/1573829384481.JPG",
+    profileImage: "/cj.jpg",
     date: "5 Oct 2024, 05:30 PM IST",
     url: "https://www.linkedin.com/in/cjreddy01/",
   },
