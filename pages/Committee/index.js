@@ -29,6 +29,7 @@ import {
   LocalArrangementsChair,
   LocalArrangementsCoChair,
   SponsorshipCoChair,
+  TPC,
 } from "../../data/committee";
 import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
@@ -596,6 +597,25 @@ const Committee = () => {
                 </div>
               </div> */}
               <div>
+                <div id="tpcchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  {" "}
+                  Technical Program Committee Co-Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {TPC.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      // title={chair.title}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div>
                 <div id="finchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
@@ -619,7 +639,7 @@ const Committee = () => {
                 <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
-                  Publication Chair
+                  Publication Co-Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
                   {PublicChairs.map((chair) => (
