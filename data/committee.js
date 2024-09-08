@@ -1274,7 +1274,7 @@ export const committeeMembers = [
         organisation: "MNNIT Allahabad, India",
       },
       {
-        fullName: "Mr. Kshitij Singh Yadav",
+        fullName: "Mr. Nitin Kumar Nishad",
         organisation: "MNNIT Allahabad, India",
       },
     ],
