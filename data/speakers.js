@@ -9,7 +9,8 @@ export const patrons = [
     url: "https://www.linkedin.com/in/brawal/",
   },
   {
-    title: "Coming Soon...",
+    title:
+      "Dielectric Resonator Antenna: A Potential Radiator for 5G/6G MIMO Antenna Technology",
     fullName: "Prof. Ravi Gangwar",
     organisation:
       "Professor, Head Electronics Engineering Department (IIT Dhanbad, INDIA)",
@@ -18,7 +19,7 @@ export const patrons = [
     url: "https://www.linkedin.com/in/ravi-kumar-gangwar-47b9aa5/",
   },
   {
-    title: "Coming Soon...",
+    title: "Implanted and wearable antenna's safety",
     fullName: "Prof. Sima Noghanian",
     organisation: "Hardware Engineer (CommScope,  Sunnyvale, California, USA)",
     profileImage: "/sima.png",
@@ -26,7 +27,8 @@ export const patrons = [
     url: "https://www.linkedin.com/in/sima-noghanian/",
   },
   {
-    title: "Coming Soon...",
+    title:
+      "Design and Development of Flat Panel Phased Array Antennas for Base Station and CubeSat Communication Applications",
     fullName: "Prof. Satish Sharma",
     organisation: "San Diego State University, USA",
     profileImage: "/satish.jpg",
@@ -60,7 +62,8 @@ export const patrons = [
     url: "https://www.linkedin.com/in/dr-nasimuddin-31469720/", //have to change later
   },
   {
-    title: "Coming Soon...",
+    title:
+      "Pushing the Boundaries of Computational Electromagnetics – Application to Antenna Designs, Placement, Co-site Interference Simulations and Digital Twins",
     fullName: "Dr. C J Reddy",
     organisation:
       "Vice President Business Development (Altair Engineering Inc., USA) ",
