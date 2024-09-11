@@ -114,10 +114,10 @@ const Navbar = () => {
                   SIGHT
                 </li>
               </Link>
-              <Link href="/tuned">
+              <Link href="/schedule">
                 <li
                   className={`${
-                    router.pathname == "/tuned"
+                    router.pathname == "/schedule"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
