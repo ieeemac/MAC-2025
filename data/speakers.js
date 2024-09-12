@@ -57,7 +57,7 @@ export const patrons = [
     title: "Coming Soon...",
     fullName: "Prof. Prakash Duraisamy",
     organisation:
-      "Assistant Professor, Dept of CSE  (Univ of University of Wisconsin - Green Bay, USA) ",
+      "Assistant Professor, Dept of CSE  (University of Wisconsin - Green Bay, USA) ",
     profileImage: "/prakash duraisamy.jpg",
     date: "5 Oct 2024, 3:30 PM IST",
     url: "#",
