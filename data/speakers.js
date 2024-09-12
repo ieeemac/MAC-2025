@@ -44,7 +44,8 @@ export const patrons = [
     url: "https://www.linkedin.com/in/debdeep-sarkar-04b95023/",
   },
   {
-    title: "Coming Soon...",
+    title:
+      "Future-Driven Circularly Polarized Antenna Designs: Innovations and Applications in Wireless Tech",
     fullName: "Dr. Nasimuddin",
     organisation:
       "Principal Scientist,(Institute for Infocomm Research, Singapore)",
@@ -59,7 +60,7 @@ export const patrons = [
       "Assistant Professor, Dept of CSE  (Univ of University of Wisconsin - Green Bay, USA) ",
     profileImage: "/prakash duraisamy.jpg",
     date: "5 Oct 2024, 3:30 PM IST",
-    url: "https://www.linkedin.com/in/dr-nasimuddin-31469720/", //have to change later
+    url: "#",
   },
   {
     title:

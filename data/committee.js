@@ -1235,6 +1235,18 @@ export const committeeMembers = [
         fullName: "Mr. Manish Kumar",
         organisation: "MNNIT Allahabad, India",
       },
+      {
+        fullName: "Ms. Sandhya Kanoujia",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Mr. Dinesh Kumar",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Ms. Khushboo Singh",
+        organisation: "MNNIT Allahabad, India",
+      },
     ],
   },
   {
@@ -1242,7 +1254,7 @@ export const committeeMembers = [
     name: "studentCoodinator",
     data: [
       {
-        fullName: "Mr. Piyush Kumar Mishra",
+        fullName: "Ms. Pooja Sharma",
         organisation: "MNNIT Allahabad, India",
       },
       {
@@ -1258,8 +1270,8 @@ export const committeeMembers = [
         organisation: "MNNIT Allahabad, India",
       },
       {
-        fullName: "Ms. Pooja Sharma",
-        organisation: "MNNIT ALLAHABAD, India",
+        fullName: "Mr. Piyush Kumar Mishra",
+        organisation: "MNNIT Allahabad, India",
       },
       {
         fullName: "Mr. Satendra Pathak",
