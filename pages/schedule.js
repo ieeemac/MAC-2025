@@ -1,12 +1,9 @@
 import React from "react";
-import Keynote from "../components/Keynote";
-import gradients from "../styles/customGradient.module.css";
-import { patrons } from "../data/speakers";
 
 const sheetURL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTB3Kd2qgv3wrqurlHhUiSFMUbLv-gDWJS6PdlX0-NB3DJNmujHqQQ5p5uP8Z2YMM4Ghmd9Powg9uHy/pubhtml?gid=2137689945&amp;single=true&amp;widget=true&amp;headers=false";
 
-const Keynotes = () => {
+const Schedule = () => {
   return (
     <section
       id="venue"
@@ -45,4 +42,4 @@ const Keynotes = () => {
   );
 };
 
-export default Keynotes;
+export default Schedule;
