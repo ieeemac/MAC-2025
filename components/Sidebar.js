@@ -117,7 +117,7 @@ const Sidebar = ({ setIsOpenSidebar }) => {
                   SIGHT
                 </li>
                 <li
-                  onClick={() => navigate("/tuned")}
+                  onClick={() => navigate("/schedule")}
                   className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
                 >
                   Conference Schedule
