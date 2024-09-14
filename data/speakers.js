@@ -19,7 +19,7 @@ export const patrons = [
     url: "https://www.linkedin.com/in/ravi-kumar-gangwar-47b9aa5/",
   },
   {
-    title: "Implanted and wearable antenna's safety",
+    title: "Implanted and Wearable Antennas: Safety and Thermal Analysis",
     fullName: "Prof. Sima Noghanian",
     organisation: "Hardware Engineer (CommScope,  Sunnyvale, California, USA)",
     profileImage: "/sima.png",
