@@ -31,27 +31,6 @@ export default function Sponsors1() {
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
-                  Platinum{" "}
-                </h1>
-              </div>
-              <div className=" flex flex-col md:flex-row justify-around items-center ">
-                <div>
-                  <img
-                    src="/agmatel.png"
-                    alt="logo"
-                    className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
-                  />
-                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                    Agmatel
-                  </p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
-            <div className="">
-              <div className="inline-flex ">
-                <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
                   Gold{" "}
                 </h1>
               </div>
@@ -117,6 +96,29 @@ export default function Sponsors1() {
               </div>
             </div>
           </SwiperSlide>
+
+          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+            <div className="">
+              <div className="inline-flex ">
+                <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+                  Silvers{" "}
+                </h1>
+              </div>
+              <div className=" flex flex-col md:flex-row justify-around items-center ">
+                <div>
+                  <img
+                    src="/agmatel.png"
+                    alt="logo"
+                    className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                  />
+                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                    Agmatel
+                  </p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
           <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
@@ -165,6 +167,54 @@ export default function Sponsors1() {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+            <div className="">
+              <div className="inline-flex ">
+                <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+                  Bronze{" "}
+                </h1>
+              </div>
+              <div className=" flex flex-col md:flex-row justify-around items-center ">
+                <div
+                  className="flex flex-col items-center justify-center"
+                  style={{ width: "150px", height: "150px" }}
+                >
+                  <img
+                    src="/bronze_logo_1.jpeg"
+                    alt="logo"
+                    className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                  />
+                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                    Mmrfic technology pvt ltd
+                  </p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+            <div className="">
+              <div className="inline-flex ">
+                <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+                  Bronze{" "}
+                </h1>
+              </div>
+              <div className=" flex flex-col md:flex-row justify-around items-center ">
+                <div
+                  className="flex flex-col items-center justify-center"
+                  style={{ width: "150px", height: "150px" }}
+                >
+                  <img
+                    src="/bronze_logo_2.jpeg"
+                    alt="logo"
+                    className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                  />
+                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                    Synergy telecom pvt ltd
+                  </p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
       <div className="hidden md:block">
@@ -180,28 +230,6 @@ export default function Sponsors1() {
           modules={[Autoplay]}
           className="mySwiper w-[100%] h-[250px] lg:h-[300px] bg-white rounded-lg"
         >
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
-            <div>
-              <div className="inline-flex text-center mt-4  ">
-                <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
-                  Platinum{" "}
-                </h1>
-              </div>
-              <div className=" flex flex-col md:flex-row justify-around items-center ">
-                <div>
-                  <img
-                    src="/agmatel.png"
-                    alt="logo"
-                    className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
-                  />
-                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                    Agmatel
-                  </p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-
           <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div>
               <div className="inline-flex text-center mt-4 ">
@@ -249,6 +277,29 @@ export default function Sponsors1() {
               </div>
             </div>
           </SwiperSlide>
+
+          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+            <div>
+              <div className="inline-flex text-center mt-4  ">
+                <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+                  Silver{" "}
+                </h1>
+              </div>
+              <div className=" flex flex-col md:flex-row justify-around items-center ">
+                <div>
+                  <img
+                    src="/agmatel.png"
+                    alt="logo"
+                    className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                  />
+                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                    Agmatel
+                  </p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
           <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div>
               <div className="inline-flex text-center mt-4  ">
@@ -275,6 +326,28 @@ export default function Sponsors1() {
                   />
                   <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4 ml-20 mb-20;">
                     NUMEREGION&apos;s TaraNG
+                  </p>
+                </div>
+
+                <div className="flex flex-col items-center justify-center">
+                  <img
+                    src="/bronze_logo_1.jpeg"
+                    alt="logo"
+                    className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                  />
+                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4 ml-20 mb-20;">
+                    Mmrfic technology pvt ltd
+                  </p>
+                </div>
+
+                <div className="flex flex-col items-center justify-center">
+                  <img
+                    src="/bronze_logo_2.jpeg"
+                    alt="logo"
+                    className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                  />
+                  <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4 ml-20 mb-20;">
+                    Synergy telecom pvt ltd
                   </p>
                 </div>
               </div>

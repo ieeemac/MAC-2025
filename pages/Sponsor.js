@@ -274,38 +274,6 @@ const Sponsor = () => {
           className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
           <div className="inline-flex ">
-            <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
-              Platinum{" "}
-            </h1>
-          </div>
-          <div className=" flex flex-col md:flex-row justify-around items-center ">
-            <div>
-              <img
-                src="/agmatel.png"
-                alt="logo"
-                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
-              />
-              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                Agmatel
-              </p>
-            </div>
-            {/* <div>
-              <img
-                src="/CSIR.webp"
-                alt="logo"
-                className="md:-mt-8 w-64 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
-              />
-              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                CSIR, GOI
-              </p>
-            </div> */}
-          </div>
-        </div>
-
-        <div
-          className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
-        >
-          <div className="inline-flex ">
             <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
               Gold{" "}
             </h1>
@@ -345,6 +313,38 @@ const Sponsor = () => {
         </div>
 
         <div
+          className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
+        >
+          <div className="inline-flex ">
+            <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+              Silver{" "}
+            </h1>
+          </div>
+          <div className=" flex flex-col md:flex-row justify-around items-center ">
+            <div>
+              <img
+                src="/agmatel.png"
+                alt="logo"
+                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                Agmatel
+              </p>
+            </div>
+            {/* <div>
+              <img
+                src="/CSIR.webp"
+                alt="logo"
+                className="md:-mt-8 w-64 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                CSIR, GOI
+              </p>
+            </div> */}
+          </div>
+        </div>
+
+        <div
           className={` text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
           <div className="inline-flex ">
@@ -371,6 +371,26 @@ const Sponsor = () => {
               />
               <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
                 NUMEREGION&apos;s TaraNG
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/bronze_logo_1.jpeg"
+                alt="logo"
+                className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                Mmrfic technology pvt ltd
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/bronze_logo_2.jpeg"
+                alt="logo"
+                className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                Synergy telecom pvt ltd
               </p>
             </div>
           </div>
