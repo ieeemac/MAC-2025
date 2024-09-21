@@ -101,7 +101,7 @@ export default function Sponsors1() {
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
-                  Silvers{" "}
+                  Silver{" "}
                 </h1>
               </div>
               <div className=" flex flex-col md:flex-row justify-around items-center ">

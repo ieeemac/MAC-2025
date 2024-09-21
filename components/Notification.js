@@ -7,11 +7,7 @@ const NotificationCarousel = () => {
       content:
         "Extended version of the top 10% papers from MAC 2024 will be published in a special issue of Defence Science Journal(SCI).",
     },
-    {
-      type: "image",
-      content: "Welcome onboard Agmatel(Platinum Sponsor).",
-      imageUrl: "agmatel.png", // Replace with your image URL
-    },
+
     {
       type: "image",
       content: "Welcome onboard JV Micronics(Gold Sponsor).",
@@ -29,6 +25,11 @@ const NotificationCarousel = () => {
     },
     {
       type: "image",
+      content: "Welcome onboard Agmatel(Silver Sponsor).",
+      imageUrl: "agmatel.png", // Replace with your image URL
+    },
+    {
+      type: "image",
       content:
         "Welcome onboard Icon Electromatic Private Limited(Bronze Sponsor).",
       imageUrl: "electro.png", // Replace with your image URL
@@ -37,6 +38,16 @@ const NotificationCarousel = () => {
       type: "image",
       content: "Welcome onboard  NUMEREGION's TaraNG(Bronze Sponsor).",
       imageUrl: "/6_Bronze.jpeg", // Replace with your image URL
+    },
+    {
+      type: "image",
+      content: "Welcome onboard  Mmrfic technology pvt ltd(Bronze Sponsor).",
+      imageUrl: "/bronze_logo_1.jpeg", // Replace with your image URL
+    },
+    {
+      type: "image",
+      content: "Welcome onboard  Synergy telecom pvt ltd(Bronze Sponsor).",
+      imageUrl: "/bronze_logo_2.jpeg", // Replace with your image URL
     },
   ];
 
