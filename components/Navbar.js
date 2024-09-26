@@ -89,7 +89,7 @@ const Navbar = () => {
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
-                  TPC
+                  YP
                 </li>
               </Link>
               <Link href="/tuned">

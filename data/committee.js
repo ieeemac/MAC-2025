@@ -543,7 +543,7 @@ export const committeeMembers = [
         organisation: "BBDNIIT, Lucknow",
       },
       {
-        fullName: "Prof. Dilip Kumar Singh",
+        fullName: "Prof. Dilip Kumar Sharma",
         organisation: "GLA, Mathura",
       },
     ],
