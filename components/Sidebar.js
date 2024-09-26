@@ -102,7 +102,7 @@ const Sidebar = ({ setIsOpenSidebar }) => {
                   onClick={() => navigate("/tuned")}
                   className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
                 >
-                  TPC
+                  YP
                 </li>
                 <li
                   onClick={() => navigate("/tuned")}
