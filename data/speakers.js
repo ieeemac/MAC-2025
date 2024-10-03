@@ -1,14 +1,5 @@
 export const patrons = [
   {
-    title: "Coming Soon...",
-    fullName: "Dr. Bharat Rawal",
-    organisation:
-      "Professor, Head Computer Science Department (Grambling State University, USA)",
-    profileImage: "/bharat rawal.JPG",
-    date: "5 Oct 2024, 09:00 AM IST",
-    url: "https://www.linkedin.com/in/brawal/",
-  },
-  {
     title:
       "Dielectric Resonator Antenna: A Potential Radiator for 5G/6G MIMO Antenna Technology",
     fullName: "Prof. Ravi Gangwar",
@@ -25,6 +16,15 @@ export const patrons = [
     profileImage: "/sima.png",
     date: "4 Oct 2024, 07:30 PM IST",
     url: "https://www.linkedin.com/in/sima-noghanian/",
+  },
+  {
+    title: "Coming Soon...",
+    fullName: "Dr. Bharat Rawal",
+    organisation:
+      "Professor, Head Computer Science Department (Grambling State University, USA)",
+    profileImage: "/bharat rawal.JPG",
+    date: "5 Oct 2024, 09:00 AM IST",
+    url: "https://www.linkedin.com/in/brawal/",
   },
   {
     title:
