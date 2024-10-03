@@ -39,7 +39,7 @@ const HomeMain = () => {
       <SponsorCarousel />
       <NotificationCarousel />
       <img
-        src="Standee.jpg"
+        src="Standee1.jpg"
         className="h-[60%] w-[60%] object-contain mx-auto"
       />
 
