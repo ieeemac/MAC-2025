@@ -1247,6 +1247,14 @@ export const committeeMembers = [
         fullName: "Ms. Khushboo Singh",
         organisation: "MNNIT Allahabad, India",
       },
+      {
+        fullName: "Ms. Aayushi Srivastava",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Ms. Diksha Parya",
+        organisation: "MNNIT Allahabad, India",
+      },
     ],
   },
   {
