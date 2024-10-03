@@ -69,7 +69,7 @@ export const patrons = [
     organisation:
       "Vice President Business Development (Altair Engineering Inc., USA) ",
     profileImage: "/cj.jpg",
-    date: "5 Oct 2024, 05:45 PM IST",
+    date: "5 Oct 2024, 05:30 PM IST",
     url: "https://www.linkedin.com/in/cjreddy01/",
   },
   {
