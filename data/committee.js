@@ -172,6 +172,12 @@ export const WebsiteChair = [
 
 export const IndustryInteractionChair = [
   {
+    title: "Prof.",
+    fullName: "Karun Rawat",
+    organisation: "IIT Roorkee, India",
+    profileImage: "/karun.jpeg",
+  },
+  {
     title: "Dr.",
     fullName: "Girish Chandra Tripathi",
     organisation: "Tejas Networks, India",

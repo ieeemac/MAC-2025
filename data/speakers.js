@@ -18,6 +18,16 @@ export const patrons = [
     url: "https://www.linkedin.com/in/sima-noghanian/",
   },
   {
+    title:
+      "From Concept to Creation: AI and Additive Manufacturing in Electromagnetic Engineering",
+    fullName: "Dr. Ravi Kumar Arya",
+    organisation:
+      "Director, Xiangshan Laboratory Wireless Group, Xiangshan Laboratory Zhongshan Institute of Changchun University of Science and Technology, China",
+    profileImage: "/raviarya.jpeg",
+    date: "Coming Soon...",
+    url: "https://www.linkedin.com/in/ravikumararya/",
+  },
+  {
     title: "Coming Soon...",
     fullName: "Dr. Bharat Rawal",
     organisation:
