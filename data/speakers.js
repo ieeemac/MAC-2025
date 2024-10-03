@@ -5,7 +5,7 @@ export const patrons = [
     organisation:
       "Professor, Head Computer Science Department (Grambling State University, USA)",
     profileImage: "/bharat rawal.JPG",
-    date: "4 Oct 2024, 11:30 AM IST",
+    date: "5 Oct 2024, 09:00 AM IST",
     url: "https://www.linkedin.com/in/brawal/",
   },
   {
