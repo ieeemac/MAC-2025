@@ -190,6 +190,15 @@ const Navbar = () => {
             </ul>
           </div>
         </span>
+        <Link href="/awards">
+          <span
+            className={`${
+              router.pathname == "/awards" ? " text-orange-400" : "text-white"
+            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+          >
+            Awards
+          </span>
+        </Link>
         <Link href="/Sponsor">
           <span
             className={`${

@@ -35,8 +35,14 @@ const HomeMain = () => {
     </div>
   </div>
 </div> */}
+
       <SponsorCarousel />
       <NotificationCarousel />
+      <img
+        src="Standee1.jpg"
+        className="h-[60%] w-[60%] object-contain mx-auto"
+      />
+
       <div
         className={`h-[60vh] md:h-[95vh] mt-[15px] relative ${gradients.homePage}`}
       >
