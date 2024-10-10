@@ -36,12 +36,12 @@ const HomeMain = () => {
   </div>
 </div> */}
 
-      <SponsorCarousel />
+      {/* <SponsorCarousel />
       <NotificationCarousel />
       <img
         src="Standee1.jpg"
         className="h-[60%] w-[60%] object-contain mx-auto"
-      />
+      /> */}
 
       <div
         className={`h-[60vh] md:h-[95vh] mt-[15px] relative ${gradients.homePage}`}
@@ -52,12 +52,12 @@ const HomeMain = () => {
             <div className="font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4 mb-6">
               <span className="text-orange-400"></span>{" "}
               <span className="text-white">
-                2nd International Conference on
+                3rd International Conference on
               </span>{" "}
               <span className="text-orange-400">Microwave</span>{" "}
               <span className="text-white">, Antenna and</span>{" "}
               <span className="text-green-500">Communication </span>{" "}
-              <span className="text-white">2024 </span>
+              <span className="text-white">2025 </span>
               <span className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl">
                 <br></br>(Industry-Academia Conclave)
               </span>
@@ -73,7 +73,7 @@ const HomeMain = () => {
                     </Link>
                     <span className="text-sm lg:text-lg text-white">
                       {" "}
-                      October 4-6, 2024
+                      June 27-29, 2025
                     </span>
                   </p>
                 </div>
@@ -87,7 +87,7 @@ const HomeMain = () => {
                     </Link>
                     <span className="text-sm lg:text-lg text-white">
                       {" "}
-                      Hotel Rudra, Dehradun, Uttarakhand, India
+                      MANIT Bhopal, Madhya Pradesh, India
                     </span>
                   </p>
                 </div>
@@ -105,7 +105,7 @@ const HomeMain = () => {
             </a>
 
             <a
-              href="https://cmt3.research.microsoft.com/MAC2024/"
+              href="https://cmt3.research.microsoft.com/MAC2025/"
               className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
             >
               Submit Papers
@@ -126,7 +126,7 @@ const HomeMain = () => {
           <div className=" container mx-auto flex md:px-5 py-2 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 px-6 lg:pr-24 md:pr-16 relative flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">
-                <span className="text-orange-400">MAC</span>2024
+                <span className="text-orange-400">MAC</span>2025
               </h1>
               <h2 className="text-lg">
                 <span>Co-Organised By</span>
@@ -154,26 +154,27 @@ const HomeMain = () => {
               </h2>
               <br />
               <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
-                Welcome to the 2nd International Conference on Microwave,
-                Antenna, and Communication (MAC-2024)! Join us in the scenic
-                city of Dehradun, Uttarakhand, India, from October 4-6, 2024,
+                Welcome to the 3rd International Conference on Microwave,
+                Antenna, and Communication (MAC-2025)! Join us in the scenic
+                city of Bhopal, Madhya Pradesh, India, from June 27-29, 2025,
                 for an enriching experience of knowledge, research and
-                innovation. MAC-2024 serves as a dynamic platform, bringing
-                together researchers, academicians, industry professionals, and
-                startups to showcase their cutting-edge research, share
-                innovative ideas, and explore the emerging trends of Microwave,
-                Antenna and Communication technologies. MAC-2024 will also
-                feature a special track on Young Professionals, Women in
-                Engineering and SIGHT, which will provide opportunities for
-                networking, mentoring and career development. The conference
-                will feature keynote speeches, invited talks, panel discussions,
-                technical sessions, poster presentations and exhibitions. Let us
-                engage in thought-provoking technical sessions, delve into
-                recent developments, and foster collaborative discussions.
-                MAC-2024 is an opportunity to you for collaboration and
-                networking with international industry/academia experts. We
-                invite you to join us at MAC-2024 and be a part of this exciting
-                event!
+                innovation.Technically sponsored by IEEE MP section and IEEE UP
+                section, jointly, MAC-2025 serves as a dynamic platform,
+                bringing together researchers, academicians, industry
+                professionals, and startups to showcase their cutting-edge
+                research, share innovative ideas, and explore the emerging
+                trends of Microwave, Antenna and Communication technologies.
+                MAC-2025 will also feature a special track on Young
+                Professionals, Women in Engineering and SIGHT, which will
+                provide opportunities for networking, mentoring and career
+                development. The conference will feature keynote speeches,
+                invited talks, panel discussions, technical sessions, poster
+                presentations and exhibitions. Let us engage in
+                thought-provoking technical sessions, delve into recent
+                developments, and foster collaborative discussions. MAC-2025 is
+                an opportunity to you for collaboration and networking with
+                international industry/academia experts. We invite you to join
+                us at MAC-2025 and be a part of this exciting event!
               </p>
             </div>
 
@@ -229,11 +230,11 @@ const HomeMain = () => {
               </p>
               <a
                 className="text-rose-500 cursor-pointer inline-block md:text-lg"
-                href="https://cmt3.research.microsoft.com/MAC2024/"
+                href="https://cmt3.research.microsoft.com/MAC2025/"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://cmt3.research.microsoft.com/MAC2024/
+                https://cmt3.research.microsoft.com/MAC2025/
               </a>
 
               <h1 className="title-font text-orange-600 sm:text-3xl text-2xl mb-1 mt-8 md:mt-2 font-medium text-gray-900 block">
@@ -253,7 +254,8 @@ const HomeMain = () => {
             <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
               In Partnership with
             </h1>
-            <Sponsors1 />
+            <h2>*Will be announced soon</h2>
+            {/* <Sponsors1 /> */}
           </div>
         </section>
 
@@ -262,7 +264,8 @@ const HomeMain = () => {
             <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
               Technical Co-Sponsors
             </h1>
-            <Sponsors />
+            <h2>*Will be announced soon</h2>
+            {/* <Sponsors /> */}
           </div>
         </section>
       </div>

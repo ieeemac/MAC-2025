@@ -87,7 +87,7 @@ const Sidebar = ({ setIsOpenSidebar }) => {
                 className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52"
               >
                 <li
-                  onClick={() => navigate("/keynotes")}
+                  onClick={() => navigate("/tuned")}
                   className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
                 >
                   Keynotes
@@ -173,7 +173,7 @@ const Sidebar = ({ setIsOpenSidebar }) => {
           </motion.div>
           <motion.div
             variants={item}
-            onClick={() => navigate("/awards")}
+            onClick={() => navigate("/tuned")}
             className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             Awards
