@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/">
             <p className=" cursor-pointer font-extrabold">
               <span className="text-orange-400">MAC</span>
-              <span className="text-white">2024</span>
+              <span className="text-white">2025</span>
             </p>
           </Link>
         </div>
@@ -59,10 +59,10 @@ const Navbar = () => {
               tabIndex={0}
               className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
             >
-              <Link href="/keynotes">
+              <Link href="/tuned">
                 <li
                   className={`${
-                    router.pathname == "/keynotes"
+                    router.pathname == "/tuned"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
@@ -190,10 +190,10 @@ const Navbar = () => {
             </ul>
           </div>
         </span>
-        <Link href="/awards">
+        <Link href="/tuned">
           <span
             className={`${
-              router.pathname == "/awards" ? " text-orange-400" : "text-white"
+              router.pathname == "/tuned" ? " text-orange-400" : "text-white"
             }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
           >
             Awards
