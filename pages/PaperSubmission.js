@@ -57,11 +57,11 @@ const guideline = () => {
                   </p>
                   <a
                     className="text-rose-500 cursor-pointer inline-block md:text-lg"
-                    href="https://cmt3.research.microsoft.com/MAC2024/"
+                    href="https://cmt3.research.microsoft.com/MAC2025/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    https://cmt3.research.microsoft.com/MAC2024/
+                    https://cmt3.research.microsoft.com/MAC2025/
                   </a>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12   ">
@@ -81,7 +81,7 @@ const guideline = () => {
                     Library for Possible Publication.
                   </p>
                   <p className="mb-4 leading-relaxed  md:font-semibold md:text-lg">
-                    Extended version of the top 10% papers from MAC 2024 will be
+                    Extended version of the top 10% papers from MAC 2025 will be
                     published in a special issue of Defence Science Journal
                     (SCI).
                   </p>
