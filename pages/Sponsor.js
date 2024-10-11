@@ -22,13 +22,13 @@ const Sponsor = () => {
           <p className="text-justify">
             The International Conference on Microwave, Antenna, and
             Communications (MAC 2024) is a premier 3-days event bringing
-            together nearly 1,000 researchers, engineers, and industry leaders
-            from around the world to exchange knowledge, share insights, and
-            explore the latest advancements in microwave engineering, antenna
-            technologies, and communication systems. MAC 2024 expects
-            participation from various countries along with Indian organizations
-            like ISRO, BARC, DRDO, CSIR, DST-SERB, IPR, and academic institutes
-            like IISc, IITs, NITs, IIITs, etc.
+            together researchers, engineers, and industry leaders from around
+            the world to exchange knowledge, share insights, and explore the
+            latest advancements in microwave engineering, antenna technologies,
+            and communication systems. MAC 2024 expects participation from
+            various countries along with Indian organizations like ISRO, BARC,
+            DRDO, CSIR, DST-SERB, and academic institutes like IISc, IITs, NITs,
+            IIITs, etc.
           </p>
           <br />
           <p className="text-justify">
@@ -37,8 +37,7 @@ const Sponsor = () => {
             in the Microwave, Antenna, and Communications industries. This
             international event offers an outstanding opportunity for companies
             to exhibit their products/services and applications to a vibrant and
-            engaged audience, providing access to hundreds of key
-            decision-makers.
+            engaged audience, providing access to key decision-makers.
           </p>
           <br />
           <p className="text-justify">
@@ -77,12 +76,12 @@ const Sponsor = () => {
           <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
             <h2 className="text-xl lg:text-2xl font-bold p-2">
               <span style={{ color: "#0000FF" }}>Organizing</span> Partner:{" "}
-              <span style={{ color: "#0000FF" }}>INR 10.0 Lakh</span>
+              <span style={{ color: "#0000FF" }}>INR 3.0 Lakh</span>
             </h2>
             <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
               <li>
                 Elevate your brand become Partner with Institutes of National
-                Importance and DRDO!
+                Importance
               </li>
               <li>
                 Be seen by the leaders you want to meet & Get prominent
@@ -107,7 +106,7 @@ const Sponsor = () => {
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
                 <span style={{ color: "#0000FF" }}>Signature</span> sponsor:{" "}
-                <span style={{ color: "#0000FF" }}>INR 5.0 Lakh</span>
+                <span style={{ color: "#0000FF" }}>INR 2.5 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>10 Complimentary delegate passes</li>
@@ -133,7 +132,7 @@ const Sponsor = () => {
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
                 <span style={{ color: "#0000FF" }}>Diamond</span> sponsor:{" "}
-                <span style={{ color: "#0000FF" }}>INR 3.0 Lakh</span>
+                <span style={{ color: "#0000FF" }}>INR 2.0 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>5 Complimentary delegate passes</li>
@@ -154,7 +153,7 @@ const Sponsor = () => {
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
                 <span style={{ color: "#0000FF" }}>Platinum</span> sponsor:{" "}
-                <span style={{ color: "#0000FF" }}>INR 2 Lakh</span>
+                <span style={{ color: "#0000FF" }}>INR 1.5 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>4 Complimentary delegate passes</li>
@@ -173,7 +172,7 @@ const Sponsor = () => {
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
                 <span style={{ color: "#0000FF" }}>Gold</span> sponsor:{" "}
-                <span style={{ color: "#0000FF" }}>INR 1.5 Lakh</span>
+                <span style={{ color: "#0000FF" }}>INR 1.0 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>3 Complimentary delegate passes</li>
@@ -194,8 +193,8 @@ const Sponsor = () => {
               className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
-                <span style={{ color: "#0000FF" }}>Silver/Start-UPs</span>{" "}
-                sponsor: <span style={{ color: "#0000FF" }}>INR 1.0 Lakh</span>
+                <span style={{ color: "#0000FF" }}>Silver</span> sponsor:{" "}
+                <span style={{ color: "#0000FF" }}>INR 50 Th</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>2 Complimentary delegate passes</li>
@@ -273,7 +272,8 @@ const Sponsor = () => {
         <div
           className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
-          <div className="inline-flex ">
+          <h2>*Will be announced soon</h2>
+          {/* <div className="inline-flex ">
             <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
               Gold{" "}
             </h1>
@@ -309,13 +309,13 @@ const Sponsor = () => {
                 Scientific Microwave
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div
           className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
-          <div className="inline-flex ">
+          {/* <div className="inline-flex ">
             <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
               Silver{" "}
             </h1>
@@ -331,23 +331,13 @@ const Sponsor = () => {
                 Agmatel
               </p>
             </div>
-            {/* <div>
-              <img
-                src="/CSIR.webp"
-                alt="logo"
-                className="md:-mt-8 w-64 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
-              />
-              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                CSIR, GOI
-              </p>
-            </div> */}
-          </div>
+          </div> */}
         </div>
 
         <div
           className={` text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
-          <div className="inline-flex ">
+          {/* <div className="inline-flex ">
             <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
               Bronze{" "}
             </h1>
@@ -393,7 +383,7 @@ const Sponsor = () => {
                 Synergy telecom pvt ltd
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

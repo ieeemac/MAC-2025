@@ -8,9 +8,10 @@ const SponsorFix = () => {
         </span>
       </h1>
       <div className="flex flex-col lg:flex-row justify-around items-center">
+        <h2>*Will be announced soon</h2>
         {/* First Section */}
 
-        <div className="flex flex-col items-center">
+        {/* <div className="flex flex-col items-center">
           <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 ">
             Gold
           </h1>
@@ -74,7 +75,7 @@ const SponsorFix = () => {
               className="w-48 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

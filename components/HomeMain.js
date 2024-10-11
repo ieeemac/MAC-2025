@@ -159,8 +159,9 @@ const HomeMain = () => {
                 city of Bhopal, Madhya Pradesh, India, from June 27-29, 2025,
                 for an enriching experience of knowledge, research and
                 innovation.Technically sponsored by IEEE MP section and IEEE UP
-                section, jointly, MAC-2025 serves as a dynamic platform,
-                bringing together researchers, academicians, industry
+                section, MAC 2025 is jointly organised by MANIT Bhopal,RGPV
+                Bhopal and MNNIT Allahabad, MAC-2025 serves as a dynamic
+                platform, bringing together researchers, academicians, industry
                 professionals, and startups to showcase their cutting-edge
                 research, share innovative ideas, and explore the emerging
                 trends of Microwave, Antenna and Communication technologies.
