@@ -194,7 +194,7 @@ const Sponsor = () => {
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
                 <span style={{ color: "#0000FF" }}>Silver</span> sponsor:{" "}
-                <span style={{ color: "#0000FF" }}>INR 50 Th</span>
+                <span style={{ color: "#0000FF" }}>INR 50 Thousand</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>2 Complimentary delegate passes</li>

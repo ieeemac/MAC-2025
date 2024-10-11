@@ -443,12 +443,7 @@ export const confChairs = [
     organisation: "MANIT Bhopal, India",
     profileImage: "/atulkumar.jpg",
   },
-  {
-    title: "Dr.",
-    fullName: "Tushar Goel ",
-    organisation: "NIT Uttarakhand, India",
-    profileImage: "/drtushar.png",
-  },
+
   // {
   //   title: "Dr.",
   //   fullName: "Rajan Mishra ",

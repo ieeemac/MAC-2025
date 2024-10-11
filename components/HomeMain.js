@@ -133,17 +133,15 @@ const HomeMain = () => {
 
                 <p>
                   <span className="text-orange-500 font-bold text-xl block">
-                    DEAL, DRDO, India
+                    MANIT Bhopal, India
                   </span>
                   <span className="text-orange-500 font-bold text-xl block">
-                    IIT Roorkee, India
+                    RGPV Bhopal, India
                   </span>
-                  <span className="text-orange-500 font-bold text-xl block">
-                    NIT Uttarakhand, India
-                  </span>
-                  <span className="text-orange-500 font-bold text-xl block">
+
+                  {/* <span className="text-orange-500 font-bold text-xl block">
                     VMSB UTU (THDC-IHET), Uttarakhand, India
-                  </span>
+                  </span> */}
                   {/* <span className="text-black-500 font-bold text-xl block">
     &
   </span> */}
@@ -160,7 +158,7 @@ const HomeMain = () => {
                 for an enriching experience of knowledge, research and
                 innovation.Technically sponsored by IEEE MP section and IEEE UP
                 section, MAC 2025 is jointly organised by MANIT Bhopal,RGPV
-                Bhopal and MNNIT Allahabad, MAC-2025 serves as a dynamic
+                Bhopal and MNNIT Allahabad. MAC-2025 serves as a dynamic
                 platform, bringing together researchers, academicians, industry
                 professionals, and startups to showcase their cutting-edge
                 research, share innovative ideas, and explore the emerging
@@ -238,12 +236,12 @@ const HomeMain = () => {
                 https://cmt3.research.microsoft.com/MAC2025/
               </a>
 
-              <h1 className="title-font text-orange-600 sm:text-3xl text-2xl mb-1 mt-8 md:mt-2 font-medium text-gray-900 block">
+              {/* <h1 className="title-font text-orange-600 sm:text-3xl text-2xl mb-1 mt-8 md:mt-2 font-medium text-gray-900 block">
                 Mode of Conduction:
               </h1>
               <h1 className="title-font sm:text-2xl text-2xl mb-4 mt-1 md:mt-2 font-medium text-gray-900 block">
                 Hybrid Mode
-              </h1>
+              </h1> */}
               <p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg"></p>
             </div>
           </div>
