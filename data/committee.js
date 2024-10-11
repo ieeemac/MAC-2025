@@ -14,12 +14,18 @@ export const patrons = [
   //   organisation: "Director (DEAL), DRDO, Dehradun ,India",
   //   profileImage: "/lcmangal.png",
   // },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Sharad Kumar Pradhan",
+  //   organisation:
+  //     "Director, THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
+  //   profileImage: "/drsharad.webp",
+  // },
   {
     title: "Dr.",
-    fullName: "Sharad Kumar Pradhan",
-    organisation:
-      "Director, THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
-    profileImage: "/drsharad.webp",
+    fullName: " Dr. K. K. Shukla",
+    organisation: "Director, MANIT Bhopal ",
+    profileImage: "/kksingh.jpg",
   },
 ];
 
@@ -30,24 +36,24 @@ export const honChairs = [
   //   organisation: "Benedict College Columbia, USA",
   //   profileImage: "/bharatRawal.webp",
   // },
-  {
-    title: "Prof.",
-    fullName: "Cristiano Tomassoni",
-    organisation: "University of Perugia, Italy",
-    profileImage: "/Tomassoni_Cristiano (2).png",
-  },
-  {
-    title: "Dr.",
-    fullName: "Asad M. Madni",
-    organisation: "University of California, Los Angeles",
-    profileImage: "/asad.png",
-  },
-  {
-    title: "Prof.",
-    fullName: "Sima Noghanian",
-    organisation: "CommScope Ruckess Networks Sunnyvale, California, USA",
-    profileImage: "/sima.png",
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Cristiano Tomassoni",
+  //   organisation: "University of Perugia, Italy",
+  //   profileImage: "/Tomassoni_Cristiano (2).png",
+  // },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Asad M. Madni",
+  //   organisation: "University of California, Los Angeles",
+  //   profileImage: "/asad.png",
+  // },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Sima Noghanian",
+  //   organisation: "CommScope Ruckess Networks Sunnyvale, California, USA",
+  //   profileImage: "/sima.png",
+  // },
   // {
   //   title: "Mr.",
   //   fullName: "Manoj Kumar Dhaka",
@@ -70,20 +76,20 @@ export const honChairs = [
 
 export const genChairs = [
   {
-    title: "Prof.",
-    fullName: "Vijay Shanker Tripathi ",
+    title: "Dr.",
+    fullName: "Dr.Vijay Shanker Tripathi ",
     organisation: "MNNIT Allahabad, India",
     profileImage: "/vst_sir_pic.png",
   },
   {
-    title: "Mr.",
-    fullName: "Puneet Kumar Mishra ",
-    organisation: "U R Rao Satellite Centre, ISRO Bengaluru",
-    profileImage: "/puneet_mishra_sir_1.png",
+    title: "Dr.",
+    fullName: "Dr.R.N. Yadav ",
+    organisation: "MANIT Bhopal,India",
+    profileImage: "/rnyadav.jpg",
   },
   {
     title: "Prof.",
-    fullName: "Bharat Rawal",
+    fullName: "Dr.Bharat Rawal",
     organisation: "Grambling State University, USA",
     profileImage: "/bharat rawal.JPG",
   },
@@ -346,25 +352,37 @@ export const LocalArrangementsCoChair = [
 export const FinChairs = [
   {
     title: "Dr.",
-    fullName: "Anand Sharma",
+    fullName: "Dr.Anand Sharma",
     organisation: "MNNIT Allahabad, India",
     profileImage: "/dranand.png",
+  },
+  {
+    title: "Dr.",
+    fullName: "Dr.Suryakant Gautam",
+    organisation: "MANIT Bhopal, India",
+    profileImage: "/suryakantgautam.jpg",
   },
 ];
 
 export const OrgChair = [
   {
     title: "Prof.",
-    fullName: "Yogesh Singh Chauhan",
-    organisation: "IIT Kanpur, India",
-    profileImage: "/yogesh.png",
+    fullName: "Dr. G. S. Tomar",
+    organisation: "Director,REC Sonbhadra, India",
+    profileImage: "/gstomar.jpg",
   },
-  {
-    title: "Prof.",
-    fullName: "N P Pathak",
-    organisation: "IIT Roorkee, India",
-    profileImage: "/nppathak.png",
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Yogesh Singh Chauhan",
+  //   organisation: "IIT Kanpur, India",
+  //   profileImage: "/yogesh.png",
+  // },
+  // {
+  //   title: "Prof.",
+  //   fullName: "N P Pathak",
+  //   organisation: "IIT Roorkee, India",
+  //   profileImage: "/nppathak.png",
+  // },
 ];
 
 export const TPC = [
@@ -385,31 +403,58 @@ export const TPC = [
 export const PublicChairs = [
   {
     title: "Dr.",
-    fullName: "Gaurav Upadhyay",
-    organisation: "MANIT Bhopal, India",
-    profileImage: "/drgaurav.png",
+    fullName: "Dr.Rajan Mishra",
+    organisation: "MMMUT Gorakhpur, India",
+    profileImage: "/sonali.png",
   },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Gaurav Upadhyay",
+  //   organisation: "MANIT Bhopal, India",
+  //   profileImage: "/drgaurav.png",
+  // },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Tilakdhari Singh",
+  //   organisation: "MNNIT Allahabad, India",
+  //   profileImage: "/SD.jpg",
+  // },
+];
+
+export const PublicityChairs = [
   {
     title: "Dr.",
-    fullName: "Tilakdhari Singh",
-    organisation: "MNNIT Allahabad, India",
-    profileImage: "/SD.jpg",
+    fullName: "Dr.Shashwat Pathak",
+    organisation: "CEO,AIC GNITS Foundation",
+    profileImage: "/sonali.png",
   },
 ];
 
 export const confChairs = [
   {
     title: "Dr.",
+    fullName: "Dr. Gaurav Updahyay ",
+    organisation: "MANIT Bhopal, India",
+    profileImage: "/drgaurav.png",
+  },
+  {
+    title: "Dr.",
+    fullName: "Dr. Atul kumar ",
+    organisation: "MANIT Bhopal, India",
+    profileImage: "/atulkumar.jpg",
+  },
+  {
+    title: "Dr.",
     fullName: "Tushar Goel ",
     organisation: "NIT Uttarakhand, India",
     profileImage: "/drtushar.png",
   },
-  {
-    title: "Dr.",
-    fullName: "Rajan Mishra ",
-    organisation: "MMMUT Gorakhpur, India",
-    profileImage: "/drrajanmishra.webp",
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Rajan Mishra ",
+  //   organisation: "MMMUT Gorakhpur, India",
+  //   profileImage: "/drrajanmishra.webp",
+  // },
   // {
   //   title: "Ms.",
   //   fullName: "Sonali Agarwal ",

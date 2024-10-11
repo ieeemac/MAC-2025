@@ -44,7 +44,7 @@ const HomeMain = () => {
       /> */}
 
       <div
-        className={`h-[60vh] md:h-[95vh] mt-[15px] relative ${gradients.homePage}`}
+        className={`h-[60vh] md:h-[95vh] mt-[80px] relative ${gradients.homePage}`}
       >
         <HomeImageGallery />
         <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10">

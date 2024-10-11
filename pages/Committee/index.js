@@ -30,6 +30,7 @@ import {
   LocalArrangementsCoChair,
   SponsorshipCoChair,
   TPC,
+  PublicityChairs,
 } from "../../data/committee";
 import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
@@ -72,7 +73,7 @@ const Committee = () => {
                   profileImage="/bkdas.png"
                 />
               </div> */}
-              {/* <div>
+              <div>
                 <div id="patron" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">Patrons</h1>
                 <div className="flex gap-8 flex-wrap">
@@ -87,10 +88,10 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div>
 
               {/* Commented out "Honorary Chairs" */}
-              <div>
+              {/* <div>
                 <div id="honchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   Honorary Chair
@@ -109,7 +110,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
               <div>
                 <div id="orgChair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
@@ -150,7 +151,7 @@ const Committee = () => {
               </div>
             </div>
 
-            <div>
+            {/* <div>
               <div id="programchairs" className="h-20 mb-16 md:mb-0"></div>
               <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                 Program Chair
@@ -168,7 +169,7 @@ const Committee = () => {
                   />
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* <div>
                 <div id="eventmanagechair" className="h-20 mb-16 md:mb-0"></div>
@@ -259,7 +260,7 @@ const Committee = () => {
                 </div>
               </div> */}
 
-            <div>
+            {/* <div>
               <div id="academicout" className="h-20 mb-16 md:mb-0"></div>
               <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                 {" "}
@@ -279,9 +280,9 @@ const Committee = () => {
                   />
                 ))}
               </div>
-            </div>
+            </div> */}
 
-            <div>
+            {/* <div>
               <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
               <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                 {" "}
@@ -301,7 +302,7 @@ const Committee = () => {
                   />
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <div>
               <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
@@ -322,7 +323,7 @@ const Committee = () => {
                   />
                 ))}
               </div>
-              <div>
+              {/* <div>
                 <div
                   id="sponsorshipcochair"
                   className="h-20 mb-16 md:mb-0"
@@ -345,7 +346,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               {/* <div>
                 <div
@@ -596,7 +597,7 @@ const Committee = () => {
                   ))}
                 </div>
               </div> */}
-              <div>
+              {/* <div>
                 <div id="tpcchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
@@ -614,7 +615,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
               <div>
                 <div id="finchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
@@ -639,10 +640,29 @@ const Committee = () => {
                 <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
-                  Publication Co-Chair
+                  Publication Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
                   {PublicChairs.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      // title={chair.title}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div>
+                <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  {" "}
+                  Publicity Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {PublicityChairs.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
                       // title={chair.title}

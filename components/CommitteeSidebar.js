@@ -47,7 +47,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
         </div>
         {isOpen && (
           <ul className="fixed md:static top-16 overflow-auto h-[90vh] md:h-[85vh] md:pb-12 bg-white z-10 px-4 py-16 md:py-2 text-lg lg:text-xl flex flex-col gap-2 w-full ">
-            {/* <li
+            <li
               onClick={() => {
                 router.push("/Committee#chiefpatron");
                 if (width < 768) {
@@ -59,8 +59,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Chief Patron
-            </li> */}
-            {/* <li
+            </li>
+            <li
               onClick={() => {
                 router.push("/Committee#patron");
                 if (width < 768) {
@@ -72,7 +72,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Patrons
-            </li> */}
+            </li>
             <li
               onClick={() => {
                 router.push("/Committee#honchairs");
@@ -115,6 +115,20 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
 
             <li
               onClick={() => {
+                router.push("/Committee#confchairs");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee#confchairs"
+              )}`}
+            >
+              Conference Chairs
+            </li>
+
+            <li
+              onClick={() => {
                 router.push("/Committee#programchairs");
                 if (width < 768) {
                   setIsOpen(false);
@@ -125,6 +139,20 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Program Chairs
+            </li>
+
+            <li
+              onClick={() => {
+                router.push("/Committee#keynotechair");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee#keynotechair"
+              )}`}
+            >
+              Keynote Chair
             </li>
             {/* <li
               onClick={() => {
@@ -152,19 +180,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Event Management Co-Chair
             </li> */}
-            {/* <li
-              onClick={() => {
-                router.push("/Committee#keynotechair");
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
-                "/Committee#keynotechair"
-              )}`}
-            >
-              Keynote Chair
-            </li> */}
+
             {/* <li
               onClick={() => {
                 router.push("/Committee#hospitalitychair");
@@ -178,7 +194,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Hospitality Chair
             </li>*/}
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#academicout");
                 if (width < 768) {
@@ -190,7 +206,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Academic Outreach Chair
-            </li>
+            </li> */}
             <li
               onClick={() => {
                 router.push("/Committee#industryintchair");
@@ -204,20 +220,36 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Industry Interaction Chair
             </li>
+
             <li
               onClick={() => {
-                router.push("/Committee#confchairs");
+                router.push("/Committee#finchairs");
                 if (width < 768) {
                   setIsOpen(false);
                 }
               }}
               className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
-                "/Committee#confchairs"
+                "/Committee#finchairs"
               )}`}
             >
-              Conference Chairs
+              Finance Chair
             </li>
+
             <li
+              onClick={() => {
+                router.push("/Committee/publicityChair");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee/publicityChair"
+              )}`}
+            >
+              Publication Chair
+            </li>
+
+            {/* <li
               onClick={() => {
                 router.push("/Committee#sponsorshipcochair");
                 if (width < 768) {
@@ -229,7 +261,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Sponsorship Co-Chair
-            </li>
+            </li> */}
             {/*<li
               onClick={() => {
                 router.push("/Committee#industryintcochair");
@@ -374,45 +406,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Local Arrangements Co-Chair
             </li> */}
-            <li
-              onClick={() => {
-                router.push("/Committee#tpcchairs");
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
-                "/Committee#pubchairs"
-              )}`}
-            >
-              Technical Program Committee Co-Chair
-            </li>
-            <li
-              onClick={() => {
-                router.push("/Committee#finchairs");
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
-                "/Committee#finchairs"
-              )}`}
-            >
-              Finance Chair
-            </li>
-            <li
-              onClick={() => {
-                router.push("/Committee#pubchairs");
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
-                "/Committee#pubchairs"
-              )}`}
-            >
-              Publication Co-Chair
-            </li>
+
             <li
               onClick={() => {
                 router.push("/Committee/executiveCommittee");
@@ -426,6 +420,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Executive Committee
             </li>
+
             <li
               onClick={() => {
                 router.push("/Committee/advisoryCommittee");
@@ -439,19 +434,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Advisory Committee
             </li>
-            <li
-              onClick={() => {
-                router.push("/Committee/publicityChair");
-                if (width < 768) {
-                  setIsOpen(false);
-                }
-              }}
-              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
-                "/Committee/publicityChair"
-              )}`}
-            >
-              Publicity Chair
-            </li>
+
             <li
               onClick={() => {
                 router.push("/Committee/technicalProgramCommittee");
@@ -465,6 +448,34 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Technical Program Committee
             </li>
+            {/* <li
+              onClick={() => {
+                router.push("/Committee#tpcchairs");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee#pubchairs"
+              )}`}
+            >
+              Technical Program Committee Co-Chair
+            </li> */}
+
+            {/* <li
+              onClick={() => {
+                router.push("/Committee#pubchairs");
+                if (width < 768) {
+                  setIsOpen(false);
+                }
+              }}
+              className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+                "/Committee#pubchairs"
+              )}`}
+            >
+              Publication Co-Chair
+            </li> */}
+
             <li
               onClick={() => {
                 router.push("/Committee/youngProfessionals");
