@@ -121,19 +121,13 @@ const Registration = () => {
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">IEEE</td>
-                <td className="py-2">INR 6,900</td>
-                <td className="py-2">
-                  <span class="line-through mr-2">USD 190</span>
-                  <span>USD 90</span>
-                </td>
+                <td className="py-2">INR 8,900</td>
+                <td className="py-2">USD 250</td>
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">Non-IEEE</td>
-                <td className="py-2">INR 9,900</td>
-                <td className="py-2">
-                  <span class="line-through mr-2">USD 250</span>
-                  <span>USD 150</span>
-                </td>
+                <td className="py-2">INR 11,900</td>
+                <td className="py-2">USD 310</td>
               </tr>
               <tr>
                 <td rowSpan={3} className="font-semibold">
@@ -150,19 +144,13 @@ const Registration = () => {
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">IEEE</td>
-                <td className="py-2">INR 12,900</td>
-                <td className="py-2">
-                  <span class="line-through mr-2">USD 290</span>
-                  <span>USD 190</span>
-                </td>
+                <td className="py-2">INR 14,900</td>
+                <td className="py-2">USD 350</td>
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">Non-IEEE</td>
-                <td className="py-2">INR 14,900</td>
-                <td className="py-2">
-                  <span class="line-through mr-2">USD 350</span>
-                  <span>USD 250</span>
-                </td>
+                <td className="py-2">INR 17,900</td>
+                <td className="py-2">USD 390</td>
               </tr>
             </tbody>
           </table>
@@ -320,7 +308,7 @@ const Registration = () => {
       </div>
 
       <div className="text-center mt-12 ">
-        <a href="https://forms.gle/5HzxLGFXxwDzH3mb8">
+        <a href="https://forms.gle/zJHqkh55zGvjFkoAA">
           <span className=" rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success">
             Registration Form
           </span>
@@ -328,7 +316,6 @@ const Registration = () => {
       </div>
 
       <div className="h-12 w-full"></div>
-      <SponsorFix />
     </div>
   );
 };
