@@ -80,11 +80,11 @@ const guideline = () => {
                     registered authors, will be submitted to IEEE Xplore Digital
                     Library for Possible Publication.
                   </p>
-                  <p className="mb-4 leading-relaxed  md:font-semibold md:text-lg">
+                  {/* <p className="mb-4 leading-relaxed  md:font-semibold md:text-lg">
                     Extended version of the top 10% papers from MAC 2025 will be
                     published in a special issue of Defence Science Journal
                     (SCI).
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </section>
