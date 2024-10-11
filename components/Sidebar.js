@@ -117,7 +117,7 @@ const Sidebar = ({ setIsOpenSidebar }) => {
                   SIGHT
                 </li>
                 <li
-                  onClick={() => navigate("/schedule")}
+                  onClick={() => navigate("/tuned")}
                   className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
                 >
                   Conference Schedule
@@ -205,13 +205,13 @@ const Sidebar = ({ setIsOpenSidebar }) => {
                 className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52"
               >
                 <li
-                  onClick={() => navigate("/Venue")}
+                  onClick={() => navigate("/tuned")}
                   className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
                 >
                   Conference Venue
                 </li>
                 <li
-                  onClick={() => navigate("/Accommodation")}
+                  onClick={() => navigate("/tuned")}
                   className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
                 >
                   Accommodation

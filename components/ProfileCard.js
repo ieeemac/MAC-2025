@@ -14,7 +14,7 @@ const ProfileCard = ({ title, fullName, post, organisation, profileImage }) => {
       </figure>
       <div className="card-body text-black font-semibold">
         <div className="text-2xl font-bold ">
-          <h1>{title}</h1>
+          {/* <h1>{title}</h1> */}
           <h1>{fullName}</h1>
         </div>
         <h1>{post}</h1>

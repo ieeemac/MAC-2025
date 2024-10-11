@@ -114,10 +114,10 @@ const Navbar = () => {
                   SIGHT
                 </li>
               </Link>
-              <Link href="/schedule">
+              <Link href="/tuned">
                 <li
                   className={`${
-                    router.pathname == "/schedule"
+                    router.pathname == "/tuned"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
@@ -234,10 +234,10 @@ const Navbar = () => {
               tabIndex={0}
               className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
             >
-              <Link href="/Venue">
+              <Link href="/tuned">
                 <li
                   className={`${
-                    router.pathname == "/PaperSubmission"
+                    router.pathname == "/tuned"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
@@ -245,10 +245,10 @@ const Navbar = () => {
                   Conference venue
                 </li>
               </Link>
-              <Link href="/Accommodation">
+              <Link href="/tuned">
                 <li
                   className={`${
-                    router.pathname == "/Accommodation"
+                    router.pathname == "/tuned"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}

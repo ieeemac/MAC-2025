@@ -115,9 +115,7 @@ const Registration = () => {
                       alignItems: "center",
                     }}
                   >
-                    <span className="text-red-500 font-bold">
-                      Student Members
-                    </span>
+                    <span className="text-red-500 font-bold">Student</span>
                   </div>
                 </td>
               </tr>
@@ -146,9 +144,7 @@ const Registration = () => {
                       alignItems: "center",
                     }}
                   >
-                    <span className="text-red-500 font-bold">
-                      Professional Members
-                    </span>
+                    <span className="text-red-500 font-bold">Professional</span>
                   </div>
                 </td>
               </tr>
@@ -172,7 +168,10 @@ const Registration = () => {
           </table>
         </div>
       </div>
-
+      <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
+        *Each registration in Professional Category is valid for two papers(Not
+        applicable in Student Cartegory).
+      </p>
       {/* <div className="text-center">
         <div className="mt-24 px-4 md:px-0">
           <p className="text-[15px] font-semibold md:text-[22px] lg:text-xl">

@@ -23,7 +23,7 @@ export const patrons = [
   // },
   {
     title: "Dr.",
-    fullName: " Dr. K. K. Shukla",
+    fullName: " K. K. Shukla",
     organisation: "Director, MANIT Bhopal ",
     profileImage: "/kksingh.jpg",
   },
@@ -77,19 +77,19 @@ export const honChairs = [
 export const genChairs = [
   {
     title: "Dr.",
-    fullName: "Dr.Vijay Shanker Tripathi ",
+    fullName: "Vijay Shanker Tripathi ",
     organisation: "MNNIT Allahabad, India",
     profileImage: "/vst_sir_pic.png",
   },
   {
     title: "Dr.",
-    fullName: "Dr.R.N. Yadav ",
+    fullName: "R.N. Yadav ",
     organisation: "MANIT Bhopal,India",
     profileImage: "/rnyadav.jpg",
   },
   {
     title: "Prof.",
-    fullName: "Dr.Bharat Rawal",
+    fullName: "Bharat Rawal",
     organisation: "Grambling State University, USA",
     profileImage: "/bharat rawal.JPG",
   },
@@ -352,13 +352,13 @@ export const LocalArrangementsCoChair = [
 export const FinChairs = [
   {
     title: "Dr.",
-    fullName: "Dr.Anand Sharma",
+    fullName: "Anand Sharma",
     organisation: "MNNIT Allahabad, India",
     profileImage: "/dranand.png",
   },
   {
     title: "Dr.",
-    fullName: "Dr.Suryakant Gautam",
+    fullName: "Suryakant Gautam",
     organisation: "MANIT Bhopal, India",
     profileImage: "/suryakantgautam.jpg",
   },
@@ -367,7 +367,7 @@ export const FinChairs = [
 export const OrgChair = [
   {
     title: "Prof.",
-    fullName: "Dr. G. S. Tomar",
+    fullName: "G. S. Tomar",
     organisation: "Director,REC Sonbhadra, India",
     profileImage: "/gstomar.jpg",
   },
@@ -403,7 +403,7 @@ export const TPC = [
 export const PublicChairs = [
   {
     title: "Dr.",
-    fullName: "Dr.Rajan Mishra",
+    fullName: "Rajan Mishra",
     organisation: "MMMUT Gorakhpur, India",
     profileImage: "/sonali.png",
   },
@@ -424,7 +424,7 @@ export const PublicChairs = [
 export const PublicityChairs = [
   {
     title: "Dr.",
-    fullName: "Dr.Shashwat Pathak",
+    fullName: "Shashwat Pathak",
     organisation: "CEO,AIC GNITS Foundation",
     profileImage: "/sonali.png",
   },
@@ -433,13 +433,13 @@ export const PublicityChairs = [
 export const confChairs = [
   {
     title: "Dr.",
-    fullName: "Dr. Gaurav Updahyay ",
+    fullName: "Gaurav Updahyay ",
     organisation: "MANIT Bhopal, India",
     profileImage: "/drgaurav.png",
   },
   {
     title: "Dr.",
-    fullName: "Dr. Atul kumar ",
+    fullName: "Atul kumar ",
     organisation: "MANIT Bhopal, India",
     profileImage: "/atulkumar.jpg",
   },

@@ -187,8 +187,26 @@ const Sponsor = () => {
               </ul>
             </div>
           </div>
-
-          <div className="w-full flex flex-col lg:flex-row gap-8 justify-between">
+          <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
+            <h2 className="text-xl lg:text-2xl font-bold p-2">
+              <span style={{ color: "#0000FF" }}>Silver</span> sponsor:{" "}
+              <span style={{ color: "#0000FF" }}>INR 50 Thousand</span>
+            </h2>
+            <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
+              <li>2 Complimentary delegate passes</li>
+              <li>2 minutes pre-recorded video presentation slot</li>
+              <li>Acknowledgement during Valedictory functions</li>
+              <li>Complimentary exhibit booth</li>
+              <li>
+                Display of logo on all printed material, backdrop and website
+              </li>
+              <li>Permission to keep Company brochure in registration Kit</li>
+              <li>
+                15-minute Interaction Session slot especially for Start-UPs
+              </li>
+            </ul>
+          </div>
+          {/* <div className="w-full flex flex-col lg:flex-row gap-8 justify-between">
             <div
               className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
             >
@@ -228,7 +246,7 @@ const Sponsor = () => {
                 <li>Permission to keep Company brochure in registration Kit</li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="mt-8 p-2 mx-2 md:mx-8">
