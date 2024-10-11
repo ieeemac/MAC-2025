@@ -27,7 +27,7 @@ export default function Sponsors1() {
           modules={[Autoplay]}
           className="mySwiper w-[100%] h-[200px] lg:h-[300px] bg-white rounded-lg"
         >
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -47,8 +47,8 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          </SwiperSlide> */}
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -71,8 +71,8 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          </SwiperSlide> */}
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -95,9 +95,9 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -117,9 +117,9 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -142,8 +142,8 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          </SwiperSlide> */}
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -166,8 +166,8 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          </SwiperSlide> */}
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -190,8 +190,8 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          </SwiperSlide> */}
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="">
               <div className="inline-flex ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -214,7 +214,7 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
       <div className="hidden md:block">
@@ -230,7 +230,7 @@ export default function Sponsors1() {
           modules={[Autoplay]}
           className="mySwiper w-[100%] h-[250px] lg:h-[300px] bg-white rounded-lg"
         >
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div>
               <div className="inline-flex text-center mt-4 ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -276,9 +276,9 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div>
               <div className="inline-flex text-center mt-4  ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -298,9 +298,9 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div>
               <div className="inline-flex text-center mt-4  ">
                 <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
@@ -352,7 +352,7 @@ export default function Sponsors1() {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </>
