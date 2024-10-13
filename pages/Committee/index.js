@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import gradients from "../../styles/customGradient.module.css";
 import ProfileCard from "../../components/ProfileCard";
+import Accordion from "../../components/Accordion";
 import {
   cheifpatrons,
   patrons,
@@ -30,6 +31,7 @@ import {
   LocalArrangementsCoChair,
   SponsorshipCoChair,
   TPC,
+  committeeMembers,
   PublicityChairs,
 } from "../../data/committee";
 import { useScrollLock, useViewportSize } from "@mantine/hooks";
@@ -75,7 +77,7 @@ const Committee = () => {
               </div> */}
               <div>
                 <div id="patron" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold">Patrons</h1>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">Patron</h1>
                 <div className="flex gap-8 flex-wrap">
                   {patrons.map((patron) => (
                     <ProfileCard
@@ -656,7 +658,7 @@ const Committee = () => {
                 </div>
               </div>
               <div>
-                <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
+                <div id="publchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
                   Publicity Chair
@@ -674,6 +676,18 @@ const Committee = () => {
                   ))}
                 </div>
               </div>
+              {committeeMembers.map((committee) => (
+                <div id={committee.name} key={committee.name}>
+                  <div className="md:w-[100%] pb-8 mt-4">
+                    <div className="mx-3 md:mx-4">
+                      <Accordion
+                        heading={committee.title}
+                        memberdata={committee.data}
+                      />
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
