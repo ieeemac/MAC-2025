@@ -268,17 +268,17 @@ const Registration = () => {
         <div className="md:mx-28 bg-red-100 max-w-[700px] w-[90%] md:w-[70%] lg:w-[50%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
           <div className="w-full flex justify-between  py-2">
             <span>Account Name</span>
-            <span className="text-right">IEEE MAC</span>
+            <span className="text-right">
+              Maulana Azad National Institute of Technology (MANIT) Bhopal
+            </span>
           </div>
           <div className="w-full flex justify-between  py-2">
             <span>Account Number</span>
-            <span className="text-right">77660200001325</span>
+            <span className="text-right">10020150107</span>
           </div>
           <div className="w-full flex justify-between  py-2">
             <span>IFSC Code</span>
-            <span className="text-right">
-              BARB0VJMNRE (Fifth character is ZERO)
-            </span>
+            <span className="text-right">SBIN0001608</span>
           </div>
           {/* <div className="w-full flex justify-between  py-2">
             <span>Swift Code</span>
@@ -286,12 +286,12 @@ const Registration = () => {
           </div> */}
           <div className="w-full flex justify-between  py-2">
             <span>Bank Name</span>
-            <span className="text-right">Bank of Baroda</span>
+            <span className="text-right">State Bank of India</span>
           </div>
           <div className="w-full flex justify-between  py-2">
             <span>Branch</span>
             <span className="text-right">
-              MNNIT Campus, Allahabad(Prayagraj)
+              MAULANA AZAD COL OF TECH (BPL) BHOPAL-1608
             </span>
           </div>
           {/* <div className="w-full flex justify-between  py-2">
