@@ -57,7 +57,7 @@ const Sponsor = () => {
           </p>
           <br />
           <p className="text-center italic">
-            Looking forward to seeing you in the MAC 2025, at BHopal.
+            Looking forward to seeing you in the MAC 2025, at Bhopal.
           </p>
         </div>
       </div>
