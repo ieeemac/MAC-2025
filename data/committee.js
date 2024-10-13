@@ -840,32 +840,32 @@ export const committeeMembers = [
       // },
     ],
   },
-  {
-    title: "Publicity Chair",
-    name: "publicityChair",
-    data: [
-      {
-        fullName: "Dr. Vinay Kumar",
-        organisation: "MNNIT Allahabad, India",
-      },
-    ],
-  },
-  {
-    title: "Publication Chair",
-    name: "publicationChair",
-    data: [
-      {
-        fullName: "Dr. Rajan Mishra",
-        organisation: " MMMUT Gorakhpur, India",
-      },
-    ],
-  },
+  // {
+  //   title: "Publicity Chair",
+  //   name: "publicityChair",
+  //   data: [
+  //     {
+  //       fullName: "Dr. Vinay Kumar",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Publication Chair",
+  //   name: "publicationChair",
+  //   data: [
+  //     {
+  //       fullName: "Dr. Rajan Mishra",
+  //       organisation: " MMMUT Gorakhpur, India",
+  //     },
+  //   ],
+  // },
   {
     title: "Technical Program Committee",
     name: "technicalProgramCommittee",
     data: [
       {
-        fullName: "Dr. Prashant Ranjan (Chair)",
+        fullName: "Dr. Prashant Ranjan",
         organisation: "UEM Jaipur, India",
       },
       // {
@@ -1157,82 +1157,82 @@ export const committeeMembers = [
       },
     ],
   },
-  {
-    title: "Local Organising Committee",
-    name: "localOrganisingCommittee",
-    data: [
-      {
-        fullName: "Prof. Haranath Kar",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Prof. V.K. Srivastava",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Prof. Vijaya Bhadauria",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Prof. Amit Dhawan",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. V. Krishna Rao Kandanvli ",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Arvind Kumar",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Basant Kumar",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Sanjeev Rai",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Manish Tiwari",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Yogendra Kumar Prajapati",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. S.K. Gupta",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Er. Asim Mukherjee",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Rajeev Gupta",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. P. Karuppanan",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Sumit Kumar Jha",
-        organisation: "MNNIT Allahabad, India",
-      },
-    ],
-  },
-  {
-    title: "Organising Secretary",
-    name: "organisingSecretary",
-    data: [
-      {
-        fullName: "Dr. Anand Sharma",
-        organisation: "MNNIT Allahabad, India",
-      },
-    ],
-  },
+  // {
+  //   title: "Local Organising Committee",
+  //   name: "localOrganisingCommittee",
+  //   data: [
+  //     {
+  //       fullName: "Prof. Haranath Kar",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Prof. V.K. Srivastava",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Prof. Vijaya Bhadauria",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Prof. Amit Dhawan",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. V. Krishna Rao Kandanvli ",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. Arvind Kumar",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. Basant Kumar",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. Sanjeev Rai",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. Manish Tiwari",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. Yogendra Kumar Prajapati",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. S.K. Gupta",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Er. Asim Mukherjee",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. Rajeev Gupta",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. P. Karuppanan",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //     {
+  //       fullName: "Dr. Sumit Kumar Jha",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Organising Secretary",
+  //   name: "organisingSecretary",
+  //   data: [
+  //     {
+  //       fullName: "Dr. Anand Sharma",
+  //       organisation: "MNNIT Allahabad, India",
+  //     },
+  //   ],
+  // },
   {
     title: "Student Activity",
     name: "studentActivity",
@@ -1326,14 +1326,6 @@ export const committeeMembers = [
       {
         fullName: "Mr. Piyush Kumar Mishra",
         organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Satendra Pathak",
-        organisation: "NIT Uttrakhand, India",
-      },
-      {
-        fullName: "Mr. Avinash Bhatt",
-        organisation: "NIT Uttrakhand, India",
       },
       {
         fullName: "Mr. Adnaan Saleem",
