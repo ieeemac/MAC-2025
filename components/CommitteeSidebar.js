@@ -23,7 +23,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             onClick={() => {
               if (width < 768) {
                 setIsOpen((prev) => !prev);
-                setScrollLocked((prev) => !prev);
+                // setScrollLocked((prev) => !prev);
               }
             }}
             className="bg-stone-100 pt-6 md:pt-0 fixed md:static z-20 text-2xl font-bold w-full  text-center pb-2 border-b-2 border-cyan-600 cursor-pointer"
