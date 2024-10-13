@@ -47,6 +47,8 @@ const Committee = () => {
     if (width > 768) {
       setIsOpen(true);
       setScrollLocked(false);
+    } else {
+      setScrollLocked(false);
     }
   }, [width]);
 
