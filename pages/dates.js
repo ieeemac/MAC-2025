@@ -11,9 +11,9 @@ const Dates = () => {
         </span>
       </h1>
       <div class="flex justify-center">
-        <div class="flex flex-col w-full items-center justify-center">
-          <div class="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
-            <p class="md:mb-8 w-2/3 leading-relaxed font-semibold text-lg self-center text-left mt-4">
+        <div className="flex flex-col w-full items-center justify-center">
+          <div className="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
+            <p className="w-full md:w-auto leading-relaxed font-semibold text-lg text-center md:text-left mt-4 whitespace-nowrap">
               Papers are accepted in multiple stages.
             </p>
 
@@ -27,7 +27,7 @@ const Dates = () => {
                     Paper Submission Starts
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-4/12">
-                    October 10, 2024
+                    November 15, 2024
                   </td>
                 </tr>
                 <tr>
@@ -35,10 +35,10 @@ const Dates = () => {
                     2.
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-7/12">
-                    Last Date for Early Bird Paper Submission
+                    Last Date for Paper Submission
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-4/12">
-                    February 30, 2025
+                    February 28, 2025
                   </td>
                 </tr>
                 <tr>
@@ -46,10 +46,10 @@ const Dates = () => {
                     3.
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-7/12">
-                    Last Date for Regular Paper Submission
+                    Acceptance Notification
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-4/12">
-                    March 15, 2025
+                    May 1, 2025
                   </td>
                 </tr>
                 <tr>
@@ -57,10 +57,10 @@ const Dates = () => {
                     4.
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-7/12">
-                    Camera Ready Paper Submission Deadline
+                    Early Bird Registration
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-4/12">
-                    June 01, 2025
+                    May 15, 2025
                   </td>
                 </tr>
                 <tr>
@@ -79,10 +79,10 @@ const Dates = () => {
                     6.
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-7/12">
-                    Final Acceptance Notification
+                    Camera Ready Paper Submission
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-4/12">
-                    May 01, 2025
+                    June 01, 2025
                   </td>
                 </tr>
               </tbody>

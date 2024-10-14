@@ -48,10 +48,10 @@ const HomeMain = () => {
       >
         <HomeImageGallery />
         <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10">
-          <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10">
+          <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%]  md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10">
             <div className="font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4 mb-6">
               <span className="text-orange-400"></span>{" "}
-              <span className="text-white">
+              <span className="text-blue-900">
                 3rd International Conference on
               </span>{" "}
               <span className="text-orange-400">Microwave</span>{" "}
@@ -59,7 +59,7 @@ const HomeMain = () => {
               <span className="text-green-500">Communication </span>{" "}
               <span className="text-white">2025 </span>
               <span className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-                <br></br>(Industry-Academia Conclave)
+                <br></br>
               </span>
             </div>
             <div className="w-full my-2 sm:pl-0 flex flex-col justify-center gap-4 lg:justify-start lg:gap-10 font-semibold">
@@ -87,7 +87,7 @@ const HomeMain = () => {
                     </Link>
                     <span className="text-sm lg:text-lg text-white">
                       {" "}
-                      MANIT Bhopal, Madhya Pradesh, India
+                      MANIT Bhopal, M.P. India
                     </span>
                   </p>
                 </div>
@@ -172,8 +172,8 @@ const HomeMain = () => {
                 thought-provoking technical sessions, delve into recent
                 developments, and foster collaborative discussions. MAC-2025 is
                 an opportunity to you for collaboration and networking with
-                international industry/academia experts. We invite you to join
-                us at MAC-2025 and be a part of this exciting event!
+                international experts. We invite you to join us at MAC-2025 and
+                be a part of this exciting event!
               </p>
             </div>
 
@@ -263,8 +263,8 @@ const HomeMain = () => {
             <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
               Technical Co-Sponsors
             </h1>
-            <h2>*Will be announced soon</h2>
-            {/* <Sponsors /> */}
+            {/* <h2>*Will be announced soon</h2> */}
+            <Sponsors />
           </div>
         </section>
       </div>
