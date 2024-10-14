@@ -27,6 +27,12 @@ export const patrons = [
     organisation: "Director, MANIT Bhopal ",
     profileImage: "/kksingh.jpg",
   },
+  {
+    title: "Prof.",
+    fullName: " Rajeev Tripathi",
+    organisation: "Vice Chancellor, RGPV, Bhopal",
+    profileImage: "/rajeev.webp",
+  },
 ];
 
 export const honChairs = [
@@ -368,7 +374,7 @@ export const OrgChair = [
   {
     title: "Prof.",
     fullName: "G. S. Tomar",
-    organisation: "Director,REC Sonbhadra, India",
+    organisation: "Director, REC Sonbhadra, India",
     profileImage: "/gstomar.jpg",
   },
   // {
@@ -499,10 +505,10 @@ export const committeeMembers = [
         fullName: "Prof. Brijesh Kumar",
         organisation: "Indira Gandhi Delhi Technical University, Delhi, India",
       },
-      {
-        fullName: "Prof. Ganga Ram Mishra",
-        organisation: "Dr. Rammanohar Lohia Avadh University, Ayodhya, India",
-      },
+      // {
+      //   fullName: "Prof. Ganga Ram Mishra",
+      //   organisation: "Dr. Rammanohar Lohia Avadh University, Ayodhya, India",
+      // },
 
       {
         fullName: "Prof. Ghanshyam Singh",
@@ -615,10 +621,10 @@ export const committeeMembers = [
         fullName: "Dr. Sudhakar Rao",
         organisation: " Northrop Grumman Space Systems, USA",
       },
-      {
-        fullName: "Prof. Rajeev Tripathi",
-        organisation: " MNNIT Allahabad, India ",
-      },
+      // {
+      //   fullName: "Prof. Rajeev Tripathi",
+      //   organisation: " MNNIT Allahabad, India ",
+      // },
       {
         fullName: "Dr. Sharad Kumar Pradhan",
         organisation:
@@ -886,10 +892,10 @@ export const committeeMembers = [
       //   fullName: "Dr. Rabie A. Ramadan",
       //   organisation: "University of Hail, KSA",
       // },
-      {
-        fullName: "Dr. Gaurav Mittal",
-        organisation: "DEAL, DRDO, India",
-      },
+      // {
+      //   fullName: "Dr. Gaurav Mittal",
+      //   organisation: "DEAL, DRDO, India",
+      // },
       {
         fullName: "Dr. Akhilesh Tiwari",
         organisation: "IIIT Allahabad, India",
@@ -935,10 +941,10 @@ export const committeeMembers = [
         fullName: "Dr. Ravi Panwar",
         organisation: " IIT BHU Varanasi, India",
       },
-      {
-        fullName: "Dr. Smrity Dwivedi",
-        organisation: " IIT BHU Varanasi, India",
-      },
+      // {
+      //   fullName: "Dr. Smrity Dwivedi",
+      //   organisation: " IIT BHU Varanasi, India",
+      // },
       {
         fullName: "Dr. Om Jee Pandey",
         organisation: " IIT BHU Varanasi, India",
@@ -952,14 +958,14 @@ export const committeeMembers = [
       //   fullName: "Dr. Arvind Kumar",
       //   organisation: " MNNIT Allahabad, India",
       // },
-      {
-        fullName: "Dr. Santosh Kumar Gupta",
-        organisation: " MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Dharmendra Dixit",
-        organisation: " MNNIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Dr. Santosh Kumar Gupta",
+      //   organisation: " MNNIT Allahabad, India",
+      // },
+      // {
+      //   fullName: "Dr. Dharmendra Dixit",
+      //   organisation: " MNNIT Allahabad, India",
+      // },
       {
         fullName: "Dr. Arun Kumar Saurabh",
         organisation: " MNNIT Allahabad, India",
@@ -988,26 +994,26 @@ export const committeeMembers = [
         fullName: "Dr. S. Yuvaraj",
         organisation: "NIT Andhra Pradesh, India",
       },
-      {
-        fullName: "Mr. Mahesh Kumar Aghwariya",
-        organisation:
-          "THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
-      },
-      {
-        fullName: "Ms. Anoopshi Johari",
-        organisation:
-          "THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
-      },
-      {
-        fullName: "Mr. Vivek Kumar",
-        organisation:
-          "THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
-      },
-      {
-        fullName: "Mr. Vikrant Kumar",
-        organisation:
-          "THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
-      },
+      // {
+      //   fullName: "Mr. Mahesh Kumar Aghwariya",
+      //   organisation:
+      //     "THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
+      // },
+      // {
+      //   fullName: "Ms. Anoopshi Johari",
+      //   organisation:
+      //     "THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
+      // },
+      // {
+      //   fullName: "Mr. Vivek Kumar",
+      //   organisation:
+      //     "THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
+      // },
+      // {
+      //   fullName: "Mr. Vikrant Kumar",
+      //   organisation:
+      //     "THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
+      // },
       // {
       //     fullName:'Mr. Arvind Kumar',
       //     organisation:'Scientist G, DEAL, DRDO'
@@ -1067,18 +1073,18 @@ export const committeeMembers = [
         fullName: "Dr. Nrusingha Charan Pradhan",
         organisation: "Reykjavik University, Iceland",
       },
-      {
-        fullName: "Dr. Vimal Kumar Singh",
-        organisation: "MNNIT Allahabad,India",
-      },
-      {
-        fullName: "Dr. Deepak Punetha",
-        organisation: "MNNIT Allahabad,India",
-      },
-      {
-        fullName: "Dr. Nirmal Ch. Roy",
-        organisation: "MNNIT Allahabad,India",
-      },
+      // {
+      //   fullName: "Dr. Vimal Kumar Singh",
+      //   organisation: "MNNIT Allahabad,India",
+      // },
+      // {
+      //   fullName: "Dr. Deepak Punetha",
+      //   organisation: "MNNIT Allahabad,India",
+      // },
+      // {
+      //   fullName: "Dr. Nirmal Ch. Roy",
+      //   organisation: "MNNIT Allahabad,India",
+      // },
     ],
   },
   {

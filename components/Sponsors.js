@@ -39,7 +39,7 @@ export default function Sponsors() {
           </SwiperSlide>
           <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="w-[200px] h-[200px] flex justify-center items-center p-4">
-              <img src="/upsec.png" className={`${styles.responsive}`} />
+              <img src="/ieeemp (3).png" className={`${styles.responsive}`} />
             </div>
           </SwiperSlide>
           {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
@@ -109,7 +109,7 @@ export default function Sponsors() {
         </SwiperSlide> */}
           <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div>
-              <img src="/upsec.png" className={`${styles.responsive}`} />
+              <img src="/ieeemp (3).png" className={`${styles.responsive}`} />
             </div>
           </SwiperSlide>
           {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
