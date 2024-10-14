@@ -11,9 +11,9 @@ const Dates = () => {
         </span>
       </h1>
       <div class="flex justify-center">
-        <div class="flex flex-col w-full items-center justify-center">
-          <div class="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
-            <p class="md:mb-8 w-2/3 leading-relaxed font-semibold text-lg self-center text-left mt-4">
+        <div className="flex flex-col w-full items-center justify-center">
+          <div className="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
+            <p className="w-full md:w-auto leading-relaxed font-semibold text-lg text-center md:text-left mt-4 whitespace-nowrap">
               Papers are accepted in multiple stages.
             </p>
 
