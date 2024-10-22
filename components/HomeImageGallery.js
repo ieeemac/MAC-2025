@@ -33,22 +33,6 @@ export default function HomeImageGallery() {
                 repeatType: "reverse",
                 ease: "linear",
               }}
-              src="/MANIT-BHOPAL.webp"
-              className="w-full h-full brightness-75  object-cover"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full overflow-hidden">
-            <motion.img
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.4 }}
-              transition={{
-                duration: 20,
-                repeat: Infinity,
-                repeatType: "reverse",
-                ease: "linear",
-              }}
               src="/bhopallake2.jpg"
               className="w-full h-full brightness-75  object-cover"
             />
@@ -67,6 +51,22 @@ export default function HomeImageGallery() {
               }}
               src="/bhopallake.jpg"
               className="scale w-full h-full brightness-75  object-cover"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-full overflow-hidden">
+            <motion.img
+              initial={{ scale: 1 }}
+              animate={{ scale: 1.4 }}
+              transition={{
+                duration: 20,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "linear",
+              }}
+              src="/MANIT-BHOPAL.webp"
+              className="w-full h-full brightness-75  object-cover"
             />
           </div>
         </SwiperSlide>
