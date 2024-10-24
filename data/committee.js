@@ -1099,6 +1099,10 @@ export const committeeMembers = [
         organisation: "IIIT Gwalior,India",
       },
       {
+        fullName: "Dr. Vipin Kamble",
+        organisation: "VNIT Nagpur,India",
+      },
+      {
         fullName: "Dr. Nrusingha Charan Pradhan",
         organisation: "Reykjavik University, Iceland",
       },
@@ -1154,20 +1158,21 @@ export const committeeMembers = [
       },
       {
         fullName: "Dr. Neetu Joshi",
-        organisation: "",
+        organisation: "JIIT Noida",
       },
       {
-        fullName: "Dr. Smriti Dwivedi",
-        organisation: "",
+        fullName: "Dr. Smrity Dwivedi",
+        organisation: "IIT BHU,India",
       },
       {
-        fullName: "Dr. Shilpi",
-        organisation: "",
+        fullName: "Dr. Sasmita Dash",
+        organisation: "University of Cyprus,Cyprus",
       },
       {
-        fullName: "Dr. Neetu Joshi",
-        organisation: "",
+        fullName: "Dr. Shilpi Mishra",
+        organisation: "Galgotia college of Engineering and Technology,India",
       },
+
       // {
       //   fullName: "Ms. Subhashini",
       //   organisation: "Scientist C, DEAL",
@@ -1224,11 +1229,11 @@ export const committeeMembers = [
       },
       {
         fullName: "Dr. Mayur Katwe",
-        organisation: "",
+        organisation: "NIT Raipur,India",
       },
       {
         fullName: "Dr. Amarjit Kumar",
-        organisation: "",
+        organisation: "NIT Warangal",
       },
     ],
   },
