@@ -296,7 +296,7 @@ const Registration = () => {
       <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
         *For International participants, fees for OFFLINE and ONLINE
         presentation is equal. But for Indian participants fees for ONLINE
-        presentation is give in (XYZ)).
+        presentation is give in column.
       </p>
       {/* <div className="text-center">
         <div className="mt-24 px-4 md:px-0">
