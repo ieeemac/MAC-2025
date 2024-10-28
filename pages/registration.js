@@ -89,6 +89,9 @@ const Registration = () => {
       </h1>
       <div className="flex justify-center mt-16">
         <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
+          <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-500 font-bold p-1 pb-2 text-center underline">
+            Indian Delegates
+          </h1>
           <table className="text-left text-[12px] md:text-lg lg:text-lg w-[39rem] md:w-[59rem] lg:w-[67rem]">
             <tbody>
               <tr className="h-12">
@@ -97,11 +100,33 @@ const Registration = () => {
                   Category
                 </th>
                 <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
-                  Indian Delegates
+                  <tr>
+                    Early Bird
+                    <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
+                      (Till May 15, 2025)
+                    </tr>
+                  </tr>
+                </th>
+
+                <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                  <tr>
+                    Regular Registration
+                    <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
+                      (16 May-15 june,2025)
+                    </tr>
+                  </tr>
                 </th>
                 <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
-                  Foreign Delegates
+                  <tr>
+                    On Spot Registration
+                    <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
+                      (After 16 June,2025)
+                    </tr>
+                  </tr>
                 </th>
+                {/* <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                  Foreign Delegates
+                </th> */}
               </tr>
               <tr className="border-b-2 border-stone-600">
                 <td
@@ -121,13 +146,17 @@ const Registration = () => {
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">IEEE</td>
+                <td className="py-2">INR 6,900</td>
                 <td className="py-2">INR 8,900</td>
-                <td className="py-2">USD 160</td>
+                <td className="py-2">INR 10,900</td>
+                {/* <td className="py-2">USD 160</td> */}
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">Non-IEEE</td>
+                <td className="py-2">INR 8,400</td>
+                <td className="py-2">INR 10,400</td>
                 <td className="py-2">INR 11,900</td>
-                <td className="py-2">USD 220</td>
+                {/* <td className="py-2">USD 220</td> */}
               </tr>
               <tr>
                 <td rowSpan={3} className="font-semibold">
@@ -144,21 +173,130 @@ const Registration = () => {
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">IEEE</td>
-                <td className="py-2">INR 14,900</td>
-                <td className="py-2">USD 260</td>
+                <td className="py-2">INR 13,900</td>
+                <td className="py-2">INR 16,900</td>
+                <td className="py-2">INR 18,900</td>
+                {/* <td className="py-2">USD 260</td> */}
               </tr>
               <tr className="border-b-2 border-stone-400">
                 <td className="py-2">Non-IEEE</td>
-                <td className="py-2">INR 17,900</td>
-                <td className="py-2">USD 300</td>
+                <td className="py-2">INR 16,100</td>
+                <td className="py-2">INR 18,900</td>
+                <td className="py-2">INR 20,900</td>
+                {/* <td className="py-2">USD 300</td> */}
               </tr>
             </tbody>
           </table>
         </div>
       </div>
+
+      <div className="flex justify-center mt-16">
+        <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
+          <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-500 font-bold p-1 pb-2 text-center underline">
+            Foreign Delegates
+          </h1>
+          <table className="text-left text-[12px] md:text-lg lg:text-lg w-[39rem] md:w-[59rem] lg:w-[67rem]">
+            <tbody>
+              <tr className="h-12">
+                <th></th>
+                <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                  Category
+                </th>
+                <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                  <tr>
+                    Early Bird
+                    <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
+                      (Till May 15, 2025)
+                    </tr>
+                  </tr>
+                </th>
+
+                <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                  <tr>
+                    Regular Registration
+                    <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
+                      (16 May-15 june,2025)
+                    </tr>
+                  </tr>
+                </th>
+                <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                  <tr>
+                    On Spot Registration
+                    <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
+                      (After 16 June,2025)
+                    </tr>
+                  </tr>
+                </th>
+                {/* <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                  Foreign Delegates
+                </th> */}
+              </tr>
+              <tr className="border-b-2 border-stone-600">
+                <td
+                  className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
+                  rowSpan={3}
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <span className="text-red-500 font-bold">Student</span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="py-2">IEEE</td>
+                <td className="py-2">USD 100</td>
+                <td className="py-2">USD 160</td>
+                <td className="py-2">USD 220</td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="py-2">Non-IEEE</td>
+                <td className="py-2">USD 150</td>
+                <td className="py-2">USD 200</td>
+                <td className="py-2">USD 250</td>
+              </tr>
+              <tr>
+                <td rowSpan={3} className="font-semibold">
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <span className="text-red-500 font-bold">Professional</span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="py-2">IEEE</td>
+                <td className="py-2">USD 210</td>
+                <td className="py-2">USD 240</td>
+                <td className="py-2">USD 270</td>
+              </tr>
+              <tr className="border-b-2 border-stone-400">
+                <td className="py-2">Non-IEEE</td>
+                <td className="py-2">USD 250</td>
+                <td className="py-2">USD 300</td>
+                <td className="py-2">USD 400</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
         *Each registration in Professional Category is valid for two papers(Not
         applicable in Student Cartegory).
+      </p>
+      <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
+        *For International participants, fees for OFFLINE and ONLINE
+        presentation is equal. But for Indian participants fees for ONLINE
+        presentation is give in column.
       </p>
       {/* <div className="text-center">
         <div className="mt-24 px-4 md:px-0">

@@ -501,10 +501,7 @@ export const committeeMembers = [
         fullName: "Dr. Nasimuddin",
         organisation: "Institute for Infocomm Research, Singapore",
       },
-      {
-        fullName: "Prof. Brijesh Kumar",
-        organisation: "Indira Gandhi Delhi Technical University, Delhi, India",
-      },
+
       // {
       //   fullName: "Prof. Ganga Ram Mishra",
       //   organisation: "Dr. Rammanohar Lohia Avadh University, Ayodhya, India",
@@ -546,10 +543,10 @@ export const committeeMembers = [
         fullName: "Dr. Chandrakanta Kumar",
         organisation: "ISRO, India",
       },
-      {
-        fullName: "Prof. R.K. Nagaria",
-        organisation: "MNNIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Prof. R.K. Nagaria",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
       {
         fullName: "Dr. Shubhankar Majumdar",
         organisation: "IIT Kharagpur, India",
@@ -566,10 +563,10 @@ export const committeeMembers = [
         fullName: "Dr. Taimoor Khan",
         organisation: "NIT Silchar, India",
       },
-      {
-        fullName: "Dr. Arun Prakash",
-        organisation: "MNNIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Dr. Arun Prakash",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
       {
         fullName: "Dr. Prabhakar Tiwari",
         organisation: "MMMUT Gorakhpur, India",
@@ -590,13 +587,17 @@ export const committeeMembers = [
         fullName: "Dr. Nagendra Prasad Yadav",
         organisation: "Hubei Polytechnic University, China",
       },
-      {
-        fullName: "Dr. Sanjay Kumar Sharma",
-        organisation: "BBDNIIT, Lucknow",
-      },
+      // {
+      //   fullName: "Dr. Sanjay Kumar Sharma",
+      //   organisation: "BBDNIIT, Lucknow",
+      // },
       {
         fullName: "Prof. Dilip Kumar Sharma",
         organisation: "GLA, Mathura",
+      },
+      {
+        fullName: "Prof. Brijesh Kumar",
+        organisation: "Indira Gandhi Delhi Technical University, Delhi, India",
       },
     ],
   },
@@ -625,11 +626,11 @@ export const committeeMembers = [
       //   fullName: "Prof. Rajeev Tripathi",
       //   organisation: " MNNIT Allahabad, India ",
       // },
-      {
-        fullName: "Dr. Sharad Kumar Pradhan",
-        organisation:
-          "Director, THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
-      },
+      // {
+      //   fullName: "Dr. Sharad Kumar Pradhan",
+      //   organisation:
+      //     "Director, THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
+      // },
       {
         fullName: "Dr. Ajay K. Poddar",
         organisation: "Synergy Microwave, NJ, USA",
@@ -676,7 +677,7 @@ export const committeeMembers = [
       // },
       {
         fullName: "Prof. Arvind Choubey",
-        organisation: "IIIT Bhagalpur, India",
+        organisation: ", India",
       },
       // {
       //   fullName: "Prof. Levent Sevgi",
@@ -896,10 +897,10 @@ export const committeeMembers = [
       //   fullName: "Dr. Gaurav Mittal",
       //   organisation: "DEAL, DRDO, India",
       // },
-      {
-        fullName: "Dr. Akhilesh Tiwari",
-        organisation: "IIIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Dr. Akhilesh Tiwari",
+      //   organisation: "IIIT Allahabad, India",
+      // },
       {
         fullName: "Dr. Rajat Kumar Singh",
         organisation: "IIIT Allahabad, India",
@@ -992,7 +993,7 @@ export const committeeMembers = [
       },
       {
         fullName: "Dr. S. Yuvaraj",
-        organisation: "NIT Andhra Pradesh, India",
+        organisation: "IIIT Kancheepuram, India",
       },
       // {
       //   fullName: "Mr. Mahesh Kumar Aghwariya",
@@ -1034,6 +1035,18 @@ export const committeeMembers = [
       //     fullName:'Mr. Atul Wadhwa',
       //     organisation:'Scientist F, DEAL, DRDO'
       // },
+      {
+        fullName: "Dr. Shivesh Tripathi",
+        organisation: "IIT Roorkee, India",
+      },
+      {
+        fullName: "Dr. Deepak Punetha",
+        organisation: "MNNIT Allahabad , India",
+      },
+      {
+        fullName: "Dr. Vinay Kumar",
+        organisation: "MNNIT Allahabad , India",
+      },
     ],
   },
   {
@@ -1048,10 +1061,10 @@ export const committeeMembers = [
         fullName: "Dr. Tushar Sharma",
         organisation: "Renesas Electronics, San Diego, USA",
       },
-      {
-        fullName: "Dr. Dinesh Yadav",
-        organisation: "Manipal University, Jaipur, India",
-      },
+      // {
+      //   fullName: "Dr. Dinesh Yadav",
+      //   organisation: "Manipal University, Jaipur, India",
+      // },
       // {
       //   fullName: "Mr. Krish E",
       //   organisation:
@@ -1069,6 +1082,26 @@ export const committeeMembers = [
       //   fullName: "Mr. Anand Sahu",
       //   organisation: "Scientist C, DEAL",
       // },
+      {
+        fullName: "Dr. Devesh Tiwari",
+        organisation: "Graphic Erahill dehradun,India",
+      },
+      {
+        fullName: "Dr. Pinku ranjan",
+        organisation: "IIIT Gwalior,India",
+      },
+      {
+        fullName: "Dr. Ashwani Kumar",
+        organisation: "Delhi University, South Campus",
+      },
+      {
+        fullName: "Dr. Mahendra Kumar Shukla",
+        organisation: "IIIT Gwalior,India",
+      },
+      {
+        fullName: "Dr. Vipin Kamble",
+        organisation: "VNIT Nagpur,India",
+      },
       {
         fullName: "Dr. Nrusingha Charan Pradhan",
         organisation: "Reykjavik University, Iceland",
@@ -1099,14 +1132,14 @@ export const committeeMembers = [
       //   fullName: "Dr. Seema Awasthi",
       //   organisation: "IIIT Allahabad, India",
       // },
-      {
-        fullName: "Dr. Shweta Tripathi",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Smriti Agarwal",
-        organisation: "MNNIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Dr. Shweta Tripathi",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
+      // {
+      //   fullName: "Dr. Smriti Agarwal",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
       {
         fullName: "Prof. Poornima Mittal",
         organisation: "Delhi Technological University, India",
@@ -1123,6 +1156,23 @@ export const committeeMembers = [
         fullName: "Ms. Jaya Mishra",
         organisation: "DEAL DRDO, Dehradun",
       },
+      {
+        fullName: "Dr. Neetu Joshi",
+        organisation: "JIIT Noida",
+      },
+      {
+        fullName: "Dr. Smrity Dwivedi",
+        organisation: "IIT BHU,India",
+      },
+      {
+        fullName: "Dr. Sasmita Dash",
+        organisation: "University of Cyprus,Cyprus",
+      },
+      {
+        fullName: "Dr. Shilpi Mishra",
+        organisation: "Galgotia college of Engineering and Technology,India",
+      },
+
       // {
       //   fullName: "Ms. Subhashini",
       //   organisation: "Scientist C, DEAL",
@@ -1153,13 +1203,37 @@ export const committeeMembers = [
         fullName: "Dr. Vikrant Varshney",
         organisation: "Synopsys, Bengaluru, India",
       },
+      // {
+      //   fullName: "Dr. Nayneesh Kumar Mishra",
+      //   organisation: "IIIT Allahabad, India",
+      // },
+      // {
+      //   fullName: "Mr. Kumar Mohit",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
       {
-        fullName: "Dr. Nayneesh Kumar Mishra",
-        organisation: "IIIT Allahabad, India",
+        fullName: "Dr. Dipti ranjan",
+        organisation: "Delhi university, South Campus",
       },
       {
-        fullName: "Mr. Kumar Mohit",
-        organisation: "MNNIT Allahabad, India",
+        fullName: "Dr. Indrasen Singh",
+        organisation: "Vit Chennai, India",
+      },
+      {
+        fullName: "Dr. Girish Chandra Tripathi",
+        organisation: "Tejas Networks,India",
+      },
+      {
+        fullName: "Dr. Sachin Agarwal",
+        organisation: "Delhi University, India",
+      },
+      {
+        fullName: "Dr. Mayur Katwe",
+        organisation: "NIT Raipur,India",
+      },
+      {
+        fullName: "Dr. Amarjit Kumar",
+        organisation: "NIT Warangal",
       },
     ],
   },
@@ -1251,18 +1325,18 @@ export const committeeMembers = [
         fullName: "Mr. Sheikh Dobir Hossain",
         organisation: "University of Texas, USA",
       },
-      {
-        fullName: "Dr. Krishan Kumar",
-        organisation: "NIT Hamirpur, India",
-      },
+      // {
+      //   fullName: "Dr. Krishan Kumar",
+      //   organisation: "NIT Hamirpur, India",
+      // },
       {
         fullName: "Dr. Raghvendra Pal",
         organisation: "NIT Surat, India",
       },
-      {
-        fullName: "Dr. Anurag Upadhyay",
-        organisation: "REC Ajamgarh",
-      },
+      // {
+      //   fullName: "Dr. Anurag Upadhyay",
+      //   organisation: "REC Ajamgarh",
+      // },
       {
         fullName: "Mr. Ravindra Kumar,",
         organisation: "MNNIT Allahabad, India",
@@ -1275,10 +1349,10 @@ export const committeeMembers = [
         fullName: "Mr. Yajush Rai",
         organisation: "MNNIT Allahabad, India",
       },
-      {
-        fullName: "Mr. Piyush Patel",
-        organisation: "MNNIT Allahabad, India",
-      },
+      // {
+      //   fullName: "Mr. Piyush Patel",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
       {
         fullName: "Mr. Sattwik Ranjan",
         organisation: "MNNIT Allahabad, India",
