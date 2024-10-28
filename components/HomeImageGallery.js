@@ -49,7 +49,7 @@ export default function HomeImageGallery() {
                 repeatType: "reverse",
                 ease: "linear",
               }}
-              src="/bhopallake.jpg"
+              src="/bhopal1.jpg"
               className="scale w-full h-full brightness-75  object-cover"
             />
           </div>
@@ -65,7 +65,7 @@ export default function HomeImageGallery() {
                 repeatType: "reverse",
                 ease: "linear",
               }}
-              src="/MANIT-BHOPAL.webp"
+              src="/bhp.jpeg"
               className="w-full h-full brightness-75  object-cover"
             />
           </div>
