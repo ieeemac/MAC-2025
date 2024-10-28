@@ -33,7 +33,7 @@ export default function HomeImageGallery() {
                 repeatType: "reverse",
                 ease: "linear",
               }}
-              src="/bhopallake2.jpg"
+              src="/pic2.jpeg"
               className="w-full h-full brightness-75  object-cover"
             />
           </div>
@@ -49,24 +49,8 @@ export default function HomeImageGallery() {
                 repeatType: "reverse",
                 ease: "linear",
               }}
-              src="/bhopal1.jpg"
+              src="/pic.jpeg"
               className="scale w-full h-full brightness-75  object-cover"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full overflow-hidden">
-            <motion.img
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.4 }}
-              transition={{
-                duration: 20,
-                repeat: Infinity,
-                repeatType: "reverse",
-                ease: "linear",
-              }}
-              src="/bhp.jpeg"
-              className="w-full h-full brightness-75  object-cover"
             />
           </div>
         </SwiperSlide>
