@@ -189,7 +189,10 @@ const Registration = () => {
           </table>
         </div>
       </div>
-
+      <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
+        *Each registration in Professional Category is valid for two papers(Not
+        applicable in Student Cartegory).
+      </p>
       <div className="flex justify-center mt-16">
         <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
           <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-500 font-bold p-1 pb-2 text-center underline">
@@ -293,11 +296,11 @@ const Registration = () => {
         *Each registration in Professional Category is valid for two papers(Not
         applicable in Student Cartegory).
       </p>
-      <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
+      {/* <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
         *For International participants, fees for OFFLINE and ONLINE
         presentation is equal. But for Indian participants fees for ONLINE
         presentation is give in column.
-      </p>
+      </p> */}
       {/* <div className="text-center">
         <div className="mt-24 px-4 md:px-0">
           <p className="text-[15px] font-semibold md:text-[22px] lg:text-xl">
